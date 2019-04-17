@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8"/>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/static/css/bulma.css" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono"/>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        table, tr, th, td{
+            padding: 10px;
+        }
+        .cellcore{
+            text-align: center;
+            vertical-align: middle;
+        }
+        .cellmid{
+            vertical-align: middle;
+        }
+        body{
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 24px;
+        }
+        .has-bg-center {
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+    </style>
+</head>
+<body>
+{% include navbar.html %}
+{{ content }}
+</body>
+<footer>
+    {% include footer.html %}
+</footer>
+</html>
