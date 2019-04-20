@@ -1,18 +1,27 @@
 [
   {
     "name": "FortressBot",
-    "desc": "Moderation discord bot capable of auto-deleting server invite links and auto-cleaning of usernames/nicknames"
+    "subdesc": "C# Moderation Discord bot",
+    "desc": "Moderation discord bot capable of auto-deleting server invite links and auto-cleaning of usernames/nicknames",
+    "img": ,
+    "url": "/softwares/fortressbot.html"
   },
   {
     "name": "StatusBot",
-    "desc": "A special discord bot made to notify users of other bots going offline"
+    "subdesc": "C# Status Autopinger Discord bot",
+    "desc": "A special discord bot made to notify users of other bots going offline",
+    "url": "/softwares/statusbot.html"
   },
   {
     "name": "TridentFrame",
-    "desc": "Personal GIF/APNG manipulation tool"
+    "subdesc": "Python GIF/APNG tool",
+    "desc": "Graphical desktop GIF/APNG manipulation tool",
+    "url": "/softwares/tridentframe.html"
   },
   {
     "name": "Rhombus",
-    "desc": "OCR discord bot"
+    "subdesc": "C# OCR Discord bot",
+    "desc": "A discord bot with OCR (Optical Character Recognition) capabilities",
+    "url": "/softwares/rhombus.html"
   }
 ]
