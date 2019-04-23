@@ -1,0 +1,3 @@
+# Exclusion for Bulma css file
+# ============
+static/css/bulma.css linguist-vendored
