@@ -9,7 +9,7 @@ columns: 3
             {% assign is_first = forloop.index | minus: 1 | modulo: page.columns %}
             {% assign is_last = forloop.index | modulo: page.columns %}
             {% if forloop.first or is_first == 0 %}
-                <div class="columns">
+                <div class="columns is-mobile">
             {% endif %}
                 <div class="column is-one-third">
                     <article class="card has-background-light">
