@@ -5,12 +5,9 @@ columns: 3
 ---
 <section class="section has-background-dark">
     <div class="container">
+    
+    <div class="columns is-multiline">
         {% for sf in site.data.softwares %}
-            {% assign is_first = forloop.index | minus: 1 | modulo: page.columns %}
-            {% assign is_last = forloop.index | modulo: page.columns %}
-            {% if forloop.first or is_first == 0 %}
-                <div class="columns is-mobile">
-            {% endif %}
                 <div class="column is-one-third">
                     <article class="card has-background-light">
                         <div class="card-image">
@@ -19,25 +16,25 @@ columns: 3
                             </figure>
                         </div>
                         <div class="card-content">
-                            <a href="{{ sf.url }}"
+                            <a href="/softwares/{{ sf.page_url }}"
                                style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;">
                             </a>
                             <div class="media">
                                 <div class="media-left">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png"/>
+                                    <figure class="image is-96x96">
+                                        <img src="/static/thumb/{{ sf.thumb_url }}"/>
+                                    </figure>
                                 </div>
                                 <div class="media-content">
-                                    <p class="title is-3">{{ sf.name }}</p>
+                                    <p class="title is-size-4-mobile">{{ sf.name }}</p>
                                     <p class="subtitle is-5">{{ sf.subdesc }}</p>
                                 </div>
                             </div>
-                            <div class="content"><p>{{ sf.desc }}</p></div>
+                            <div class="content"><p class="is-size-5">{{ sf.desc }}</p></div>
                         </div>
                     </article>
                 </div>
-            {% if forloop.last or is_last == 0 %}
-                </div>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </section>
