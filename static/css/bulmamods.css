@@ -6718,6 +6718,12 @@ label.panel-block {
 .is-pink {
   color: #fa7cb7; }
 
+.is-blurple {
+  color: #7289DA; }
+
+.is-turqoise {
+  color: #0babc7; }
+
 .button.is-blurple {
   background-color: #7289DA;
   border-color: transparent;
