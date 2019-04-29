@@ -5,9 +5,8 @@ columns: 3
 ---
 <section class="section has-background-dark">
     <div class="container">
-    
-    <div class="columns is-multiline">
-        {% for sf in site.data.softwares %}
+        <div class="columns is-multiline">
+            {% for sf in site.data.softwares %}
                 <div class="column is-one-third">
                     <article class="card has-background-light">
                         <div class="card-image">
@@ -17,7 +16,7 @@ columns: 3
                         </div>
                         <div class="card-content">
                             <a href="/softwares/{{ sf.page_url }}"
-                               style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;">
+                                style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;">
                             </a>
                             <div class="media">
                                 <div class="media-left">
