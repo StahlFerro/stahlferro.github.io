@@ -19,6 +19,10 @@
 // Import only what you need from Bulma
 @import "./bulma.sass";
 
+.is-pink{
+    color: #fa7cb7;
+} 
+
 .button.is-blurple{
     background-color: #7289DA;
     border-color: transparent;
