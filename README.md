@@ -8,3 +8,5 @@ Built with:
 * [RealFaviconGenerator](https://realfavicongenerator.net/)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L8P36M)
+
+Sidenote: `sass --watch --sourcemap=none static/sass/bulmamods.scss:static/css/bulmamods.css`

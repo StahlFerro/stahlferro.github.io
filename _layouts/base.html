@@ -58,6 +58,11 @@
 {{ content }}
 </body>
 <footer>
-    {% include footer.html %}
+    {% if page.support %}
+        {% include support.html %}
+    {% endif %}
+    {% if page.footer %}
+        {% include footer.html %}
+    {% endif %}
 </footer>
 </html>
