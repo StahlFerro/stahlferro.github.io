@@ -19,6 +19,8 @@ controls.enableDamping = true;
 controls.dampingFactor = 0.3;
 controls.minPolarAngle = Math.PI / 2;
 controls.maxPolarAngle = Math.PI / 2;
+controls.enablePan = false;
+controls.enableZoom = false;
 controls.update();
 
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
