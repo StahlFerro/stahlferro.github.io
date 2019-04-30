@@ -27,3 +27,4 @@
 # ============
 static/css/* linguist-vendored
 static/sass/* linguist-vendored
+static/js/three.module.js linguist-vendored
