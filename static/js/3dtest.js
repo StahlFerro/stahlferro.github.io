@@ -4,32 +4,37 @@ window.THREE = THREE || {};
 
 import { OrbitControls } from "./threejs/orbitcontrols.js"
 
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-camera.position.set(0, 1, 4);
+const CANVAS_WIDTH = 400;
+const CANVAS_HEIGHT = 400;
 
-var container = document.getElementById('canvas');
-document.body.appendChild(container);
+var scene = new THREE.Scene();
+scene.background = new THREE.Color(0xffffff);
+
+var camera = new THREE.PerspectiveCamera( 70, CANVAS_WIDTH/CANVAS_HEIGHT, 0.1, 1000 );
+camera.position.set(0, 1, 2);
+camera.lookAt(scene.position);
 
 var renderer = new THREE.WebGLRenderer({antialias: true});
-renderer.setSize( 200, 200 );
-container.appendChild( renderer.domElement );
+renderer.setClearColor(0xEEEEEE, 1.0);
+renderer.setSize( CANVAS_WIDTH, CANVAS_HEIGHT );
+
+var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+var material = new THREE.MeshNormalMaterial();
+var cube = new THREE.Mesh( geometry, material );
+scene.add( cube );
 
 var controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.dampingFactor = 0.3;
 controls.minPolarAngle = Math.PI / 2;
 controls.maxPolarAngle = Math.PI / 2;
-controls.enablePan = false;
-controls.enableZoom = false;
+// controls.enablePan = false;
+// controls.enableZoom = false;
 controls.update();
 
-var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-var material = new THREE.MeshNormalMaterial();
-var cube = new THREE.Mesh( geometry, material );
-
-var scene = new THREE.Scene();
-scene.background = new THREE.Color(0xffffff);
-scene.add( cube );
+var canvas = document.getElementById('spatial-canvas');
+canvas.appendChild( renderer.domElement );
+// document.body.appendChild( renderer.domElement );
 
 var animate = function () {
     requestAnimationFrame( animate );
@@ -37,7 +42,6 @@ var animate = function () {
     controls.update();
     // cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
-
     renderer.render( scene, camera );
 };
 
