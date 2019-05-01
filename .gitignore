@@ -11,3 +11,8 @@ Gemfile.lock
 
 # IntelliJ ignores
 .idea/
+
+
+# VS Code ignores
+
+*.code-workspace

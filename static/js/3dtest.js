@@ -2,7 +2,8 @@ import * as THREE from "./threejs/three.module.js"
 
 window.THREE = THREE || {}; 
 
-import { OrbitControls } from "./threejs/orbitcontrols.js"
+import { OrbitControls } from "./threejs/OrbitControls.js"
+import { GLTFLoader } from "./threejs/GLTFLoader.js"
 
 const CANVAS_WIDTH = 400;
 const CANVAS_HEIGHT = 400;
@@ -22,6 +23,13 @@ var geometry = new THREE.BoxGeometry( 1, 1, 1 );
 var material = new THREE.MeshNormalMaterial();
 var cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
+
+// var loader = new GLTFLoader();
+// loader.load("../3d/FortressBotLogo.gltf", function(gltf){
+//     scene.add(gltf.scene);
+// }, undefined, function(error){
+//     console.error(error);
+// });
 
 var controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
