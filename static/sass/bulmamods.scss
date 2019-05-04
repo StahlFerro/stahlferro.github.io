@@ -22,9 +22,10 @@
 $pink: #fa7cb7;
 $blurple: #7289DA;
 $turqoise: #0babc7;
-$deep-marine: #00303f;
+$deep-marine: #152d35;
 $white-d: #dddddd;
 $emerald: #50c878;
+$lavender: #9683ff;
 
 .is-pink{
     color: $pink;
@@ -41,10 +42,20 @@ $emerald: #50c878;
 .is-deep-marine{
     color: $deep-marine;
 }
+.is-lavender{
+    color: $lavender;
+}
 
 .hero.is-deep-marine{
     background-color: $deep-marine;
-    color: #fff;
+    color: $lavender;
+}
+
+.hero.is-deep-marine .title{
+    color: $lavender;
+}
+.hero.is-deep-marine .subtitle{
+    color: $lavender;
 }
 
 .button.is-neon-blurple{

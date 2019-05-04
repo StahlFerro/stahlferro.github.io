@@ -6728,11 +6728,20 @@ label.panel-block {
   color: #50c878; }
 
 .is-deep-marine {
-  color: #00303f; }
+  color: #152d35; }
+
+.is-lavender {
+  color: #9683ff; }
 
 .hero.is-deep-marine {
-  background-color: #00303f;
-  color: #fff; }
+  background-color: #152d35;
+  color: #9683ff; }
+
+.hero.is-deep-marine .title {
+  color: #9683ff; }
+
+.hero.is-deep-marine .subtitle {
+  color: #9683ff; }
 
 .button.is-neon-blurple {
   background-color: transparent;
