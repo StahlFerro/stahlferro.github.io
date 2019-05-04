@@ -6724,49 +6724,68 @@ label.panel-block {
 .is-turqoise {
   color: #0babc7; }
 
-.button.is-blurple {
-  background-color: #7289DA;
-  border-color: transparent;
+.is-emerald {
+  color: #50c878; }
+
+.is-deep-marine {
+  color: #00303f; }
+
+.hero.is-deep-marine {
+  background-color: #00303f;
   color: #fff; }
 
-.button.is-blackple {
-  background-color: #000;
+.button.is-neon-blurple {
+  background-color: transparent;
   border-color: #7289DA;
   color: #7289DA;
   border-width: 2px; }
 
-.button.is-blackple:hover, .button.is-blackple.is-hovered {
+.button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered {
   border-color: #fff; }
 
-.button.is-blackple:active, .button.is-blackple.is-active {
+.button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
   background-color: #7289DA;
   border-color: #7289DA;
   color: #000; }
 
-.button.is-docsgrey {
-  background-color: #000;
+.button.is-neon-grey {
+  background-color: transparent;
   border-color: #7c8f99;
   color: #7c8f99;
   border-width: 2px; }
 
-.button.is-docsgrey:hover, .button.is-docsgrey.is-hovered {
+.button.is-neon-grey:hover, .button.is-neon-grey.is-hovered {
   border-color: #fff; }
 
-.button.is-docsgrey:active, .button.is-docsgrey.is-active {
+.button.is-neon-grey:active, .button.is-neon-grey.is-active {
   background-color: #7c8f99;
   border-color: #7c8f99;
   color: #000; }
 
-.button.is-turqoise-black {
-  background-color: #000;
+.button.is-neon-turqoise {
+  background-color: transparent;
   border-color: #0babc7;
   color: #0babc7;
   border-width: 2px; }
 
-.button.is-turqoise-black:hover, .button.is-turqoise-black.is-hovered {
+.button.is-neon-turqoise:hover, .button.is-neon-turqoise.is-hovered {
   border-color: #fff; }
 
-.button.is-turqoise-black:active, .button.is-turqoise-black.is-active {
+.button.is-neon-turqoise:active, .button.is-neon-turqoise.is-active {
   background-color: #0babc7;
   border-color: #0babc7;
+  color: #000; }
+
+.button.is-neon-emerald {
+  background-color: transparent;
+  border-color: #50c878;
+  color: #50c878;
+  border-width: 2px; }
+
+.button.is-neon-emerald:hover, .button.is-neon-emerald.is-hovered {
+  border-color: #fff; }
+
+.button.is-neon-emerald:active, .button.is-neon-emerald.is-active {
+  background-color: #50c878;
+  border-color: #50c878;
   color: #000; }
