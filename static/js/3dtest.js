@@ -22,14 +22,14 @@ renderer.setSize( CANVAS_WIDTH, CANVAS_HEIGHT );
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
 var material = new THREE.MeshNormalMaterial();
 var cube = new THREE.Mesh( geometry, material );
-scene.add( cube );
+// scene.add( cube );
 
-// var loader = new GLTFLoader();
-// loader.load("../3d/FortressBotLogo.gltf", function(gltf){
-//     scene.add(gltf.scene);
-// }, undefined, function(error){
-//     console.error(error);
-// });
+var loader = new GLTFLoader();
+loader.load("/static/3d/FortressBotLogo.gltf", function(gltf){
+    scene.add(gltf.scene);
+}, undefined, function(error){
+    console.error(error);
+});
 
 var controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
