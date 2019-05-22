@@ -6715,34 +6715,57 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+/*! Color variables !*/
+/*! Color definitions */
+.is-dark-2 {
+  background-color: #232629; }
+
 .is-pink {
   color: #fa7cb7; }
 
 .is-blurple {
   color: #7289DA; }
 
-.is-turqoise {
-  color: #0babc7; }
+.is-trident-cyan {
+  color: #34caf8; }
 
 .is-emerald {
   color: #50c878; }
 
 .is-deep-marine {
-  color: #152d35; }
+  color: #31363b; }
 
 .is-lavender {
   color: #9683ff; }
 
+.has-background-dark-2 {
+  background-color: #232629; }
+
+/*! Navbar custom color */
+.navbar.is-dark-2 a.navbar-item {
+  color: #cccccc; }
+
+.navbar.is-dark-2 a.navbar-item:hover {
+  color: #232629;
+  background-color: #cccccc; }
+
+.navbar.is-dark-2 span.navbar-brand-text:hover {
+  color: #232629; }
+
+.navbar.is-dark-2 a.navbar-brand-button:hover {
+  background-color: #cccccc; }
+
 .hero.is-deep-marine {
-  background-color: #152d35;
-  color: #9683ff; }
+  background-color: #31363b;
+  color: #34caf8; }
 
 .hero.is-deep-marine .title {
-  color: #9683ff; }
+  color: #34caf8; }
 
 .hero.is-deep-marine .subtitle {
-  color: #9683ff; }
+  color: #34caf8; }
 
+/*! $blurple button */
 .button.is-neon-blurple {
   background-color: transparent;
   border-color: #7289DA;
@@ -6753,10 +6776,11 @@ label.panel-block {
   border-color: #fff; }
 
 .button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
-  background-color: #7289DA;
-  border-color: #7289DA;
+  background-color: #7c8f99;
+  border-color: #7c8f99;
   color: #000; }
 
+/* $docs-grey button */
 .button.is-neon-grey {
   background-color: transparent;
   border-color: #7c8f99;
@@ -6771,20 +6795,22 @@ label.panel-block {
   border-color: #7c8f99;
   color: #000; }
 
-.button.is-neon-turqoise {
+/* $trident-cyan button */
+.button.is-neon-trident-cyan {
   background-color: transparent;
-  border-color: #0babc7;
-  color: #0babc7;
+  border-color: #34caf8;
+  color: #34caf8;
   border-width: 2px; }
 
-.button.is-neon-turqoise:hover, .button.is-neon-turqoise.is-hovered {
+.button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered {
   border-color: #fff; }
 
-.button.is-neon-turqoise:active, .button.is-neon-turqoise.is-active {
-  background-color: #0babc7;
-  border-color: #0babc7;
+.button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
+  background-color: #34caf8;
+  border-color: #34caf8;
   color: #000; }
 
+/* $emerald button */
 .button.is-neon-emerald {
   background-color: transparent;
   border-color: #50c878;

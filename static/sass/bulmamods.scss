@@ -19,22 +19,31 @@
 // Import only what you need from Bulma
 @import "./bulma/bulma.sass";
 
+
+/*! Color variables !*/
+
 $pink: #fa7cb7;
+$dark-2: #232629;
 $blurple: #7289DA;
-$turqoise: #0babc7;
-$deep-marine: #152d35;
-$white-d: #dddddd;
+$trident-cyan: #34caf8;
+$deep-marine: #31363b;
+$white-d: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
+$docs-grey: #7c8f99;
 
+/*! Color definitions */
+.is-dark-2{
+    background-color: $dark-2;
+}
 .is-pink{
     color: $pink;
 } 
 .is-blurple{
     color: $blurple;
 }
-.is-turqoise{
-    color: $turqoise;
+.is-trident-cyan{
+    color: $trident-cyan;
 }
 .is-emerald{
     color: $emerald;
@@ -45,64 +54,85 @@ $lavender: #9683ff;
 .is-lavender{
     color: $lavender;
 }
+.has-background-dark-2{
+    background-color: $dark-2;
+}
+
+/*! Navbar custom color */
+.navbar.is-dark-2 a.navbar-item{
+    color: $white-d;
+}
+.navbar.is-dark-2 a.navbar-item:hover{
+    color: $dark-2;
+    background-color: $white-d;
+}
+.navbar.is-dark-2 span.navbar-brand-text:hover {
+    color: $dark-2;
+}
+.navbar.is-dark-2 a.navbar-brand-button:hover {
+    background-color: $white-d;
+}
 
 .hero.is-deep-marine{
     background-color: $deep-marine;
-    color: $lavender;
+    color: $trident-cyan;
 }
-
 .hero.is-deep-marine .title{
-    color: $lavender;
+    color: $trident-cyan;
 }
 .hero.is-deep-marine .subtitle{
-    color: $lavender;
+    color: $trident-cyan;
 }
 
+/*! $blurple button */
 .button.is-neon-blurple{
     background-color: transparent;
-    border-color: #7289DA;
-    color: #7289DA;
+    border-color: $blurple;
+    color: $blurple;
     border-width: 2px; 
 }
 .button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered{
     border-color: #fff;
 }
 .button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
-    background-color: #7289DA;
-    border-color: #7289DA;
+    background-color: $docs-grey;
+    border-color: $docs-grey;
     color: #000;
 }
 
+/* $docs-grey button */
 .button.is-neon-grey{
     background-color: transparent;
-    border-color: #7c8f99;
-    color: #7c8f99;
+    border-color: $docs-grey;
+    color: $docs-grey;
     border-width: 2px; 
 }
 .button.is-neon-grey:hover, .button.is-neon-grey.is-hovered{
     border-color: #fff;
 }
 .button.is-neon-grey:active, .button.is-neon-grey.is-active {
-    background-color: #7c8f99;
-    border-color: #7c8f99;
+    background-color: $docs-grey;
+    border-color: $docs-grey;
     color: #000;
 }
 
-.button.is-neon-turqoise{
+/* $trident-cyan button */
+.button.is-neon-trident-cyan{
     background-color: transparent;
-    border-color: #0babc7;
-    color: #0babc7;
+    border-color: $trident-cyan;
+    color: $trident-cyan;
     border-width: 2px;
 }
-.button.is-neon-turqoise:hover, .button.is-neon-turqoise.is-hovered{
+.button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered{
     border-color: #fff;
 }
-.button.is-neon-turqoise:active, .button.is-neon-turqoise.is-active {
-    background-color: #0babc7;
-    border-color: #0babc7;
+.button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
+    background-color: $trident-cyan;
+    border-color: $trident-cyan;
     color: #000;
 }
 
+/* $emerald button */
 .button.is-neon-emerald{
     background-color: transparent;
     border-color: $emerald;
