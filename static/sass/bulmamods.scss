@@ -3,15 +3,20 @@
 
 
 /*! Color variables !*/
+$karakurenai: #c91f37;
+$powdered-iron: #bcbdc2;
 $pink: #fa7cb7;
 $dark-2: #232629;
 $blurple: #7289DA;
+$blurple-bright: #b3bee4;
 $trident-cyan: #34caf8;
+$trident-cyan-bright: #9fe9ff;
 $trident-grey: #31363b;
 $white-d: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
 $docs-grey: #7c8f99;
+$docs-grey-bright: #c9cecf;
 
 
 /*! Color definitions */
@@ -55,11 +60,14 @@ $docs-grey: #7c8f99;
     color: $dark-2;
     background-color: $white-d;
 }
+.navbar.is-dark-2 a.navbar.is-dark-2.is-active{
+    // color: $iron-red;
+}
 .navbar.is-dark-2 span.navbar-brand-text:hover {
     color: $dark-2;
 }
 .navbar.is-dark-2 a.navbar-brand-button:hover {
-    background-color: $white-d;
+    background-color: $karakurenai;
 }
 
 
@@ -102,6 +110,16 @@ section.has-background-dark-2 {
     color: $trident-grey;
 }
 
+.hero.is-karakurenai {
+    background-color: $powdered-iron;
+    color: $karakurenai;
+}
+.hero.is-trident-cyan .title {
+    color: $trident-cyan;
+}
+.hero.is-trident-cyan .subtitle {
+    color: $trident-cyan;
+}
 
 /*! $blurple button */
 .button.is-neon-blurple {
@@ -111,11 +129,11 @@ section.has-background-dark-2 {
     border-width: 2px;
 }
 .button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered {
-    border-color: #fff;
+    border-color: $blurple-bright;
 }
 .button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
-    background-color: $docs-grey;
-    border-color: $docs-grey;
+    background-color: $blurple;
+    border-color: $blurple;
     color: #000;
 }
 
@@ -128,7 +146,7 @@ section.has-background-dark-2 {
     border-width: 2px; 
 }
 .button.is-neon-grey:hover, .button.is-neon-grey.is-hovered {
-    border-color: #fff;
+    border-color: $docs-grey-bright;
 }
 .button.is-neon-grey:active, .button.is-neon-grey.is-active {
     background-color: $docs-grey;
@@ -145,7 +163,7 @@ section.has-background-dark-2 {
     border-width: 2px;
 }
 .button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered {
-    border-color: #fff;
+    border-color: $trident-cyan-bright;
 }
 .button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
     background-color: $trident-cyan;

@@ -6759,7 +6759,7 @@ label.panel-block {
   color: #232629; }
 
 .navbar.is-dark-2 a.navbar-brand-button:hover {
-  background-color: #cccccc; }
+  background-color: #c91f37; }
 
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
@@ -6794,6 +6794,16 @@ section.has-background-dark-2 {
 .hero.is-trident-cyan-inverted .subtitle {
   color: #31363b; }
 
+.hero.is-karakurenai {
+  background-color: #bcbdc2;
+  color: #c91f37; }
+
+.hero.is-trident-cyan .title {
+  color: #34caf8; }
+
+.hero.is-trident-cyan .subtitle {
+  color: #34caf8; }
+
 /*! $blurple button */
 .button.is-neon-blurple {
   background-color: transparent;
@@ -6802,11 +6812,11 @@ section.has-background-dark-2 {
   border-width: 2px; }
 
 .button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered {
-  border-color: #fff; }
+  border-color: #b3bee4; }
 
 .button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
-  background-color: #7c8f99;
-  border-color: #7c8f99;
+  background-color: #7289DA;
+  border-color: #7289DA;
   color: #000; }
 
 /* $docs-grey button */
@@ -6817,7 +6827,7 @@ section.has-background-dark-2 {
   border-width: 2px; }
 
 .button.is-neon-grey:hover, .button.is-neon-grey.is-hovered {
-  border-color: #fff; }
+  border-color: #c9cecf; }
 
 .button.is-neon-grey:active, .button.is-neon-grey.is-active {
   background-color: #7c8f99;
@@ -6832,7 +6842,7 @@ section.has-background-dark-2 {
   border-width: 2px; }
 
 .button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered {
-  border-color: #fff; }
+  border-color: #9fe9ff; }
 
 .button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
   background-color: #34caf8;
