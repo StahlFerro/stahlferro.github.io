@@ -6717,9 +6717,6 @@ label.panel-block {
 
 /*! Color variables !*/
 /*! Color definitions */
-.is-dark-2 {
-  background-color: #232629; }
-
 .is-pink {
   color: #fa7cb7; }
 
@@ -6732,16 +6729,25 @@ label.panel-block {
 .is-emerald {
   color: #50c878; }
 
-.is-deep-marine {
+.is-trident-cyan {
   color: #31363b; }
 
 .is-lavender {
   color: #9683ff; }
 
+.is-white-d {
+  color: #cccccc; }
+
+.is-dark-2 {
+  color: #232629; }
+
 .has-background-dark-2 {
   background-color: #232629; }
 
-/*! Navbar custom color */
+/*! $dark-2 navbar color */
+.navbar.is-dark-2 {
+  background-color: #232629; }
+
 .navbar.is-dark-2 a.navbar-item {
   color: #cccccc; }
 
@@ -6755,15 +6761,38 @@ label.panel-block {
 .navbar.is-dark-2 a.navbar-brand-button:hover {
   background-color: #cccccc; }
 
-.hero.is-deep-marine {
+/*! $dark-2 hero color */
+.hero.is-dark-2 {
+  color: #cccccc;
+  background-color: #232629; }
+
+.hero.is-dark-2 h1 {
+  color: #cccccc; }
+
+/* $dark-2 footer color */
+section.has-background-dark-2 {
+  color: #cccccc;
+  background-color: #232629; }
+
+.hero.is-trident-cyan {
   background-color: #31363b;
   color: #34caf8; }
 
-.hero.is-deep-marine .title {
+.hero.is-trident-cyan .title {
   color: #34caf8; }
 
-.hero.is-deep-marine .subtitle {
+.hero.is-trident-cyan .subtitle {
   color: #34caf8; }
+
+.hero.is-trident-cyan-inverted {
+  color: #31363b;
+  background-color: #34caf8; }
+
+.hero.is-trident-cyan-inverted .title {
+  color: #31363b; }
+
+.hero.is-trident-cyan-inverted .subtitle {
+  color: #31363b; }
 
 /*! $blurple button */
 .button.is-neon-blurple {
