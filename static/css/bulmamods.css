@@ -6735,7 +6735,7 @@ label.panel-block {
 .is-lavender {
   color: #9683ff; }
 
-.is-white-d {
+.is-white-c {
   color: #cccccc; }
 
 .is-dark-2 {
@@ -6743,6 +6743,9 @@ label.panel-block {
 
 .has-background-dark-2 {
   background-color: #232629; }
+
+.button {
+  border-radius: 0px; }
 
 /*! $dark-2 navbar color */
 .navbar.is-dark-2 {
@@ -6755,11 +6758,60 @@ label.panel-block {
   color: #232629;
   background-color: #cccccc; }
 
-.navbar.is-dark-2 span.navbar-brand-text:hover {
+.navbar.is-dark-2 a.navbar-brand-button:hover {
+  color: #eeeeee;
+  background-color: #2865c2; }
+
+.hero.is-dark-iron-blue {
+  color: #2865c2;
+  background-color: #232629; }
+
+.hero.is-dark-iron-blue h1 {
+  color: #2865c2; }
+
+.hero.is-iron-violet-light {
+  color: #eeeeee;
+  background-color: #5a3bad; }
+
+.hero.is-iron-violet-light h1 {
+  color: #eeeeee; }
+
+.hero.is-iron-violet-light h2 {
+  color: #eeeeee; }
+
+.hero.is-iron-violet-light h3 {
+  color: #eeeeee; }
+
+.hero.is-iron-violet-light h4 {
+  color: #eeeeee; }
+
+.hero.is-iron-violet-light h5 {
+  color: #eeeeee; }
+
+.hero.is-iron-violet-light h6 {
+  color: #eeeeee; }
+
+.hero.is-iron-turqoise-dark {
+  color: #232629;
+  background-color: #41c0d1; }
+
+.hero.is-iron-turqoise-dark h1 {
   color: #232629; }
 
-.navbar.is-dark-2 a.navbar-brand-button:hover {
-  background-color: #c91f37; }
+.hero.is-iron-turqoise-dark h2 {
+  color: #232629; }
+
+.hero.is-iron-turqoise-dark h3 {
+  color: #232629; }
+
+.hero.is-iron-turqoise-dark h4 {
+  color: #232629; }
+
+.hero.is-iron-turqoise-dark h5 {
+  color: #232629; }
+
+.hero.is-iron-turqoise-dark h6 {
+  color: #232629; }
 
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
@@ -6794,15 +6846,25 @@ section.has-background-dark-2 {
 .hero.is-trident-cyan-inverted .subtitle {
   color: #31363b; }
 
-.hero.is-karakurenai {
-  background-color: #bcbdc2;
-  color: #c91f37; }
+.hero.is-iron-red {
+  background-color: #8d1827;
+  color: #eeeeee; }
 
-.hero.is-trident-cyan .title {
-  color: #34caf8; }
+.hero.is-iron-red .title {
+  color: #eeeeee; }
 
-.hero.is-trident-cyan .subtitle {
-  color: #34caf8; }
+.hero.is-iron-red .subtitle {
+  color: #eeeeee; }
+
+.hero.is-iron-red-inverted {
+  background-color: #eeeeee;
+  color: #8d1827; }
+
+.hero.is-iron-red-inverted .title {
+  color: #8d1827; }
+
+.hero.is-iron-red-inverted .subtitle {
+  color: #8d1827; }
 
 /*! $blurple button */
 .button.is-neon-blurple {

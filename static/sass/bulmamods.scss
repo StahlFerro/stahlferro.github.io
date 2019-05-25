@@ -3,7 +3,10 @@
 
 
 /*! Color variables !*/
-$karakurenai: #c91f37;
+$iron-red: #8d1827;
+$iron-blue: #2865c2;
+$iron-turqoise: #41c0d1;
+$iron-violet: #5a3bad;
 $powdered-iron: #bcbdc2;
 $pink: #fa7cb7;
 $dark-2: #232629;
@@ -12,7 +15,8 @@ $blurple-bright: #b3bee4;
 $trident-cyan: #34caf8;
 $trident-cyan-bright: #9fe9ff;
 $trident-grey: #31363b;
-$white-d: #cccccc;
+$white-e: #eeeeee;
+$white-c: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
 $docs-grey: #7c8f99;
@@ -38,8 +42,8 @@ $docs-grey-bright: #c9cecf;
 .is-lavender {
     color: $lavender;
 }
-.is-white-d {
-    color: $white-d;
+.is-white-c {
+    color: $white-c;
 }
 .is-dark-2 {
     color: $dark-2;
@@ -48,42 +52,73 @@ $docs-grey-bright: #c9cecf;
     background-color: $dark-2;
 }
 
+.button {
+    border-radius: 0px;
+}
+
 
 /*! $dark-2 navbar color */
 .navbar.is-dark-2 {
     background-color: $dark-2;
 }
 .navbar.is-dark-2 a.navbar-item {
-    color: $white-d;
+    color: $white-c;
 }
 .navbar.is-dark-2 a.navbar-item:hover {
     color: $dark-2;
-    background-color: $white-d;
+    background-color: $white-c;
 }
-.navbar.is-dark-2 a.navbar.is-dark-2.is-active{
-    // color: $iron-red;
-}
-.navbar.is-dark-2 span.navbar-brand-text:hover {
-    color: $dark-2;
-}
+
 .navbar.is-dark-2 a.navbar-brand-button:hover {
-    background-color: $karakurenai;
+    color: $white-e;
+    background-color: $iron-blue;
 }
+
+.hero.is-dark-iron-blue {
+    color: $iron-blue;
+    background-color: $dark-2;
+}
+.hero.is-dark-iron-blue h1{
+    color: $iron-blue;
+}
+
+.hero.is-iron-violet-light {
+    color: $white-e;
+    background-color: $iron-violet;
+}
+.hero.is-iron-violet-light h1{ color: $white-e; }
+.hero.is-iron-violet-light h2{ color: $white-e; }
+.hero.is-iron-violet-light h3{ color: $white-e; }
+.hero.is-iron-violet-light h4{ color: $white-e; }
+.hero.is-iron-violet-light h5{ color: $white-e; }
+.hero.is-iron-violet-light h6{ color: $white-e; }
+
+
+.hero.is-iron-turqoise-dark {
+    color: $dark-2;
+    background-color: $iron-turqoise;
+}
+.hero.is-iron-turqoise-dark h1{ color: $dark-2; }
+.hero.is-iron-turqoise-dark h2{ color: $dark-2; }
+.hero.is-iron-turqoise-dark h3{ color: $dark-2; }
+.hero.is-iron-turqoise-dark h4{ color: $dark-2; }
+.hero.is-iron-turqoise-dark h5{ color: $dark-2; }
+.hero.is-iron-turqoise-dark h6{ color: $dark-2; }
 
 
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
-    color: $white-d;
+    color: $white-c;
     background-color: $dark-2;
 }
 .hero.is-dark-2 h1 {
-    color: $white-d;
+    color: $white-c;
 }
 
 
 /* $dark-2 footer color */
 section.has-background-dark-2 {
-    color: $white-d;
+    color: $white-c;
     background-color: $dark-2;
 }
 
@@ -110,15 +145,25 @@ section.has-background-dark-2 {
     color: $trident-grey;
 }
 
-.hero.is-karakurenai {
-    background-color: $powdered-iron;
-    color: $karakurenai;
+.hero.is-iron-red {
+    background-color: $iron-red;
+    color: $white-e;
 }
-.hero.is-trident-cyan .title {
-    color: $trident-cyan;
+.hero.is-iron-red .title {
+    color: $white-e;
 }
-.hero.is-trident-cyan .subtitle {
-    color: $trident-cyan;
+.hero.is-iron-red .subtitle {
+    color: $white-e;
+}
+.hero.is-iron-red-inverted {
+    background-color: $white-e;
+    color: $iron-red;
+}
+.hero.is-iron-red-inverted .title {
+    color: $iron-red;
+}
+.hero.is-iron-red-inverted .subtitle {
+    color: $iron-red;
 }
 
 /*! $blurple button */
@@ -187,4 +232,3 @@ section.has-background-dark-2 {
     border-color: $emerald;
     color: #000;
 }
-
