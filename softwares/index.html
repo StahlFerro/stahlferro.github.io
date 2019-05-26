@@ -9,7 +9,7 @@ support: true
         <div class="columns is-multiline">
             {% for sf in site.data.softwares %}
                 <div class="column is-one-third">
-                    <article class="card has-background-light">
+                    <div class="card has-background-light">
                         <div class="card-image">
                             <figure class="image is-4by3">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png"/>
@@ -32,7 +32,7 @@ support: true
                             </div>
                             <div class="content"><p class="is-size-5">{{ sf.desc }}</p></div>
                         </div>
-                    </article>
+                    </div>
                 </div>
             {% endfor %}
         </div>
