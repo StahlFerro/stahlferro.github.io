@@ -31,7 +31,7 @@ plugins:
 github: "https://github.com/StahlFerro"
 github_pages: "https://github.com/StahlFerro/stahlferro.github.io"
 
-og_site_name: StahlFerro's Official Website
+og_site_name: StahlFerro's Website
 og_image: /static/img/Duality.png
 og_description: Youtube hybrid VFX-composition parody video maker, and also the sole developer of the FortressBot discord bot
 
