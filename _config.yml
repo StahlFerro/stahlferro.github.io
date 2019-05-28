@@ -28,6 +28,7 @@ markdown: kramdown
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 github: "https://github.com/StahlFerro"
 github_pages: "https://github.com/StahlFerro/stahlferro.github.io"
 
