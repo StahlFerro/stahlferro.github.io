@@ -6892,8 +6892,8 @@ section.has-background-dark-2 {
   background-color: #232629; }
 
 .hero.is-trident-cyan {
-  background-color: #31363b;
-  color: #34caf8; }
+  color: #34caf8;
+  background-color: #31363b; }
 
 .hero.is-trident-cyan .title {
   color: #34caf8; }
