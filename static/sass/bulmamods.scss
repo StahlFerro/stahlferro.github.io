@@ -13,8 +13,12 @@ $pink: #fa7cb7;
 $dark-2: #232629;
 $blurple: #7289DA;
 $blurple-bright: #b3bee4;
+$youtube-red: #ff0000;
+$youtube-red-bright: #ff7a7a;
 $trident-cyan: #34caf8;
 $trident-cyan-bright: #9fe9ff;
+$twitter-cyan: #1da1f2;
+$twitter-cyan-bright: #7bc7f7;
 $dark-3: #31363b;
 $white-e: #eeeeee;
 $white-c: #cccccc;
@@ -25,7 +29,7 @@ $docs-grey-bright: #c9cecf;
 
 
 /*! Color definitions */
-.is-pink { color: $pink; } 
+.is-pink { color: $pink; }
 .is-blurple { color: $blurple; }
 .is-trident-cyan { color: $trident-cyan; }
 .is-emerald { color: $emerald; }
@@ -111,9 +115,7 @@ body {
     color: $iron-blue;
     background-color: $dark-2;
 }
-.hero.is-dark-iron-blue h1{
-    color: $iron-blue;
-}
+.hero.is-dark-iron-blue h1 { color: $iron-blue; }
 
 .hero.is-iron-violet-light {
     color: $white-e;
@@ -150,6 +152,7 @@ body {
 .hero.is-gold-dark h5 { color: $dark-2; }
 .hero.is-gold-dark h6 { color: $dark-2; }
 
+
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
     color: $white-c;
@@ -167,6 +170,13 @@ section.has-background-dark-2 {
 }
 
 
+/* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
+section.trench-footer {
+    font-size: 20px;
+}
+
+
+/* $trident-cyan hero */
 .hero.is-trident-cyan {
     color: $trident-cyan;
     background-color: $dark-3;
@@ -276,3 +286,52 @@ section.has-background-dark-2 {
     border-color: $emerald;
     color: #000;
 }
+
+
+.button.is-youtube-red {
+    color: red;
+    border-color: red;
+    background-color: transparent;
+    border-width: 2px;
+}
+.button.is-youtube-red:hover, .button.is-youtube-red.is-hovered {
+    border-color: $youtube-red-bright;
+}
+.button.is-youtube-red:active, .button.is-youtube-red.is-active {
+    color: white;
+    border-color: red;
+    background-color: red;
+}
+
+
+.button.is-twitter-cyan {
+    color: $twitter-cyan;
+    border-color: $twitter-cyan;
+    background-color: transparent;
+    border-width: 2px;
+}
+.button.is-twitter-cyan:hover, .button.is-twitter-cyan.is-hovered {
+    border-color: $twitter-cyan-bright;
+}
+.button.is-twitter-cyan:active, .button.is-twitter-cyan.is-active {
+    color: white;
+    border-color: $twitter-cyan;
+    background-color: $twitter-cyan;
+}
+
+
+.button.is-github-white {
+    color: $white-c;
+    border-color: $white-c;
+    background-color: transparent;
+    border-width: 2px;
+}
+.button.is-github-white:hover, .button.is-github-white.is-hovered {
+    border-color: $white-e;
+}
+.button.is-github-white:active, .button.is-github-white.is-active {
+    color: black;
+    border-color: $white-c;
+    background-color: $white-c;
+}
+

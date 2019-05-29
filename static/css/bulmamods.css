@@ -6891,6 +6891,11 @@ section.has-background-dark-2 {
   color: #cccccc;
   background-color: #232629; }
 
+/* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
+section.trench-footer {
+  font-size: 20px; }
+
+/* $trident-cyan hero */
 .hero.is-trident-cyan {
   color: #34caf8;
   background-color: #31363b; }
@@ -6990,3 +6995,45 @@ section.has-background-dark-2 {
   background-color: #50c878;
   border-color: #50c878;
   color: #000; }
+
+.button.is-youtube-red {
+  color: red;
+  border-color: red;
+  background-color: transparent;
+  border-width: 2px; }
+
+.button.is-youtube-red:hover, .button.is-youtube-red.is-hovered {
+  border-color: #ff7a7a; }
+
+.button.is-youtube-red:active, .button.is-youtube-red.is-active {
+  color: white;
+  border-color: red;
+  background-color: red; }
+
+.button.is-twitter-cyan {
+  color: #1da1f2;
+  border-color: #1da1f2;
+  background-color: transparent;
+  border-width: 2px; }
+
+.button.is-twitter-cyan:hover, .button.is-twitter-cyan.is-hovered {
+  border-color: #7bc7f7; }
+
+.button.is-twitter-cyan:active, .button.is-twitter-cyan.is-active {
+  color: white;
+  border-color: #1da1f2;
+  background-color: #1da1f2; }
+
+.button.is-github-white {
+  color: #cccccc;
+  border-color: #cccccc;
+  background-color: transparent;
+  border-width: 2px; }
+
+.button.is-github-white:hover, .button.is-github-white.is-hovered {
+  border-color: #eeeeee; }
+
+.button.is-github-white:active, .button.is-github-white.is-active {
+  color: black;
+  border-color: #cccccc;
+  background-color: #cccccc; }

@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" class="has-navbar-fixed-top">
 <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
     <meta charset="UTF-8"/>
     <meta name="author" content="StahlFerro"/>
     <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="theme-color" content="#5595FF"/>
     <!-- OpenGraph -->
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:site_name" content="{{ site.og_site_name }}"/>
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}"/>
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-    <meta name="theme-color" content="#5595FF"/>
-    <!-- Bulma-->
+    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <!-- Bulma -->
     <link rel="stylesheet" href="/static/css/bulmamods.css" type="text/css"/>
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css" type="text/css"/>
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono"/>
     <!-- Favicons -->
@@ -41,11 +40,8 @@
 {{ content }}
 </body>
 <footer>
-    {% if page.support %}
-        {% include support.html %}
-    {% endif %}
-    {% if page.footer %}
-        {% include footer.html %}
-    {% endif %}
+    {% if page.support %} {% include support.html %} {% endif %}
+    {% if page.socials %} {% include socials.html %} {% endif %}
+    {% if page.footer %} {% include footer.html %} {% endif %}
 </footer>
 </html>
