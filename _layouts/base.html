@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>{{ page.title }} | {{ site.title }}</title>
     <!-- OpenGraph -->
+    <meta property="og;type" content="website"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:site_name" content="{{ site.og_site_name }}"/>
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{ site.og_image }}{% endif %}"/>
@@ -30,6 +32,9 @@
     <!-- Google Verification -->
     <meta name="google-site-verification" content="xPOlLw31AN12WO6gow34wuKvlrb5nbbiU739w_CZP78" />
     <script src="../static/js/jquery-3.4.0.js" type="text/javascript"></script>
+    <!-- Google Analytics - Global site tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140998532-1"></script>
+    <script async src="/static/js/google-analytics.js"></script>
 </head>
 <body>
 {% include navbar.html %}
