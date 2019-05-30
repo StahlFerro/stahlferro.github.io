@@ -6805,78 +6805,85 @@ body {
   color: #eeeeee;
   background-color: #2865c2; }
 
-.hero.is-dark-iron-blue {
+.hero.is-iron-blue-inverted {
   color: #2865c2;
   background-color: #232629; }
 
-.hero.is-dark-iron-blue h1 {
+.hero.is-iron-blue-inverted h1 {
   color: #2865c2; }
 
-.hero.is-iron-violet-light {
+.hero.is-iron-violet {
   color: #eeeeee;
   background-color: #5a3bad; }
 
-.hero.is-iron-violet-light h1 {
+.hero.is-iron-violet h1 {
   color: #eeeeee; }
 
-.hero.is-iron-violet-light h2 {
+.hero.is-iron-violet h2 {
   color: #eeeeee; }
 
-.hero.is-iron-violet-light h3 {
+.hero.is-iron-violet h3 {
   color: #eeeeee; }
 
-.hero.is-iron-violet-light h4 {
+.hero.is-iron-violet h4 {
   color: #eeeeee; }
 
-.hero.is-iron-violet-light h5 {
+.hero.is-iron-violet h5 {
   color: #eeeeee; }
 
-.hero.is-iron-violet-light h6 {
+.hero.is-iron-violet h6 {
   color: #eeeeee; }
 
-.hero.is-iron-turqoise-dark {
+.hero.is-iron-turqoise {
   color: #232629;
   background-color: #41c0d1; }
 
-.hero.is-iron-turqoise-dark h1 {
+.hero.is-iron-turqoise h1 {
   color: #232629; }
 
-.hero.is-iron-turqoise-dark h2 {
+.hero.is-iron-turqoise h2 {
   color: #232629; }
 
-.hero.is-iron-turqoise-dark h3 {
+.hero.is-iron-turqoise h3 {
   color: #232629; }
 
-.hero.is-iron-turqoise-dark h4 {
+.hero.is-iron-turqoise h4 {
   color: #232629; }
 
-.hero.is-iron-turqoise-dark h5 {
+.hero.is-iron-turqoise h5 {
   color: #232629; }
 
-.hero.is-iron-turqoise-dark h6 {
+.hero.is-iron-turqoise h6 {
   color: #232629; }
 
-.hero.is-gold-dark {
+.hero.is-gold {
   color: #232629;
   background-color: #e4a126; }
 
-.hero.is-gold-dark h1 {
+.hero.is-gold h1 {
   color: #232629; }
 
-.hero.is-gold-dark h2 {
+.hero.is-gold h2 {
   color: #232629; }
 
-.hero.is-gold-dark h3 {
+.hero.is-gold h3 {
   color: #232629; }
 
-.hero.is-gold-dark h4 {
+.hero.is-gold h4 {
   color: #232629; }
 
-.hero.is-gold-dark h5 {
+.hero.is-gold h5 {
   color: #232629; }
 
-.hero.is-gold-dark h6 {
+.hero.is-gold h6 {
   color: #232629; }
+
+.is-white-e {
+  color: black;
+  background-color: #eeeeee; }
+
+.is-white-e h1 {
+  color: black !important; }
 
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
@@ -6916,24 +6923,24 @@ section.trench-footer {
 .hero.is-trident-cyan-inverted .subtitle {
   color: #31363b; }
 
-.hero.is-iron-red {
+.hero.is-iron-red-white-e {
   background-color: #8d1827;
   color: #eeeeee; }
 
-.hero.is-iron-red .title {
+.hero.is-iron-red-white-e .title {
   color: #eeeeee; }
 
-.hero.is-iron-red .subtitle {
+.hero.is-iron-red-white-e .subtitle {
   color: #eeeeee; }
 
-.hero.is-iron-red-inverted {
+.hero.is-iron-red-white-e-inverted {
   background-color: #eeeeee;
   color: #8d1827; }
 
-.hero.is-iron-red-inverted .title {
+.hero.is-iron-red-white-e-inverted .title {
   color: #8d1827; }
 
-.hero.is-iron-red-inverted .subtitle {
+.hero.is-iron-red-white-e-inverted .subtitle {
   color: #8d1827; }
 
 /*! $blurple button */
@@ -7037,3 +7044,11 @@ section.trench-footer {
   color: black;
   border-color: #cccccc;
   background-color: #cccccc; }
+
+code.code-black {
+  color: #eeeeee;
+  background-color: black; }
+
+code.code-dark-2 {
+  color: #eeeeee;
+  background-color: #232629; }

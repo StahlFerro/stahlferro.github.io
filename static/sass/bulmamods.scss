@@ -111,46 +111,55 @@ body {
     background-color: $iron-blue;
 }
 
-.hero.is-dark-iron-blue {
+.hero.is-iron-blue-inverted {
     color: $iron-blue;
     background-color: $dark-2;
 }
-.hero.is-dark-iron-blue h1 { color: $iron-blue; }
+.hero.is-iron-blue-inverted h1 { color: $iron-blue; }
 
-.hero.is-iron-violet-light {
+.hero.is-iron-violet {
     color: $white-e;
     background-color: $iron-violet;
 }
-.hero.is-iron-violet-light h1 { color: $white-e; }
-.hero.is-iron-violet-light h2 { color: $white-e; }
-.hero.is-iron-violet-light h3 { color: $white-e; }
-.hero.is-iron-violet-light h4 { color: $white-e; }
-.hero.is-iron-violet-light h5 { color: $white-e; }
-.hero.is-iron-violet-light h6 { color: $white-e; }
+.hero.is-iron-violet h1 { color: $white-e; }
+.hero.is-iron-violet h2 { color: $white-e; }
+.hero.is-iron-violet h3 { color: $white-e; }
+.hero.is-iron-violet h4 { color: $white-e; }
+.hero.is-iron-violet h5 { color: $white-e; }
+.hero.is-iron-violet h6 { color: $white-e; }
 
 
-.hero.is-iron-turqoise-dark {
+.hero.is-iron-turqoise {
     color: $dark-2;
     background-color: $iron-turqoise;
 }
-.hero.is-iron-turqoise-dark h1 { color: $dark-2; }
-.hero.is-iron-turqoise-dark h2 { color: $dark-2; }
-.hero.is-iron-turqoise-dark h3 { color: $dark-2; }
-.hero.is-iron-turqoise-dark h4 { color: $dark-2; }
-.hero.is-iron-turqoise-dark h5 { color: $dark-2; }
-.hero.is-iron-turqoise-dark h6 { color: $dark-2; }
+.hero.is-iron-turqoise h1 { color: $dark-2; }
+.hero.is-iron-turqoise h2 { color: $dark-2; }
+.hero.is-iron-turqoise h3 { color: $dark-2; }
+.hero.is-iron-turqoise h4 { color: $dark-2; }
+.hero.is-iron-turqoise h5 { color: $dark-2; }
+.hero.is-iron-turqoise h6 { color: $dark-2; }
 
 
-.hero.is-gold-dark {
+.hero.is-gold {
     color: $dark-2;
     background-color: $gold;
 }
-.hero.is-gold-dark h1 { color: $dark-2; }
-.hero.is-gold-dark h2 { color: $dark-2; }
-.hero.is-gold-dark h3 { color: $dark-2; }
-.hero.is-gold-dark h4 { color: $dark-2; }
-.hero.is-gold-dark h5 { color: $dark-2; }
-.hero.is-gold-dark h6 { color: $dark-2; }
+.hero.is-gold h1 { color: $dark-2; }
+.hero.is-gold h2 { color: $dark-2; }
+.hero.is-gold h3 { color: $dark-2; }
+.hero.is-gold h4 { color: $dark-2; }
+.hero.is-gold h5 { color: $dark-2; }
+.hero.is-gold h6 { color: $dark-2; }
+
+
+.is-white-e { 
+    color: black; 
+    background-color: $white-e; 
+}
+.is-white-e h1 {
+    color: black !important;
+}
 
 
 /*! $dark-2 hero color */
@@ -158,10 +167,9 @@ body {
     color: $white-c;
     background-color: $dark-2;
 }
-.hero.is-dark-2 h1 {
+.hero.is-dark-2 h1{
     color: $white-c;
 }
-
 
 /* $dark-2 footer color */
 section.has-background-dark-2 {
@@ -199,24 +207,24 @@ section.trench-footer {
     color: $dark-3;
 }
 
-.hero.is-iron-red {
+.hero.is-iron-red-white-e {
     background-color: $iron-red;
     color: $white-e;
 }
-.hero.is-iron-red .title {
+.hero.is-iron-red-white-e .title {
     color: $white-e;
 }
-.hero.is-iron-red .subtitle {
+.hero.is-iron-red-white-e .subtitle {
     color: $white-e;
 }
-.hero.is-iron-red-inverted {
+.hero.is-iron-red-white-e-inverted {
     background-color: $white-e;
     color: $iron-red;
 }
-.hero.is-iron-red-inverted .title {
+.hero.is-iron-red-white-e-inverted .title {
     color: $iron-red;
 }
-.hero.is-iron-red-inverted .subtitle {
+.hero.is-iron-red-white-e-inverted .subtitle {
     color: $iron-red;
 }
 
@@ -335,3 +343,12 @@ section.trench-footer {
     background-color: $white-c;
 }
 
+
+code.code-black {
+    color: $white-e;
+    background-color: black;
+}
+code.code-dark-2 {
+    color: $white-e;
+    background-color: $dark-2;
+}
