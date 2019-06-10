@@ -27,63 +27,26 @@ description: The videos that started it all. 8 Brave Frontier montages of intens
     <div class="hero-body">
         <div class="container">
             <div class="columns is-multiline">
+                {% for bf in site.data.bf_videos %}
                 <div class="column is-one-quarter">
                     <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <!-- <img src="https://img.youtube.com/vi/{{ bf.youtube_id }}/hqdefault.jpg"/> -->
+                            </figure>
+                        </div>
                         <div class="card-content">
-                            <p>Rowgen Quickscopes Karl</p>
+                            <a href="https://www.youtube.com/watch?v={{ bf.youtube_id }}"
+                                style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;">
+                            </a>
+                            <div class="content">
+                                <p class="title is-4">{{ bf.name }}</p>
+                                <p class="content">{{ bf.description }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>Swaaga Raaga</p>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>Charude Buffstorm</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>Brave Frontier.exe</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>How 2 Arena</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>Brave Frontier is Illuminati</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>Brave Frontier in a Nutshell.mp5</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-content">
-                            <p>Swaglord Four</p>
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
