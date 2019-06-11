@@ -21,7 +21,8 @@ url: "https://stahlferro.github.io" # the base hostname & protocol for your site
 twitter_username: StahlFerroMLG
 github_username:  StahlFerro
 youtube_url: "https://www.youtube.com/c/StahlFerro"
-twitter_url: 
+twitter_url: "https://twitter.com/StahlFerroMLG"
+github_url: "https://github.com/StahlFerro"
 
 # Build settings
 markdown: kramdown
