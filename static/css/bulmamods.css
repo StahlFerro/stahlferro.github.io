@@ -6741,6 +6741,12 @@ label.panel-block {
 .is-dark-2 {
   color: #232629; }
 
+.is-dark-3 {
+  color: #31363b; }
+
+.is-gold {
+  color: #e4a126; }
+
 .has-background-dark-2 {
   background-color: #232629; }
 
@@ -6878,6 +6884,40 @@ body {
 .hero.is-gold h6 {
   color: #232629; }
 
+.card.is-gold {
+  background-color: #e4a126;
+  border: 2px solid #232629; }
+
+.card.is-neon-gold {
+  background-color: transparent;
+  color: #cccccc;
+  border: 2px solid #e4a126; }
+
+.card.is-neon-gold p.title {
+  color: #e4a126 !important; }
+
+.section.is-white-c-inverted {
+  color: #cccccc;
+  background-color: #31363b; }
+
+.section.is-white-c-inverted h1 {
+  color: #cccccc; }
+
+.section.is-white-c-inverted h2 {
+  color: #cccccc; }
+
+.section.is-white-c-inverted h3 {
+  color: #cccccc; }
+
+.section.is-white-c-inverted h4 {
+  color: #cccccc; }
+
+.section.is-white-c-inverted h5 {
+  color: #cccccc; }
+
+.section.is-white-c-inverted h6 {
+  color: #cccccc; }
+
 .is-white-e {
   color: black;
   background-color: #eeeeee; }
@@ -6897,6 +6937,14 @@ body {
 section.has-background-dark-2 {
   color: #cccccc;
   background-color: #232629; }
+
+/*! $dark-3 hero color */
+.hero.is-dark-3 {
+  color: #cccccc;
+  background-color: #31363b; }
+
+.hero.is-dark-3 h1 {
+  color: #cccccc; }
 
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {
@@ -7056,3 +7104,12 @@ code.code-dark-2 {
 code.code-dark-3 {
   color: #eeeeee;
   background-color: #31363b; }
+
+.justified {
+  text-align: justify; }
+
+p.tabbed {
+  text-indent: 40px; }
+
+ol.numbered-list li {
+  margin-bottom: 3rem; }
