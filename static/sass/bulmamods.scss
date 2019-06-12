@@ -107,10 +107,12 @@ body {
     color: $dark-2;
     background-color: $white-c;
 }
-
 .navbar.is-dark-2 a.navbar-brand-button:hover {
     color: $white-e;
     background-color: $iron-blue;
+}
+.navbar.is-dark-2 a.navbar-burger {
+    color: $white-c;
 }
 
 .hero.is-iron-blue-inverted {

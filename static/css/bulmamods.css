@@ -6811,6 +6811,9 @@ body {
   color: #eeeeee;
   background-color: #2865c2; }
 
+.navbar.is-dark-2 a.navbar-burger {
+  color: #cccccc; }
+
 .hero.is-iron-blue-inverted {
   color: #2865c2;
   background-color: #232629; }
