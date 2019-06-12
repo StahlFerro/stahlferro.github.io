@@ -245,24 +245,24 @@ section.trench-footer {
     color: $dark-3;
 }
 
-.hero.is-iron-red-white-e {
+.hero.is-white-e-iron-red {
     background-color: $iron-red;
     color: $white-e;
 }
-.hero.is-iron-red-white-e .title {
+.hero.is-white-e-iron-red .title {
     color: $white-e;
 }
-.hero.is-iron-red-white-e .subtitle {
+.hero.is-white-e-iron-red .subtitle {
     color: $white-e;
 }
-.hero.is-iron-red-white-e-inverted {
+.hero.is-iron-red-white-e {
     background-color: $white-e;
     color: $iron-red;
 }
-.hero.is-iron-red-white-e-inverted .title {
+.hero.is-iron-red-white-e .title {
     color: $iron-red;
 }
-.hero.is-iron-red-white-e-inverted .subtitle {
+.hero.is-iron-red-white-e .subtitle {
     color: $iron-red;
 }
 
@@ -380,6 +380,22 @@ section.trench-footer {
     border-color: $white-c;
     background-color: $white-c;
 }
+
+.button.is-github-black {
+    color: $dark-2;
+    border-color: $dark-2;
+    background-color: transparent;
+    border-width: 2px;
+}
+.button.is-github-black:hover, .button.is-github-black.is-hovered {
+    border-color: $dark-3;
+}
+.button.is-github-black:active, .button.is-github-black.is-active {
+    color: $white-e;
+    border-color: transparent;
+    background-color: $dark-3;
+}
+
 
 
 code.code-black {

@@ -6974,24 +6974,24 @@ section.trench-footer {
 .hero.is-trident-cyan-inverted .subtitle {
   color: #31363b; }
 
-.hero.is-iron-red-white-e {
+.hero.is-white-e-iron-red {
   background-color: #8d1827;
   color: #eeeeee; }
 
-.hero.is-iron-red-white-e .title {
+.hero.is-white-e-iron-red .title {
   color: #eeeeee; }
 
-.hero.is-iron-red-white-e .subtitle {
+.hero.is-white-e-iron-red .subtitle {
   color: #eeeeee; }
 
-.hero.is-iron-red-white-e-inverted {
+.hero.is-iron-red-white-e {
   background-color: #eeeeee;
   color: #8d1827; }
 
-.hero.is-iron-red-white-e-inverted .title {
+.hero.is-iron-red-white-e .title {
   color: #8d1827; }
 
-.hero.is-iron-red-white-e-inverted .subtitle {
+.hero.is-iron-red-white-e .subtitle {
   color: #8d1827; }
 
 /*! $blurple button */
@@ -7095,6 +7095,20 @@ section.trench-footer {
   color: black;
   border-color: #cccccc;
   background-color: #cccccc; }
+
+.button.is-github-black {
+  color: #232629;
+  border-color: #232629;
+  background-color: transparent;
+  border-width: 2px; }
+
+.button.is-github-black:hover, .button.is-github-black.is-hovered {
+  border-color: #31363b; }
+
+.button.is-github-black:active, .button.is-github-black.is-active {
+  color: #eeeeee;
+  border-color: transparent;
+  background-color: #31363b; }
 
 code.code-black {
   color: #eeeeee;
