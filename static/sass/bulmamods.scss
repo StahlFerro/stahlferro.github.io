@@ -39,6 +39,8 @@ $docs-grey-bright: #c9cecf;
 .is-dark-2 { color: $dark-2; }
 .is-dark-3 { color: $dark-3; }
 .is-dark-2-gold { color: $gold; }
+.is-iron-blue { color: $iron-blue; }
+.is-iron-red { color: $iron-red; }
 .has-background-dark-2 { background-color: $dark-2; }
 
 
@@ -220,6 +222,10 @@ section.has-background-dark-2 {
 section.trench-footer {
     font-size: 20px;
 }
+
+/* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
+.hero.is-black { color: $white-c; }
+.hero.is-black p.title { color: $white-c; }
 
 
 /* $trident-cyan hero */

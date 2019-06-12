@@ -6747,6 +6747,12 @@ label.panel-block {
 .is-dark-2-gold {
   color: #e4a126; }
 
+.is-iron-blue {
+  color: #2865c2; }
+
+.is-iron-red {
+  color: #8d1827; }
+
 .has-background-dark-2 {
   background-color: #232629; }
 
@@ -6952,6 +6958,13 @@ section.has-background-dark-2 {
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {
   font-size: 20px; }
+
+/* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
+.hero.is-black {
+  color: #cccccc; }
+
+.hero.is-black p.title {
+  color: #cccccc; }
 
 /* $trident-cyan hero */
 .hero.is-trident-cyan-dark-3 {
