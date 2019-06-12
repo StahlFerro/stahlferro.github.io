@@ -6723,13 +6723,13 @@ label.panel-block {
 .is-blurple {
   color: #7289DA; }
 
-.is-trident-cyan {
+.is-trident-cyan-dark-3 {
   color: #34caf8; }
 
 .is-emerald {
   color: #50c878; }
 
-.is-trident-cyan {
+.is-trident-cyan-dark-3 {
   color: #31363b; }
 
 .is-lavender {
@@ -6744,7 +6744,7 @@ label.panel-block {
 .is-dark-3 {
   color: #31363b; }
 
-.is-gold {
+.is-dark-2-gold {
   color: #e4a126; }
 
 .has-background-dark-2 {
@@ -6814,80 +6814,80 @@ body {
 .navbar.is-dark-2 a.navbar-burger {
   color: #cccccc; }
 
-.hero.is-iron-blue-inverted {
+.hero.is-iron-blue-dark-2 {
   color: #2865c2;
   background-color: #232629; }
 
-.hero.is-iron-blue-inverted h1 {
+.hero.is-iron-blue-dark-2 h1 {
   color: #2865c2; }
 
-.hero.is-iron-violet {
+.hero.is-white-e-iron-violet {
   color: #eeeeee;
   background-color: #5a3bad; }
 
-.hero.is-iron-violet h1 {
+.hero.is-white-e-iron-violet h1 {
   color: #eeeeee; }
 
-.hero.is-iron-violet h2 {
+.hero.is-white-e-iron-violet h2 {
   color: #eeeeee; }
 
-.hero.is-iron-violet h3 {
+.hero.is-white-e-iron-violet h3 {
   color: #eeeeee; }
 
-.hero.is-iron-violet h4 {
+.hero.is-white-e-iron-violet h4 {
   color: #eeeeee; }
 
-.hero.is-iron-violet h5 {
+.hero.is-white-e-iron-violet h5 {
   color: #eeeeee; }
 
-.hero.is-iron-violet h6 {
+.hero.is-white-e-iron-violet h6 {
   color: #eeeeee; }
 
-.hero.is-iron-turqoise {
+.hero.is-dark-2-iron-turqoise {
   color: #232629;
   background-color: #41c0d1; }
 
-.hero.is-iron-turqoise h1 {
+.hero.is-dark-2-iron-turqoise h1 {
   color: #232629; }
 
-.hero.is-iron-turqoise h2 {
+.hero.is-dark-2-iron-turqoise h2 {
   color: #232629; }
 
-.hero.is-iron-turqoise h3 {
+.hero.is-dark-2-iron-turqoise h3 {
   color: #232629; }
 
-.hero.is-iron-turqoise h4 {
+.hero.is-dark-2-iron-turqoise h4 {
   color: #232629; }
 
-.hero.is-iron-turqoise h5 {
+.hero.is-dark-2-iron-turqoise h5 {
   color: #232629; }
 
-.hero.is-iron-turqoise h6 {
+.hero.is-dark-2-iron-turqoise h6 {
   color: #232629; }
 
-.hero.is-gold {
+.hero.is-dark-2-gold {
   color: #232629;
   background-color: #e4a126; }
 
-.hero.is-gold h1 {
+.hero.is-dark-2-gold h1 {
   color: #232629; }
 
-.hero.is-gold h2 {
+.hero.is-dark-2-gold h2 {
   color: #232629; }
 
-.hero.is-gold h3 {
+.hero.is-dark-2-gold h3 {
   color: #232629; }
 
-.hero.is-gold h4 {
+.hero.is-dark-2-gold h4 {
   color: #232629; }
 
-.hero.is-gold h5 {
+.hero.is-dark-2-gold h5 {
   color: #232629; }
 
-.hero.is-gold h6 {
+.hero.is-dark-2-gold h6 {
   color: #232629; }
 
-.card.is-gold {
+.card.is-dark-2-gold {
   background-color: #e4a126;
   border: 2px solid #232629; }
 
@@ -6899,26 +6899,26 @@ body {
 .card.is-neon-gold p.title {
   color: #e4a126 !important; }
 
-.section.is-white-c-inverted {
+.section.is-white-c-dark-3 {
   color: #cccccc;
   background-color: #31363b; }
 
-.section.is-white-c-inverted h1 {
+.section.is-white-c-dark-3 h1 {
   color: #cccccc; }
 
-.section.is-white-c-inverted h2 {
+.section.is-white-c-dark-3 h2 {
   color: #cccccc; }
 
-.section.is-white-c-inverted h3 {
+.section.is-white-c-dark-3 h3 {
   color: #cccccc; }
 
-.section.is-white-c-inverted h4 {
+.section.is-white-c-dark-3 h4 {
   color: #cccccc; }
 
-.section.is-white-c-inverted h5 {
+.section.is-white-c-dark-3 h5 {
   color: #cccccc; }
 
-.section.is-white-c-inverted h6 {
+.section.is-white-c-dark-3 h6 {
   color: #cccccc; }
 
 .is-white-e {
@@ -6954,24 +6954,24 @@ section.trench-footer {
   font-size: 20px; }
 
 /* $trident-cyan hero */
-.hero.is-trident-cyan {
+.hero.is-trident-cyan-dark-3 {
   color: #34caf8;
   background-color: #31363b; }
 
-.hero.is-trident-cyan .title {
+.hero.is-trident-cyan-dark-3 .title {
   color: #34caf8; }
 
-.hero.is-trident-cyan .subtitle {
+.hero.is-trident-cyan-dark-3 .subtitle {
   color: #34caf8; }
 
-.hero.is-trident-cyan-inverted {
+.hero.is-dark-3-trident-cyan {
   color: #31363b;
   background-color: #34caf8; }
 
-.hero.is-trident-cyan-inverted .title {
+.hero.is-dark-3-trident-cyan .title {
   color: #31363b; }
 
-.hero.is-trident-cyan-inverted .subtitle {
+.hero.is-dark-3-trident-cyan .subtitle {
   color: #31363b; }
 
 .hero.is-white-e-iron-red {

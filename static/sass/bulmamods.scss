@@ -31,14 +31,14 @@ $docs-grey-bright: #c9cecf;
 /*! Color definitions */
 .is-pink { color: $pink; }
 .is-blurple { color: $blurple; }
-.is-trident-cyan { color: $trident-cyan; }
+.is-trident-cyan-dark-3 { color: $trident-cyan; }
 .is-emerald { color: $emerald; }
-.is-trident-cyan { color: $dark-3; }
+.is-trident-cyan-dark-3 { color: $dark-3; }
 .is-lavender { color: $lavender; }
 .is-white-c { color: $white-c; }
 .is-dark-2 { color: $dark-2; }
 .is-dark-3 { color: $dark-3; }
-.is-gold { color: $gold; }
+.is-dark-2-gold { color: $gold; }
 .has-background-dark-2 { background-color: $dark-2; }
 
 
@@ -115,49 +115,49 @@ body {
     color: $white-c;
 }
 
-.hero.is-iron-blue-inverted {
+.hero.is-iron-blue-dark-2 {
     color: $iron-blue;
     background-color: $dark-2;
 }
-.hero.is-iron-blue-inverted h1 { color: $iron-blue; }
+.hero.is-iron-blue-dark-2 h1 { color: $iron-blue; }
 
-.hero.is-iron-violet {
+.hero.is-white-e-iron-violet {
     color: $white-e;
     background-color: $iron-violet;
 }
-.hero.is-iron-violet h1 { color: $white-e; }
-.hero.is-iron-violet h2 { color: $white-e; }
-.hero.is-iron-violet h3 { color: $white-e; }
-.hero.is-iron-violet h4 { color: $white-e; }
-.hero.is-iron-violet h5 { color: $white-e; }
-.hero.is-iron-violet h6 { color: $white-e; }
+.hero.is-white-e-iron-violet h1 { color: $white-e; }
+.hero.is-white-e-iron-violet h2 { color: $white-e; }
+.hero.is-white-e-iron-violet h3 { color: $white-e; }
+.hero.is-white-e-iron-violet h4 { color: $white-e; }
+.hero.is-white-e-iron-violet h5 { color: $white-e; }
+.hero.is-white-e-iron-violet h6 { color: $white-e; }
 
 
-.hero.is-iron-turqoise {
+.hero.is-dark-2-iron-turqoise {
     color: $dark-2;
     background-color: $iron-turqoise;
 }
-.hero.is-iron-turqoise h1 { color: $dark-2; }
-.hero.is-iron-turqoise h2 { color: $dark-2; }
-.hero.is-iron-turqoise h3 { color: $dark-2; }
-.hero.is-iron-turqoise h4 { color: $dark-2; }
-.hero.is-iron-turqoise h5 { color: $dark-2; }
-.hero.is-iron-turqoise h6 { color: $dark-2; }
+.hero.is-dark-2-iron-turqoise h1 { color: $dark-2; }
+.hero.is-dark-2-iron-turqoise h2 { color: $dark-2; }
+.hero.is-dark-2-iron-turqoise h3 { color: $dark-2; }
+.hero.is-dark-2-iron-turqoise h4 { color: $dark-2; }
+.hero.is-dark-2-iron-turqoise h5 { color: $dark-2; }
+.hero.is-dark-2-iron-turqoise h6 { color: $dark-2; }
 
 
-.hero.is-gold {
+.hero.is-dark-2-gold {
     color: $dark-2;
     background-color: $gold;
 }
-.hero.is-gold h1 { color: $dark-2; }
-.hero.is-gold h2 { color: $dark-2; }
-.hero.is-gold h3 { color: $dark-2; }
-.hero.is-gold h4 { color: $dark-2; }
-.hero.is-gold h5 { color: $dark-2; }
-.hero.is-gold h6 { color: $dark-2; }
+.hero.is-dark-2-gold h1 { color: $dark-2; }
+.hero.is-dark-2-gold h2 { color: $dark-2; }
+.hero.is-dark-2-gold h3 { color: $dark-2; }
+.hero.is-dark-2-gold h4 { color: $dark-2; }
+.hero.is-dark-2-gold h5 { color: $dark-2; }
+.hero.is-dark-2-gold h6 { color: $dark-2; }
 
 
-.card.is-gold {
+.card.is-dark-2-gold {
     background-color: $gold;
     border: 2px solid $dark-2;
 }
@@ -171,16 +171,16 @@ body {
     color: $gold !important;
 }
 
-.section.is-white-c-inverted {
+.section.is-white-c-dark-3 {
     color: $white-c;
     background-color: $dark-3;
 }
-.section.is-white-c-inverted h1 { color: $white-c; }
-.section.is-white-c-inverted h2 { color: $white-c; }
-.section.is-white-c-inverted h3 { color: $white-c; }
-.section.is-white-c-inverted h4 { color: $white-c; }
-.section.is-white-c-inverted h5 { color: $white-c; }
-.section.is-white-c-inverted h6 { color: $white-c; }
+.section.is-white-c-dark-3 h1 { color: $white-c; }
+.section.is-white-c-dark-3 h2 { color: $white-c; }
+.section.is-white-c-dark-3 h3 { color: $white-c; }
+.section.is-white-c-dark-3 h4 { color: $white-c; }
+.section.is-white-c-dark-3 h5 { color: $white-c; }
+.section.is-white-c-dark-3 h6 { color: $white-c; }
 
 .is-white-e { 
     color: black; 
@@ -223,25 +223,25 @@ section.trench-footer {
 
 
 /* $trident-cyan hero */
-.hero.is-trident-cyan {
+.hero.is-trident-cyan-dark-3 {
     color: $trident-cyan;
     background-color: $dark-3;
 }
-.hero.is-trident-cyan .title {
+.hero.is-trident-cyan-dark-3 .title {
     color: $trident-cyan;
 }
-.hero.is-trident-cyan .subtitle {
+.hero.is-trident-cyan-dark-3 .subtitle {
     color: $trident-cyan;
 }
 
-.hero.is-trident-cyan-inverted {
+.hero.is-dark-3-trident-cyan {
     color: $dark-3;
     background-color: $trident-cyan;
 }
-.hero.is-trident-cyan-inverted .title {
+.hero.is-dark-3-trident-cyan .title {
     color: $dark-3;
 }
-.hero.is-trident-cyan-inverted .subtitle {
+.hero.is-dark-3-trident-cyan .subtitle {
     color: $dark-3;
 }
 
