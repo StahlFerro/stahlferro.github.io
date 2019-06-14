@@ -7858,7 +7858,7 @@ section.trench-footer {
   border-width: 2px; }
 
 .button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered {
-  border-color: #b3bee4; }
+  border-color: #c3cdef; }
 
 .button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
   background-color: #7289DA;
@@ -7873,7 +7873,7 @@ section.trench-footer {
   border-width: 2px; }
 
 .button.is-neon-grey:hover, .button.is-neon-grey.is-hovered {
-  border-color: #c9cecf; }
+  border-color: #b5c0c6; }
 
 .button.is-neon-grey:active, .button.is-neon-grey.is-active {
   background-color: #7c8f99;
@@ -7888,7 +7888,7 @@ section.trench-footer {
   border-width: 2px; }
 
 .button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered {
-  border-color: #9fe9ff; }
+  border-color: #97e4fb; }
 
 .button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
   background-color: #34caf8;
@@ -7917,7 +7917,7 @@ section.trench-footer {
   border-width: 2px; }
 
 .button.is-youtube-red:hover, .button.is-youtube-red.is-hovered {
-  border-color: #ff7a7a; }
+  border-color: #ff6666; }
 
 .button.is-youtube-red:active, .button.is-youtube-red.is-active {
   color: white;
@@ -7931,7 +7931,7 @@ section.trench-footer {
   border-width: 2px; }
 
 .button.is-twitter-cyan:hover, .button.is-twitter-cyan.is-hovered {
-  border-color: #7bc7f7; }
+  border-color: #7dc9f8; }
 
 .button.is-twitter-cyan:active, .button.is-twitter-cyan.is-active {
   color: white;
@@ -7959,12 +7959,26 @@ section.trench-footer {
   border-width: 2px; }
 
 .button.is-github-black:hover, .button.is-github-black.is-hovered {
-  border-color: #31363b; }
+  border-color: #525960; }
 
 .button.is-github-black:active, .button.is-github-black.is-active {
   color: #eeeeee;
   border-color: transparent;
-  background-color: #31363b; }
+  background-color: #232629; }
+
+.button.is-iron-red {
+  color: #8d1827;
+  border-color: #8d1827;
+  background-color: transparent;
+  border-width: 2px; }
+
+.button.is-iron-red:hover, .button.is-iron-red.is-hovered {
+  border-color: #dc2f45; }
+
+.button.is-iron-red:active, .button.is-iron-red.is-active {
+  color: #eeeeee;
+  border-color: transparent;
+  background-color: #8d1827; }
 
 code.code-black {
   color: #eeeeee;

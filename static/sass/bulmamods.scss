@@ -13,20 +13,15 @@ $gold: #e4a126;
 $pink: #fa7cb7;
 $dark-2: #232629;
 $blurple: #7289DA;
-$blurple-bright: #b3bee4;
 $youtube-red: #ff0000;
-$youtube-red-bright: #ff7a7a;
 $trident-cyan: #34caf8;
-$trident-cyan-bright: #9fe9ff;
 $twitter-cyan: #1da1f2;
-$twitter-cyan-bright: #7bc7f7;
 $dark-3: #31363b;
 $white-e: #eeeeee;
 $white-c: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
 $docs-grey: #7c8f99;
-$docs-grey-bright: #c9cecf;
 
 
 /*! Color definitions */
@@ -281,7 +276,7 @@ section.trench-footer {
     border-width: 2px;
 }
 .button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered {
-    border-color: $blurple-bright;
+    border-color: lighten($blurple, 20%);
 }
 .button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
     background-color: $blurple;
@@ -298,7 +293,7 @@ section.trench-footer {
     border-width: 2px; 
 }
 .button.is-neon-grey:hover, .button.is-neon-grey.is-hovered {
-    border-color: $docs-grey-bright;
+    border-color: lighten($docs-grey, 20%);
 }
 .button.is-neon-grey:active, .button.is-neon-grey.is-active {
     background-color: $docs-grey;
@@ -315,7 +310,7 @@ section.trench-footer {
     border-width: 2px;
 }
 .button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered {
-    border-color: $trident-cyan-bright;
+    border-color: lighten($trident-cyan, 20%);
 }
 .button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
     background-color: $trident-cyan;
@@ -348,7 +343,7 @@ section.trench-footer {
     border-width: 2px;
 }
 .button.is-youtube-red:hover, .button.is-youtube-red.is-hovered {
-    border-color: $youtube-red-bright;
+    border-color: lighten($youtube-red, 20%);
 }
 .button.is-youtube-red:active, .button.is-youtube-red.is-active {
     color: white;
@@ -364,7 +359,7 @@ section.trench-footer {
     border-width: 2px;
 }
 .button.is-twitter-cyan:hover, .button.is-twitter-cyan.is-hovered {
-    border-color: $twitter-cyan-bright;
+    border-color: lighten($twitter-cyan, 20%);
 }
 .button.is-twitter-cyan:active, .button.is-twitter-cyan.is-active {
     color: white;
@@ -395,12 +390,28 @@ section.trench-footer {
     border-width: 2px;
 }
 .button.is-github-black:hover, .button.is-github-black.is-hovered {
-    border-color: $dark-3;
+    border-color: lighten($dark-2, 20%);
 }
 .button.is-github-black:active, .button.is-github-black.is-active {
     color: $white-e;
     border-color: transparent;
-    background-color: $dark-3;
+    background-color: $dark-2;
+}
+
+
+.button.is-iron-red {
+    color: $iron-red;
+    border-color: $iron-red;
+    background-color: transparent;
+    border-width: 2px;
+}
+.button.is-iron-red:hover, .button.is-iron-red.is-hovered {
+    border-color: lighten($iron-red, 20%);
+}
+.button.is-iron-red:active, .button.is-iron-red.is-active {
+    color: $white-e;
+    border-color: transparent;
+    background-color: $iron-red;
 }
 
 
