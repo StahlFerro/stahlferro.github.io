@@ -16,6 +16,7 @@
     "name": "TridentFrame",
     "subdesc": "Desktop GIF/APNG manipulation tool",
     "desc": "The swiss army knife of GIF/APNG manipulation with a wide range of features and a modern UI",
+    "thumb_url": "TridentFrame_cyan_200px.png",
     "page_url": "tridentframe.html"
   },
   {
@@ -24,11 +25,5 @@
     "desc": "A discord bot with OCR (Optical Character Recognition) capabilities",
     "page_url": "rhombus.html",
     "thumb_url": "Rhombus_200px.png"
-  },
-  {
-    "name": "3DTest",
-    "subdesc": "3D graphical testing webpage",
-    "desc": "Testing three.js",
-    "page_url": "3dtest.html"
   }
 ]

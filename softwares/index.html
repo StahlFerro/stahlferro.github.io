@@ -22,11 +22,13 @@ description: Discord bots, graphic tools, and more
                                 style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;">
                             </a>
                             <div class="media">
+                                {% if sf.thumb_url %}
                                 <div class="media-left">
-                                    <figure class="image is-96x96">
-                                        <img src="/static/thumb/{{ sf.thumb_url }}"/>
-                                    </figure>
+                                    <!-- <figure>    -->
+                                        <img src="/static/thumb/{{ sf.thumb_url }}" width="80px" height="80px"/>
+                                    <!-- </figure> -->
                                 </div>
+                                {% endif %}
                                 <div class="media-content">
                                     <p class="title is-size-4-mobile">{{ sf.name }}</p>
                                     <p class="subtitle is-5">{{ sf.subdesc }}</p>
