@@ -13,7 +13,7 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:site_name" content="{{ site.og_site_name }}"/>
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-    <meta property="og:image" content="{% if page.og_image %}/static/thumb/{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}"/>
+    <meta property="og:image" content="/static/thumb/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     <!-- Bulma -->
