@@ -4,7 +4,7 @@
     "subdesc": "C# Moderation Discord bot",
     "desc": "Moderation discord bot capable of auto-deleting server invite links and auto-cleaning of usernames/nicknames",
     "page_url": "fortressbot.html",
-    "thumb_url": "Fortress_200px.png"
+    "logo_url": "Fortress_200px.png"
   },
   {
     "name": "StatusBot",
@@ -16,7 +16,7 @@
     "name": "TridentFrame",
     "subdesc": "Desktop GIF/APNG manipulation tool",
     "desc": "The swiss army knife of GIF/APNG manipulation with a wide range of features and a modern UI",
-    "thumb_url": "TridentFrame_cyan_200px.png",
+    "logo_url": "TridentFrame_cyan_200px.png",
     "page_url": "tridentframe.html"
   },
   {
@@ -24,6 +24,6 @@
     "subdesc": "C# OCR Discord bot",
     "desc": "A discord bot with OCR (Optical Character Recognition) capabilities",
     "page_url": "rhombus.html",
-    "thumb_url": "Rhombus_200px.png"
+    "logo_url": "Rhombus_200px.png"
   }
 ]
