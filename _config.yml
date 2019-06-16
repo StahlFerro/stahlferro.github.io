@@ -35,7 +35,7 @@ github_pages: "https://github.com/StahlFerro/stahlferro.github.io"
 
 og_site_name: StahlFerro's Website
 og_image: Duality.png
-color: #5595FF
+og_color: "#5595FF"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
