@@ -7591,10 +7591,10 @@ label.panel-block {
   color: #e4a126; }
 
 .is-iron-blue {
-  color: #2865c2; }
+  color: #3370cc; }
 
 .is-iron-red {
-  color: #8d1827; }
+  color: #991f30; }
 
 .has-background-dark-2 {
   background-color: #232629; }
@@ -7658,17 +7658,24 @@ body {
 
 .navbar.is-dark-2 a.navbar-brand-button:hover {
   color: #eeeeee;
-  background-color: #2865c2; }
+  background-color: #3370cc; }
 
 .navbar.is-dark-2 a.navbar-burger {
   color: #cccccc; }
 
 .hero.is-iron-blue-dark-2 {
-  color: #2865c2;
+  color: #3370cc;
   background-color: #232629; }
 
 .hero.is-iron-blue-dark-2 h1 {
-  color: #2865c2; }
+  color: #3370cc; }
+
+.hero.is-dark-2-iron-blue {
+  color: #232629;
+  background-color: #3370cc; }
+
+.hero.is-dark-2-iron-blue h1 {
+  color: #232629; }
 
 .hero.is-white-e-iron-violet {
   color: #eeeeee;
@@ -7837,7 +7844,7 @@ section.trench-footer {
   color: #31363b; }
 
 .hero.is-white-e-iron-red {
-  background-color: #8d1827;
+  background-color: #991f30;
   color: #eeeeee; }
 
 .hero.is-white-e-iron-red .title {
@@ -7848,13 +7855,13 @@ section.trench-footer {
 
 .hero.is-iron-red-white-e {
   background-color: #eeeeee;
-  color: #8d1827; }
+  color: #991f30; }
 
 .hero.is-iron-red-white-e .title {
-  color: #8d1827; }
+  color: #991f30; }
 
 .hero.is-iron-red-white-e .subtitle {
-  color: #8d1827; }
+  color: #991f30; }
 
 /*! $blurple button */
 .button.is-neon-blurple {
@@ -7973,18 +7980,18 @@ section.trench-footer {
   background-color: #232629; }
 
 .button.is-iron-red {
-  color: #8d1827;
-  border-color: #8d1827;
+  color: #991f30;
+  border-color: #991f30;
   background-color: transparent;
   border-width: 2px; }
 
 .button.is-iron-red:hover, .button.is-iron-red.is-hovered {
-  border-color: #dc2f45; }
+  border-color: #d94559; }
 
 .button.is-iron-red:active, .button.is-iron-red.is-active {
   color: #eeeeee;
   border-color: transparent;
-  background-color: #8d1827; }
+  background-color: #991f30; }
 
 code.code-black {
   color: #eeeeee;

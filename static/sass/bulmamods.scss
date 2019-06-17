@@ -4,8 +4,8 @@
 
 
 /*! Color variables !*/
-$iron-red: #8d1827;
-$iron-blue: #2865c2;
+$iron-red: #991f30;
+$iron-blue: #3370cc;
 $iron-turqoise: #41c0d1;
 $iron-violet: #5a3bad;
 $powdered-iron: #bcbdc2;
@@ -118,6 +118,12 @@ body {
     background-color: $dark-2;
 }
 .hero.is-iron-blue-dark-2 h1 { color: $iron-blue; }
+
+.hero.is-dark-2-iron-blue {
+    color: $dark-2;
+    background-color: $iron-blue;
+}
+.hero.is-dark-2-iron-blue h1 { color: $dark-2; }
 
 .hero.is-white-e-iron-violet {
     color: $white-e;
