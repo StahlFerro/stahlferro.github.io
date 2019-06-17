@@ -194,9 +194,9 @@ body {
     color: $white-c;
     background-color: $dark-2;
 }
-.hero.is-dark-2 h1{
-    color: $white-c;
-}
+.hero.is-dark-2 h1{ color: $white-c; }
+.hero.is-dark-2 strong { color: $white-c; }
+a.hover-trident-cyan:hover { color: $trident-cyan; }
 
 /* $dark-2 footer color */
 section.has-background-dark-2 {
@@ -437,4 +437,13 @@ p.tabbed {
 
 ol.numbered-list li {
     margin-bottom: 3rem;
+}
+
+.content.paragraph-double-space-after p {
+    margin-bottom: 70px;
+}
+
+div.navitem-double-space a.navbar-item {
+    padding-left: 20px;
+    padding-right: 20px;
 }

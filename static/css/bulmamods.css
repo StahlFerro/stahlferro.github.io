@@ -7785,6 +7785,12 @@ body {
 .hero.is-dark-2 h1 {
   color: #cccccc; }
 
+.hero.is-dark-2 strong {
+  color: #cccccc; }
+
+a.hover-trident-cyan:hover {
+  color: #34caf8; }
+
 /* $dark-2 footer color */
 section.has-background-dark-2 {
   color: #cccccc;
@@ -8000,3 +8006,10 @@ p.tabbed {
 
 ol.numbered-list li {
   margin-bottom: 3rem; }
+
+.content.paragraph-double-space-after p {
+  margin-bottom: 70px; }
+
+div.navitem-double-space a.navbar-item {
+  padding-left: 20px;
+  padding-right: 20px; }
