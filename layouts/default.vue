@@ -1,12 +1,17 @@
 <template>
+  <!-- <div id="default_template"> -->
+    <div>
+    <TopNav/>
     <nuxt/>
+    </div>
+  <!-- </div> -->
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue';
+import TopNav from '~/components/TopNav.vue';
 export default {
   components: {
-    AppLogo
+    TopNav
   }
 }
 </script>

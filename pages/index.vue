@@ -1,5 +1,4 @@
 <template>
-<div>
 <section class="hero is-medium is-white-e-iron-violet">
     <div class="hero-body">
         <div class="container">
@@ -13,16 +12,4 @@
         </div>
     </div>
 </section>
-</div>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
-

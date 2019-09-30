@@ -6,3 +6,10 @@ npm-debug.log
 
 # Nuxt build
 .nuxt
+
+# Additional ignores
+
+.sass-cache/
+.venv/
+.vscode/
+_site/
