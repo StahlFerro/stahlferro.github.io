@@ -9,7 +9,7 @@ npm-debug.log
 
 # Additional ignores
 
-.sass-cache/
-.venv/
-.vscode/
-_site/
+.sass-cache/*
+.venv/*
+.vscode/*
+_site/*
