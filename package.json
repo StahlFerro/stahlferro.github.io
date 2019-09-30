@@ -1,0 +1,36 @@
+{
+  "name": "stahlferro.github.io",
+  "version": "1.0.0",
+  "description": "Nuxt github page",
+  "author": "StahlFerro <StahlFerro@users.noreply.github.com>",
+  "private": true,
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/bulmamods.scss css/bulmamods.css",
+    "css-watch": "npm run css-build -- --watch",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
+    "genpage": "npm run generate:gh-pages",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "nuxt": "^2.9.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "bulma": "^0.7.5",
+    "cross-env": "^6.0.0",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  }
+}

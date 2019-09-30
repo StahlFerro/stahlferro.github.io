@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/softwares/3dtest.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/videos/brave_frontier_mlg.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/softwares/fortressbot.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/softwares/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/videos/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/softwares/statusbot.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/softwares/tridentframe.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/videos/tutorials.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/wip.html</loc>
+</url>
+</urlset>

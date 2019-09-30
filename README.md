@@ -1,11 +1,23 @@
-# StahlFerro's Website
+# stahlferro.github.io
 
-The website that explains who am I and what I really do on the internet
+> Nuxt github page
 
-Built with:
-* [Jekyll](https://jekyllrb.com/)
-* [Bulma](https://bulma.io/)
-* [RealFaviconGenerator](https://realfavicongenerator.net/)
+## Build Setup
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L8P36M)
+``` bash
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 

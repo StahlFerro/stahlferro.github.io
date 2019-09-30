@@ -1,18 +1,8 @@
-# Jekyll ignores
+# dependencies
+node_modules
 
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# logs
+npm-debug.log
 
-# Gem ignores
-
-Gemfile.lock
-
-# IntelliJ ignores
-.idea/
-
-
-# VS Code ignores
-
-*.code-workspace
+# Nuxt build
+.nuxt
