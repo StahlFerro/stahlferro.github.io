@@ -45,7 +45,6 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-multiline">
-            <!-- {% for bf in site.data.bf_videos %} -->
             <div v-for="(bf, index) in bf_videos" class="column is-one-quarter" v-bind:key="index">
               <div class="card is-neon-gold">
                 <div class="card-image">
@@ -54,18 +53,17 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <!-- <a
-                    href="https://www.youtube.com/watch?v={{ bf.youtube_id }}"
+                  <a
+                    v-bind:href="`https://www.youtube.com/watch?v=${bf.youtube_id}`"
                     style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
-                  ></a>-->
+                  ></a>
                   <div class="content">
-                    <!-- <p class="title is-4">{{ bf.name }}</p> -->
-                    <!-- <p class="content">{{ bf.description }}</p> -->
+                    <p class="title is-4">{{ bf.name }}</p>
+                    <p class="content">{{ bf.description }}</p>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- {% endfor %} -->
           </div>
         </div>
       </div>

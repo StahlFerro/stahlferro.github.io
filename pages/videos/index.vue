@@ -19,11 +19,6 @@
                   <nuxt-link v-bind:to="'/videos/' + vd.page_url"
                   style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"></nuxt-link>
               <div class="media">
-                <div class="media-left">
-                    <figure class="image is-96x96">
-                        <img v-bind:src="'/thumb/' + vd.logo_url"/>
-                    </figure>
-                </div>
                 <div class="media-content">
                   <p class="title is-size-4-mobile">{{ vd.name }}</p>
                   <p class="subtitle is-5">{{ vd.desc }}</p>
@@ -35,7 +30,6 @@
             </div>
           </div>
         </div>
-        <!-- {% endfor %} -->
       </div>
     </div>
   </section>
