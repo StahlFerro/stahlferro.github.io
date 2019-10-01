@@ -27,7 +27,7 @@
     <div id="nav-menu" class="navbar-menu">
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
-        <a href="/videos/index.html" class="navbar-item">Videos</a>
+        <a href="/videos" class="navbar-item">Videos</a>
         <a href="/softwares/index.html" class="navbar-item">Softwares</a>
       </div>
       <div class="navbar-end navitem-double-space">

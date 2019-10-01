@@ -1,5 +1,5 @@
 <template>
-<section class="hero is-medium is-dark-2">
+<section class="hero is-dark-2">
     <div class="hero-body">
         <div class="container">
             <div class="content paragraph-double-space-after">
