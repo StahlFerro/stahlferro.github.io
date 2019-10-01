@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <a class="navbar-item navbar-brand-button" href="/">
         <img
-          src="/static/favicons/android-chrome-256x256.png"
+          src="/favicons/android-chrome-256x256.png"
           alt="StahlFerro"
           width="30"
           height="30"

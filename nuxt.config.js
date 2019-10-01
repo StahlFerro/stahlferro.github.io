@@ -15,8 +15,6 @@ module.exports = {
       { charset: 'utf-8' },
       { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: ogconf['og:description'] },
-      { hid: 'theme-color', name: 'theme-color', content: "#5595FF"},
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
       ...metas,
     ],
     link: [
@@ -24,7 +22,10 @@ module.exports = {
       { rel: 'stylesheet', type: 'text/css', href: '/css/bulmamods.css'},
       { rel: 'stylesheet', type: 'text/css', href: '/css/fontawesome-all.min.css'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono'},
-    ]
+    ],
+    htmlAttrs: {
+      class: "has-navbar-fixed-top"
+    },
   },
   // css: ['~/css/bulmamods.css'],
   /*

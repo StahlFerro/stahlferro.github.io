@@ -5,7 +5,7 @@
   "author": "StahlFerro <StahlFerro@users.noreply.github.com>",
   "private": true,
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/bulmamods.scss css/bulmamods.css",
+    "css-build": "node-sass --omit-source-map-url static/sass/bulmamods.scss static/css/bulmamods.css",
     "css-watch": "npm run css-build -- --watch",
     "dev": "nuxt",
     "build": "nuxt build",
