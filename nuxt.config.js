@@ -1,7 +1,9 @@
 const ogconf = require('./config/opengraph.json');
-const meta = [
-  
-]
+console.log(ogconf);
+const metas = Object.entries(ogconf).map(function([key, value]) {
+  return { hid: key, name: key, content: value };
+});
+console.log(metas);
 
 module.exports = {
   /*
@@ -12,10 +14,10 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: x },
+      { hid: 'description', name: 'description', content: ogconf['og:description'] },
       { hid: 'theme-color', name: 'theme-color', content: "#5595FF"},
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
-      { hid: 'og:title', name: 'og:title', content: ogconf['og:title']}
+      ...metas,
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

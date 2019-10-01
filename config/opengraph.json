@@ -1,8 +1,9 @@
 {
-    "og:title": "",
-    "og:site_name": "",
-    "og:description": "",
-    "og:image": "",
-    "og:type": "",
-    "og:url": ""
+    "og:title": "StahlFerro",
+    "og:site_name": "StahlFerro's Website",
+    "og:description": "StahlFerro's Official Website",
+    "og:image": "/media/images/Duality.png",
+    "og:type": "website",
+    "og:url": "https://stahlferro.github.io",
+    "theme-color": "#5595FF"
 }
