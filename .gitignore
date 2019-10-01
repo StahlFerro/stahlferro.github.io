@@ -15,3 +15,7 @@ npm-debug.log
 .venv/
 .vscode/
 _site/
+
+# Temp ignore
+
+dist/
