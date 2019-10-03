@@ -142,7 +142,8 @@ var ogconf = {
   'og:title': 'TridentFrame',
   'og:description': 'The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux',
   'og:image': '/thumb/TridentFrame_thumb.png',
-  'og_color': "#34caf8"
+  'og_color': '#34caf8',
+  'og:url': 'https://stahlferro.github.io/softwares/tridentframe',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
@@ -151,7 +152,7 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
 export default {
   head() {
     return {
-      title: "TridentFrame",
+      title: ogconf['og:title'],
       meta: [
         { hid: 'title', name: 'title', content: ogconf['og:title'] },
         { hid: 'description', name: 'description', content: ogconf['og:description'] },

@@ -13,10 +13,12 @@ module.exports = {
     title: "StahlFerro",
     meta: [
       { charset: 'utf-8' },
+      { name: 'author', content: 'StahlFerro'},
       { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'title', name: 'title', content: ogconf['og:title'] },
       { hid: 'description', name: 'description', content: ogconf['og:description'] },
       ...metas,
+      { hid: 'google-site-verification', name: 'google-site-verification', content: 'xPOlLw31AN12WO6gow34wuKvlrb5nbbiU739w_CZP78'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -26,7 +28,11 @@ module.exports = {
     ],
     htmlAttrs: {
       class: "has-navbar-fixed-top"
-    },
+    },   
+    script: [
+      { src: '/js/flexible.js' },
+      { src: 'https://www.googletagmanager.com/gtag/js?id=UA-140998532-1' }
+    ]
   },
   // css: ['~/css/bulmamods.css'],
   /*

@@ -129,3 +129,29 @@
     </section>
   </div>
 </template>
+
+<script>
+var ogconf = {
+  'og:title': 'FortressBot',
+  'og:description': 'A moderation bot that auto-nukes server invite links and auto-cleans hoisting or zalgo usernames/nicknames',
+  // 'og:image': '/thumb/TridentFrame_thumb.png',
+  // 'og_color': '#34caf8',
+  'og:url': 'https://stahlferro.github.io/softwares/fortressbot',
+};
+var metas = Object.entries(ogconf).map(function([key, value]) {
+  return { hid: key, name: key, content: value };
+});
+
+export default {
+  head() {
+    return {
+      title: ogconf['og:title'],
+      meta: [
+        { hid: 'title', name: 'title', content: ogconf['og:title'] },
+        { hid: 'description', name: 'description', content: ogconf['og:description'] },
+        ...metas,
+      ]
+    }
+  }
+}
+</script>

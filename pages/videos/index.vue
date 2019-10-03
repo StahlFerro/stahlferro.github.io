@@ -7,17 +7,19 @@
           <div class="card has-background-light">
             <div class="card-image">
               <figure class="image is-16by9">
-                  <template v-if="vd.thumb_url">
-                    <img v-bind:src="'/thumb/' + vd.thumb_url"/>
-                  </template>
-                  <template v-else>
-                    <img src="https://bulma.io/images/placeholders/640x360.png"/>
-                  </template>
+                <template v-if="vd.thumb_url">
+                  <img v-bind:src="`/thumb/${vd.thumb_url}`" />
+                </template>
+                <template v-else>
+                  <img src="https://bulma.io/images/placeholders/640x360.png" />
+                </template>
               </figure>
             </div>
             <div class="card-content">
-                  <nuxt-link v-bind:to="'/videos/' + vd.page_url"
-                  style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"></nuxt-link>
+              <nuxt-link
+                v-bind:to="vd.page_url? `/videos/${vd.page_url}` : `/wip`"
+                style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+              ></nuxt-link>
               <div class="media">
                 <div class="media-content">
                   <p class="title is-size-4-mobile">{{ vd.name }}</p>
@@ -25,7 +27,7 @@
                 </div>
               </div>
               <div class="content">
-                <p class="is-size-5"> </p>
+                <p class="is-size-5"></p>
               </div>
             </div>
           </div>
@@ -36,14 +38,13 @@
 </template>
 
 <script>
-var videos = require('./_data/videos.json');
+var videos = require("./_data/videos.json");
 var data = {
-    videos: videos
-}
-console.log(data);
+  videos: videos
+};
 export default {
-    data: function() {
-        return data;
-    }
-}
+  data: function() {
+    return data;
+  }
+};
 </script>
