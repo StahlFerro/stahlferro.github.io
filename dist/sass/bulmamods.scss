@@ -117,6 +117,10 @@ body {
     color: $white-c;
 }
 
+.nuxt-link-exact-active {
+    color: $iron-red;
+}
+
 .hero.is-iron-blue-dark-2 {
     color: $iron-blue;
     background-color: $dark-2;

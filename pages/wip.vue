@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium has-bg-img">
+    <section class="hero is-fullheight-with-navbar has-bg-img">
       <div class="hero-body">
         <div class="container">
           <div class="content has-text-centered">

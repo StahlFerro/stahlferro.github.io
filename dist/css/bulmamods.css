@@ -7066,6 +7066,9 @@ body {
 .navbar.is-dark-2 a.navbar-burger {
   color: #cccccc; }
 
+.nuxt-link-exact-active {
+  color: #991f30; }
+
 .hero.is-iron-blue-dark-2 {
   color: #3370cc;
   background-color: #232629; }

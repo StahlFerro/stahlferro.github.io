@@ -25,7 +25,6 @@
     "name": "Rhombus",
     "subdesc": "C# OCR Discord bot",
     "desc": "A discord bot with OCR (Optical Character Recognition) capabilities",
-    "page_url": "rhombus",
     "logo_url": "Rhombus_200px.png"
   }
 ]
