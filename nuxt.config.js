@@ -14,6 +14,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'title', name: 'title', content: ogconf['og:title'] },
       { hid: 'description', name: 'description', content: ogconf['og:description'] },
       ...metas,
     ],
@@ -35,6 +36,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  modules: [
+    '@nuxtjs/sitemap'
+  ],
   build: {
     /*
     ** Run ESLint on save

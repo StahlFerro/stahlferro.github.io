@@ -36,7 +36,7 @@
 </template>
 
 <script>
-var videos = require('./data/videos.json');
+var videos = require('./_data/videos.json');
 var data = {
     videos: videos
 }

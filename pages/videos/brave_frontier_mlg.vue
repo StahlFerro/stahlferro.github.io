@@ -213,7 +213,7 @@
 </template>
 
 <script>
-var bf_videos = require('./data/bf_videos.json')
+var bf_videos = require('./_data/bf_videos.json')
 var data = {bf_videos: bf_videos};
 export default {
     data: function() {
