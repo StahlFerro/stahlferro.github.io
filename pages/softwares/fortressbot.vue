@@ -134,8 +134,8 @@
 var ogconf = {
   'og:title': 'FortressBot',
   'og:description': 'A moderation bot that auto-nukes server invite links and auto-cleans hoisting or zalgo usernames/nicknames',
-  // 'og:image': '/thumb/TridentFrame_thumb.png',
-  // 'og_color': '#34caf8',
+  'og:image': '/thumb/FortresBot_Thumb.png',
+  'og_color': '#3370cc',
   'og:url': 'https://stahlferro.github.io/softwares/fortressbot',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {

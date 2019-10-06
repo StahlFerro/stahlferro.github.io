@@ -155,7 +155,7 @@ var ogconf = {
   "og:title": "TridentFrame",
   "og:description":
     "The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux",
-  "og:image": "/thumb/TridentFrame_thumb.png",
+  "og:image": "/thumb/TridentFrame_Thumb.png",
   og_color: "#34caf8",
   "og:url": "https://stahlferro.github.io/softwares/tridentframe"
 };

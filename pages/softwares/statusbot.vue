@@ -49,7 +49,7 @@ var ogconf = {
   'og:title': 'TridentFrame',
   'og:description': 'A special discord bot that notifies you if another bot dies.',
   // 'og:image': '/thumb/TridentFrame_thumb.png',
-  // 'og_color': '#34caf8',
+  'og_color': '#991f308',
   'og:url': 'https://stahlferro.github.io/softwares/statusbot',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
