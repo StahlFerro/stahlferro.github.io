@@ -5,5 +5,6 @@ Disallow: /logos/
 Disallow: /sass/
 Disallow: /webfonts/
 Disallow: /wip/
+Disallow: README.md
 
 Sitemap: http://stahlferro.github.io/sitemap.xml
