@@ -1,23 +1,18 @@
-# stahlferro.github.io
+# StahlFerro's website dev repo
 
-> Nuxt github page
+Procedures for deploying changes:
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
+1. npm run genpage
+```
+Generates static site into dist/ folder
+```
+2. git add .
+3. git commit -m "e"
+4. git push origin dev
+```
+Save changes to repo and pushes to remote
+```
+5. npm run deploy
+```
+Uses git subtree to push contents of dist/ folder to master
