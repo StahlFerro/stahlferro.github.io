@@ -53,6 +53,9 @@ module.exports = {
   sitemap: {
     hostname: 'https://stahlferro.github.io',
   },
+  generate: {
+    fallback: "404.html"
+  },
   build: {
     /*
     ** Run ESLint on save
