@@ -6957,6 +6957,7 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 /*! Color variables !*/
+/*! Brand color variables !*/
 /*! Color definitions */
 .is-pink {
   color: #fa7cb7; }
@@ -7327,6 +7328,7 @@ section.trench-footer {
   border-color: #50c878;
   color: #000; }
 
+/* $youtube-red button */
 .button.is-youtube-red {
   color: red;
   border-color: red;
@@ -7341,6 +7343,7 @@ section.trench-footer {
   border-color: red;
   background-color: red; }
 
+/* $twitter-cyan button */
 .button.is-twitter-cyan {
   color: #1da1f2;
   border-color: #1da1f2;
@@ -7355,6 +7358,7 @@ section.trench-footer {
   border-color: #1da1f2;
   background-color: #1da1f2; }
 
+/* Github white ($white-c) button */
 .button.is-github-white {
   color: #cccccc;
   border-color: #cccccc;
@@ -7369,6 +7373,7 @@ section.trench-footer {
   border-color: #cccccc;
   background-color: #cccccc; }
 
+/* Github black ($dark-2) button */
 .button.is-github-black {
   color: #232629;
   border-color: #232629;
@@ -7382,6 +7387,24 @@ section.trench-footer {
   color: #eeeeee;
   border-color: transparent;
   background-color: #232629; }
+
+/* Patreon button */
+.button.is-patreon-coral {
+  border: 2px solid #f86754;
+  background-color: transparent;
+  color: #cccccc; }
+
+/* Ko-fi button */
+.button.is-kofi-cyan {
+  border: 2px solid #29ABE0;
+  background-color: transparent;
+  color: #29ABE0; }
+
+/* Liberapay button */
+.button.is-liberapay-yellow {
+  border: 2px solid #f6c915;
+  background-color: transparent;
+  color: #cccccc; }
 
 .button.is-iron-red {
   color: #991f30;

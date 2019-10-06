@@ -33,22 +33,22 @@
         <nuxt-link to="/donate" class="navbar-item">Donate</nuxt-link>
       </div>
       <div class="navbar-end navitem-double-space">
-        <a class="navbar-item">
+        <a v-bind:href="urls.discord" class="navbar-item" title="Discord Server">
           <span class="icon">
             <i class="fab fa-discord"></i>
           </span>
         </a>
-        <a class="navbar-item">
+        <a v-bind:href="urls.youtube" class="navbar-item" title="Youtube channel">
           <span class="icon">
             <i class="fab fa-youtube"></i>
           </span>
         </a>
-        <a class="navbar-item">
+        <a v-bind:href="urls.twitter" class="navbar-item" title="Twitter">
           <span class="icon">
             <i class="fab fa-twitter"></i>
           </span>
         </a>
-        <a class="navbar-item">
+        <a v-bind:href="urls.github" class="navbar-item" title="Github">
           <span class="icon">
             <i class="fab fa-github"></i>
           </span>
@@ -59,6 +59,12 @@
 </template>
 
 <script>
+
+var urls = require('@@/config/externalinks.json');
+var data = {
+  urls: urls,
+};
+
 function mountnavbar() {
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(
@@ -85,7 +91,11 @@ function mountnavbar() {
   }
 }
 
+
 export default {
-    mounted: mountnavbar
+    mounted: mountnavbar,
+    data: function() {
+      return data;
+    }
 }
 </script>

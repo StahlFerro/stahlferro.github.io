@@ -1,53 +1,65 @@
 <template>
     <div>
-        <section class="hero is-fullheight-with-navbar">
+        <section class="hero is-fullheight-with-navbar is-dark-2">
             <div class="hero-body">
                 <div class="container">
                     <div class="content has-text-centered">
                         <h1 class="title is-1">Donations</h1>
-                        <p>Hello there. I would like to highlight my current situation regarding to why I am opening a donation</p>
-                        <p>I am currently working as a software engineer. However, the pay is not enought to cover our financial stress, mainly for both me and my younger 
-                            sibling's university fees.
-                        </p>
-                        <p>Unfortunately, a lot of the available postings on my island offer roughly the same low wages, most even lower. A few even dare to 'trap' 
-                            desperate students on a 1 year contract that pays 1/3 of the minimum wage. Adding more to that, unemployment has risen drastically since late 2018, 
-                            and searching up till now, no well-paying software job postings are on sight.
+                        <p> Making VFX-animation videos and developing softwares that are free and open source, in hopes to provide both high quality entertainment 
+                            and technical solutions to everyone without charge, is my highest form of passion. However, with current economic disparities, my focus 
+                            are ultimately divided between these two and my IRL software dev job.
                         </p>
                         <p>
-                            In one of my focused attempts to end our decade-long financial issues and overcome the nationwide economic disparity, I decided that it might be 
-                            viable to turn what I am the most passionate on, into someday, a proper job. Making VFX-animation videos and developing software that are free and 
-                            open source, in hopes to provide both entertainment  and technical solutions to everyone without charge. I know how enormously time-and-effort-consuming 
-                            it is to make or maintain just only one between those two and how much I don't care wasting all of my sleep time to put more work on both of them, 
-                            all the bills still have to be paid. There's not a lot of golden opportunities in my local environment. So, through this international window,
-                            I kindly ask, for your support.
+                            With the rapidly declining opportunities on my local area and how dev jobs here pay no better than minimum salary, I decided to 
+                            reach out for support on the international platform.
                         </p>
-                        <a class="button is-neon-gold is-large">
+                        <p>
+                            Doing just either one of VFX-animation videos or software dev takes a huge amount of time and effort. This is the chance in which hopefully,
+                            through this donation, I can eventually make this my full time job. Not just a job, but it's one I will never retire from.
+                        </p>
+                        <a v-bind:href="urls.patreon" class="button is-patreon-coral is-large">
                             <span class="icon">
                                 <i class="fab fa-patreon"></i>
                             </span>
                             <span>Patreon</span>
                         </a>
-                        <a class="button is-neon-gold is-large">
+                        <a v-bind:href="urls.kofi" class="button is-kofi-cyan is-large">
                             <span class="icon">
-                                <i class="fas fa-coffee"></i>
+                                <img class="image" src="/logos/ko-fi_round.png" style="padding: 4px;"/>
                             </span>
                             <span>Ko-fi</span>
                         </a>
-                        <a class="button is-neon-gold is-large">
+                        <a v-bind:href="urls.liberapay" class="button is-liberapay-yellow is-large">
                             <span class="icon">
-                                <i class="fab fa-patreon"></i>
+                                <img class="image" src="/logos/liberapay_white_on_yellow.svg" style="padding: 4px;"/>
                             </span>
                             <span>Liberapay</span>
                         </a>
-                        <a class="button is-neon-gold is-large">
-                            <span class="icon">
-                                <i class="fab fa-paypal"></i>
+                        <!-- <a class="button is-large"
+                            href="https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2"
+                            title="PayPal"
+                            onclick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2',
+                            'WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"
+                            >
+                            <span class="icon" style="width: 110px;">
+                                <img src="/logos/PP_logo_h_100x26.png" alt="PayPal Logo" >
                             </span>
-                            <span>Direct Paypal</span>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
         </section>
     </div>
 </template>
+
+<script>
+var urls = require('@@/config/externalinks.json');
+var data = {
+    urls: urls,
+};
+export default {
+    data: function() {
+        return data
+    }
+}
+</script>

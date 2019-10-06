@@ -21,7 +21,8 @@ module.exports = {
       { hid: 'google-site-verification', name: 'google-site-verification', content: 'xPOlLw31AN12WO6gow34wuKvlrb5nbbiU739w_CZP78'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/bulmamods.css'},
       { rel: 'stylesheet', type: 'text/css', href: '/css/fontawesome-all.min.css'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono'},
@@ -43,8 +44,15 @@ module.exports = {
   ** Build configuration
   */
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    // ['@nuxtjs/robots', [
+    // { UserAgent: '*', Disallow: '/' },
+    // { UserAgent: '*', Disallow: '/sitemap.xml'},
+    // ]]
   ],
+  sitemap: {
+    hostname: 'https://stahlferro.github.io',
+  },
   build: {
     /*
     ** Run ESLint on save

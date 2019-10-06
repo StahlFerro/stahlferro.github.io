@@ -51,10 +51,7 @@
               </div>
             </div>
             <div class="column">
-              <figure
-                class="image tooltip tooltip"
-                data-tooltip="Raydn did not feel so good. Artist: Vayreceane"
-              >
+              <figure class="image" title="Raydn didn't feel so good. (Artist: Vayreceane)">
                 <img src="/img/TridentFrame_preview.png" />
               </figure>
             </div>

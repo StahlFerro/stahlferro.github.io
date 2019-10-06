@@ -12,15 +12,19 @@ $gold: #e4a126;
 $pink: #fa7cb7;
 $dark-2: #232629;
 $blurple: #7289DA;
-$youtube-red: #ff0000;
-$trident-cyan: #34caf8;
-$twitter-cyan: #1da1f2;
 $dark-3: #31363b;
 $white-e: #eeeeee;
 $white-c: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
 $docs-grey: #7c8f99;
+/*! Brand color variables !*/
+$youtube-red: #ff0000;
+$trident-cyan: #34caf8;
+$twitter-cyan: #1da1f2;
+$kofi-cyan: #29ABE0;
+$patreon-coral: #f86754;
+$liberapay-yellow: #f6c915;
 
 
 /*! Color definitions */
@@ -94,6 +98,12 @@ body {
 
 
 /*! $dark-2 navbar color */
+a.nuxt-link-exact-active {
+    color: $iron-blue;
+    background-color: $iron-blue !important;
+    border: 2px solid $iron-blue !important;
+}
+
 .navbar.is-dark-2 {
     background-color: $dark-2;
 }
@@ -109,17 +119,14 @@ body {
     color: $dark-2;
     background-color: $white-c;
 }
-.navbar.is-dark-2 a.navbar-brand-button:hover {
-    color: $white-e;
-    background-color: $iron-blue;
-}
+// .navbar.is-dark-2 a.navbar-brand-button:hover {
+//     color: $white-e;
+//     background-color: $dark-2;
+// }
 .navbar.is-dark-2 a.navbar-burger {
     color: $white-c;
 }
 
-.nuxt-link-exact-active {
-    color: $iron-red;
-}
 
 .hero.is-iron-blue-dark-2 {
     color: $iron-blue;
@@ -350,6 +357,7 @@ section.trench-footer {
 }
 
 
+/* $youtube-red button */
 .button.is-youtube-red {
     color: red;
     border-color: red;
@@ -366,6 +374,7 @@ section.trench-footer {
 }
 
 
+/* $twitter-cyan button */
 .button.is-twitter-cyan {
     color: $twitter-cyan;
     border-color: $twitter-cyan;
@@ -382,6 +391,7 @@ section.trench-footer {
 }
 
 
+/* Github white ($white-c) button */
 .button.is-github-white {
     color: $white-c;
     border-color: $white-c;
@@ -397,6 +407,8 @@ section.trench-footer {
     background-color: $white-c;
 }
 
+
+/* Github black ($dark-2) button */
 .button.is-github-black {
     color: $dark-2;
     border-color: $dark-2;
@@ -412,6 +424,27 @@ section.trench-footer {
     background-color: $dark-2;
 }
 
+
+/* Patreon button */
+.button.is-patreon-coral {
+    border: 2px solid $patreon-coral;
+    background-color: transparent;
+    color: $white-c;
+}
+
+/* Ko-fi button */
+.button.is-kofi-cyan {
+    border: 2px solid $kofi-cyan;
+    background-color: transparent;
+    color: $kofi-cyan;
+}
+
+/* Liberapay button */
+.button.is-liberapay-yellow {
+    border: 2px solid $liberapay-yellow;
+    background-color: transparent;
+    color: $white-c;
+}
 
 .button.is-iron-red {
     color: $iron-red;

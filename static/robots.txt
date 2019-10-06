@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: .nojekyll
+Disallow: /favicons/
+Disallow: /logos/
+Disallow: /sass/
+Disallow: /webfonts/
+Disallow: /wip/
+
+Sitemap: http://stahlferro.github.io/sitemap.xml
