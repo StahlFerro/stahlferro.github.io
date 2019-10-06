@@ -219,8 +219,8 @@ var data = {bf_videos: bf_videos};
 var ogconf = {
   'og:title': 'Brave Frontier MLG',
   'og:description': 'Brave Frontier MLG: The 8 video series of intense montages made with various editing styles revolving around the Montage Parody memes and a mix of hybrid VFX-animation',
-  // 'og:image': '/thumb/TridentFrame_thumb.png',
-  // 'og_color': '#34caf8',
+  'og:image': '/thumb/BFMLG_Thumb.png',
+  'og_color': '#e4a126',
   'og:url': 'https://stahlferro.github.io/softwares/brave_frontier_mlg',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
