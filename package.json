@@ -16,7 +16,6 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "push": "git subtree push --prefix dist origin master",
-    "deploy": "npm run genpage && npm run push"
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
