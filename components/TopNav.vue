@@ -28,7 +28,7 @@
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
         <nuxt-link to="/videos" class="navbar-item">Videos</nuxt-link>
-        <nuxt-link to="/gifs" class="navbar-item">GIFs</nuxt-link>
+        <nuxt-link to="/wip" class="navbar-item">GIFs</nuxt-link>
         <nuxt-link to="/softwares" class="navbar-item">Softwares</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item">Donate</nuxt-link>
       </div>
