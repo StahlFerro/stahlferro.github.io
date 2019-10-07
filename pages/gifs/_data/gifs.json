@@ -9,5 +9,16 @@
                 "path_mp4": "sushi.mp4"
             }
         ]
+    },
+    {
+        "name": "Blobs",
+        "page_url": "blobs",
+        "desc": "Various animated blob GIFs seasoned with VFX",
+        "medias": [
+            {
+                "name": "Blob nom",
+                "path_mp4": "blobnom.mp4"
+            }
+        ]
     }
 ]
