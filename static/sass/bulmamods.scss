@@ -98,12 +98,12 @@ body {
 }
 
 
-// /*! $dark-2 navbar color */
-// a.nuxt-link-exact-active {
-//     color: $iron-blue;
-//     background-color: $iron-blue !important;
-//     border: 2px solid $iron-blue !important;
-// }
+/*! $dark-2 navbar color */
+a.nuxt-link-exact-active {
+    color: $iron-blue;
+    background-color: $iron-blue !important;
+    border: 2px solid $iron-blue !important;
+}
 
 .navbar.is-dark-2 {
     background-color: $dark-2;
@@ -120,11 +120,11 @@ body {
     color: $dark-2;
     background-color: $white-c;
 }
-.navbar.is-dark-2 a.navbar-item.selected {
-    color: $white-c;
-    background-color: $iron-blue !important;
-    border: 2px solid $iron-blue !important;
-}
+// .navbar.is-dark-2 a.navbar-item.selected {
+//     color: $white-c;
+//     background-color: $iron-blue !important;
+//     border: 2px solid $iron-blue !important;
+// }
 // .navbar.is-dark-2 a.navbar-brand-button:hover {
 //     color: $white-e;
 //     background-color: $dark-2;

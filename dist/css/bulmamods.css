@@ -7044,6 +7044,12 @@ body {
   top: 10px;
   left: 10px; }
 
+/*! $dark-2 navbar color */
+a.nuxt-link-exact-active {
+  color: #3370cc;
+  background-color: #3370cc !important;
+  border: 2px solid #3370cc !important; }
+
 .navbar.is-dark-2 {
   background-color: #232629; }
 
@@ -7058,11 +7064,6 @@ body {
 .navbar.is-dark-2 a.navbar-item:active {
   color: #232629;
   background-color: #cccccc; }
-
-.navbar.is-dark-2 a.navbar-item.selected {
-  color: #cccccc;
-  background-color: #3370cc !important;
-  border: 2px solid #3370cc !important; }
 
 .navbar.is-dark-2 a.navbar-burger {
   color: #cccccc; }

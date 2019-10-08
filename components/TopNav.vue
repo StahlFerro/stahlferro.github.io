@@ -27,11 +27,11 @@
 
     <div id="nav-menu" class="navbar-menu">
       <div class="navbar-start">
-        <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about';" v-bind:class="{'selected': navselection == 'about'}">About</nuxt-link>
-        <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos';" v-bind:class="{'selected': navselection == 'videos'}">Videos</nuxt-link>
-        <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'gifs';" v-bind:class="{'selected': navselection == 'gifs'}">GIFs</nuxt-link>
-        <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares';" v-bind:class="{'selected': navselection == 'softwares'}">Softwares</nuxt-link>
-        <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate';" v-bind:class="{'selected': navselection == 'donate'}">Donate</nuxt-link>
+        <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about'">About</nuxt-link>
+        <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
+        <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'gifs'">GIFs</nuxt-link>
+        <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
+        <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
       </div>
       <div class="navbar-end navitem-double-space">
         <a v-bind:href="urls.discord" class="navbar-item" title="Discord Server">
