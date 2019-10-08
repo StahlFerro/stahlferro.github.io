@@ -6,7 +6,7 @@
         "medias": [
             {
                 "name": "War Demon Shusui",
-                "path_mp4": "sushi.mp4"
+                "fname_mp4": "sushi.mp4"
             }
         ]
     },
@@ -17,7 +17,7 @@
         "medias": [
             {
                 "name": "Blob nom",
-                "path_mp4": "blobnom.mp4"
+                "fname_mp4": "blobnom.mp4"
             }
         ]
     }

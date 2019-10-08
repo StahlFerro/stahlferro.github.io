@@ -1,33 +1,35 @@
 <template>
-  <section class="section has-background-dark-2">
-    <!-- <div class="container"> -->
-    <table class="table is-dark-2 is-paddingless is-marginless" width="100%">
+  <section class="hero has-background-dark-2 is-fullheight-with-navbar">
+    <div class="hero-body">
+    <table class="gif-gallery-container" width="100%">
       <tr>
         <td width="10%">
           <aside class="menu has-text-centered" style="margin: 0;">
             <ul class="menu-list left-menu">
-              <li v-for="(collection, index) in gifs" v-bind:key="index"
-                class="menu-item"
-                v-bind:class="{'is-selected': menuselection == collection.page_url}"
-              >
+              <li v-for="(collection, index) in gifs" v-bind:key="index" class="menu-item"
+                v-bind:class="{'is-selected': menuselection == collection.page_url}">
                 <a id="create_menu" v-on:click="menuselection = collection.page_url">
-                  <p class="is-white-d">{{ collection.name }}</p>
+                  <p class="is-white-c">{{ collection.name }}</p>
                 </a>
               </li>
             </ul>
           </aside>
         </td>
         <td width="90%">
-            <table v-for="(collection, index) in gifs" class="table" width="100%"
+          <div class="container">
+            <div class="columns is-multiline" v-for="(collection, index) in gifs" width="100%"
             v-show="menuselection == collection.page_url" v-bind:key="index" >
-              <tr>
-                <td>{{ collection.name }}</td>
-              </tr>
-            </table>
+                <div class="column" v-for="(gif, index) in collection.medias" v-bind:key="index">
+                  <video controls width="400">
+                    <source v-bind:src="`/gifstash/${collection.page_url}/${gif.fname_mp4}`" type="video/mp4"/>
+                  </video>
+                </div>
+            </div>
+          </div>
         </td>
       </tr>
     </table>
-    <!-- </div> -->
+    </div>
   </section>
 </template>
 

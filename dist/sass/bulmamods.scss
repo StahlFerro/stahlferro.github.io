@@ -11,14 +11,15 @@ $powdered-iron: #bcbdc2;
 $gold: #e4a126;
 $pink: #fa7cb7;
 $dark-2: #232629;
-$blurple: #7289DA;
 $dark-3: #31363b;
+$dark-4: #444851;
 $white-e: #eeeeee;
 $white-c: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
 $docs-grey: #7c8f99;
 /*! Brand color variables !*/
+$blurple: #7289DA;
 $youtube-red: #ff0000;
 $trident-cyan: #34caf8;
 $twitter-cyan: #1da1f2;
@@ -97,12 +98,12 @@ body {
 }
 
 
-/*! $dark-2 navbar color */
-a.nuxt-link-exact-active {
-    color: $iron-blue;
-    background-color: $iron-blue !important;
-    border: 2px solid $iron-blue !important;
-}
+// /*! $dark-2 navbar color */
+// a.nuxt-link-exact-active {
+//     color: $iron-blue;
+//     background-color: $iron-blue !important;
+//     border: 2px solid $iron-blue !important;
+// }
 
 .navbar.is-dark-2 {
     background-color: $dark-2;
@@ -118,6 +119,11 @@ a.nuxt-link-exact-active {
 .navbar.is-dark-2 a.navbar-item:active {
     color: $dark-2;
     background-color: $white-c;
+}
+.navbar.is-dark-2 a.navbar-item.selected {
+    color: $white-c;
+    background-color: $iron-blue !important;
+    border: 2px solid $iron-blue !important;
 }
 // .navbar.is-dark-2 a.navbar-brand-button:hover {
 //     color: $white-e;
@@ -462,6 +468,22 @@ section.trench-footer {
 }
 
 
+.gif-gallery-container {
+    background-color: $dark-2;
+    padding: 0.3em;
+    border: 2px solid $white-c;
+}
+.menu-item { border: 2px solid $dark-2; }
+.menu-item a { padding: 0.3em 0.3em; }
+.menu-item:hover { border: 2px solid $dark-4; }
+.menu-item a:hover { background-color: $dark-4 !important; }
+.menu-item:active p { color: $white; }
+.menu-item.is-selected { border: 2px solid $trident-cyan; }
+.menu-item.is-selected p, .menu-item.is-selected i { color: $trident-cyan !important; }
+
+.gif-gallery-panel {
+    background-color: $iron-red;
+}
 
 code.code-black {
     color: $white-e;

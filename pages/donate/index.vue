@@ -10,7 +10,7 @@
                             are ultimately divided between these two and my IRL software dev job.
                         </p>
                         <p>
-                            With the rapidly declining opportunities on my local area and how dev jobs here pay no better than minimum salary, I decided to 
+                            With the rapidly declining opportunities on my local area and how dev jobs here pay no better than minimum living costs and education fees, I decided to 
                             reach out for support on the international platform.
                         </p>
                         <p>

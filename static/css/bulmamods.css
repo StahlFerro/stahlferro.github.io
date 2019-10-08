@@ -7044,12 +7044,6 @@ body {
   top: 10px;
   left: 10px; }
 
-/*! $dark-2 navbar color */
-a.nuxt-link-exact-active {
-  color: #3370cc;
-  background-color: #3370cc !important;
-  border: 2px solid #3370cc !important; }
-
 .navbar.is-dark-2 {
   background-color: #232629; }
 
@@ -7064,6 +7058,11 @@ a.nuxt-link-exact-active {
 .navbar.is-dark-2 a.navbar-item:active {
   color: #232629;
   background-color: #cccccc; }
+
+.navbar.is-dark-2 a.navbar-item.selected {
+  color: #cccccc;
+  background-color: #3370cc !important;
+  border: 2px solid #3370cc !important; }
 
 .navbar.is-dark-2 a.navbar-burger {
   color: #cccccc; }
@@ -7418,6 +7417,35 @@ section.trench-footer {
 .button.is-iron-red:active, .button.is-iron-red.is-active {
   color: #eeeeee;
   border-color: transparent;
+  background-color: #991f30; }
+
+.gif-gallery-container {
+  background-color: #232629;
+  padding: 0.3em;
+  border: 2px solid #cccccc; }
+
+.menu-item {
+  border: 2px solid #232629; }
+
+.menu-item a {
+  padding: 0.3em 0.3em; }
+
+.menu-item:hover {
+  border: 2px solid #444851; }
+
+.menu-item a:hover {
+  background-color: #444851 !important; }
+
+.menu-item:active p {
+  color: white; }
+
+.menu-item.is-selected {
+  border: 2px solid #34caf8; }
+
+.menu-item.is-selected p, .menu-item.is-selected i {
+  color: #34caf8 !important; }
+
+.gif-gallery-panel {
   background-color: #991f30; }
 
 code.code-black {
