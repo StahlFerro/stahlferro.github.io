@@ -18,7 +18,7 @@
         aria-label="menu"
         aria-expanded="false"
         @click="burger_open = !burger_open"
-        v-bind:class="{'is_active': burger_open}"
+        v-bind:class="{'is-active': burger_open}"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -30,7 +30,7 @@
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about'">About</nuxt-link>
         <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
-        <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'gifs'">GIFs</nuxt-link>
+        <nuxt-link to="/gifs" class="navbar-item" v-on:click.native="navselection = 'gifs'">GIFs</nuxt-link>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
       </div>
@@ -39,21 +39,25 @@
           <span class="icon">
             <i class="fab fa-discord"></i>
           </span>
+          <span v-show="burger_open">Discord</span>
         </a>
         <a v-bind:href="urls.youtube" class="navbar-item" title="Youtube channel">
           <span class="icon">
             <i class="fab fa-youtube"></i>
           </span>
+          <span v-show="burger_open">Youtube</span>
         </a>
         <a v-bind:href="urls.twitter" class="navbar-item" title="Twitter">
           <span class="icon">
             <i class="fab fa-twitter"></i>
           </span>
+          <span v-show="burger_open">Twitter</span>
         </a>
         <a v-bind:href="urls.github" class="navbar-item" title="Github">
           <span class="icon">
             <i class="fab fa-github"></i>
           </span>
+          <span v-show="burger_open">Github</span>
         </a>
       </div>
     </div>
@@ -69,32 +73,6 @@ var data = {
   navselection: navselection,
   burger_open: false,
 };
-
-// function mountnavbar() {
-//   // Get all "navbar-burger" elements
-//   const $navbarBurgers = Array.prototype.slice.call(
-//     document.querySelectorAll(".navbar-burger"),
-//   );
-
-//   // Check if there are any navbar burgers
-//   if ($navbarBurgers.length > 0) {
-//     // Add a click event on each of them
-//     $navbarBurgers.forEach(el => {
-//       el.addEventListener("click", () => {
-//         // Get the target from the "data-target" attribute
-//         const target = el.dataset.target;
-//         console.log("dataset", el.dataset);
-//         console.log("target", target);
-//         const $target = document.getElementById(target);
-
-//         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-//         el.classList.toggle("is-active");
-//         $target.classList.toggle("is-active");
-//       });
-//     });
-//   }
-// }
-
 
 export default {
     // mounted: mountnavbar,

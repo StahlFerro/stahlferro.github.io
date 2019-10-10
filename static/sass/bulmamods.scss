@@ -98,13 +98,12 @@ body {
 }
 
 
-/*! $dark-2 navbar color */
+/* Desktop Navbar */
 a.nuxt-link-exact-active {
     color: $iron-blue;
     background-color: $iron-blue !important;
     border: 2px solid $iron-blue !important;
 }
-
 .navbar.is-dark-2 {
     background-color: $dark-2;
 }
@@ -119,18 +118,21 @@ a.nuxt-link-exact-active {
 .navbar.is-dark-2 a.navbar-item:active {
     color: $dark-2;
     background-color: $white-c;
+    border: 2px solid $white-c;
 }
-// .navbar.is-dark-2 a.navbar-item.selected {
-//     color: $white-c;
-//     background-color: $iron-blue !important;
-//     border: 2px solid $iron-blue !important;
-// }
-// .navbar.is-dark-2 a.navbar-brand-button:hover {
-//     color: $white-e;
-//     background-color: $dark-2;
-// }
+
+div.navitem-double-space a.navbar-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Mobile Navbar */
 .navbar.is-dark-2 a.navbar-burger {
     color: $white-c;
+}
+
+.navbar.is-dark-2 .navbar-menu.is-active {
+    background-color: $dark-2;
 }
 
 
@@ -510,9 +512,4 @@ ol.numbered-list li {
 
 .content.paragraph-double-space-after p {
     margin-bottom: 70px;
-}
-
-div.navitem-double-space a.navbar-item {
-    padding-left: 20px;
-    padding-right: 20px;
 }
