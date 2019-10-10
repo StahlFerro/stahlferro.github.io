@@ -1,7 +1,7 @@
 <template>
   <section class="hero has-background-dark-2 is-fullheight-with-navbar">
-    <div class="hero-body">
-      <table class="gif-gallery-container" width="100%">
+    <div class="hero-body" style="height: 100%;">
+      <table class="gif-gallery-container" width="100%" height="100%">
         <tr>
           <td width="10%">
             <aside class="menu has-text-centered" style="margin: 0;">
