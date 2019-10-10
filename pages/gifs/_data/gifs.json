@@ -5,8 +5,20 @@
         "desc": "GIFs made in conjunction during the development of the Brave Frontier MLG series",
         "medias": [
             {
+                "name": "Pingu",
+                "fname_mp4": "pingu.mp4"
+            },
+            {
+                "name": "Mariletta",
+                "fname_mp4": "mariletta_animated.mp4"
+            },
+            {
                 "name": "War Demon Shusui",
                 "fname_mp4": "sushi.mp4"
+            },
+            {
+                "name": "Swaglords Silhouette",
+                "fname_mp4": "swaglords_silhouette.mp4"
             }
         ]
     },
@@ -16,8 +28,16 @@
         "desc": "Various animated blob GIFs seasoned with VFX",
         "medias": [
             {
-                "name": "Blob nom",
-                "fname_mp4": "blobnom.mp4"
+                "name": "B4nzy",
+                "fname_mp4": "b4nzy.mp4"
+            },
+            {
+                "name": "Cosmic Ban",
+                "fname_mp4": "cosmicban.mp4"
+            },
+            {
+                "name": "Blob Samurai",
+                "fname_mp4": "blobsamurai.mp4"
             }
         ]
     }
