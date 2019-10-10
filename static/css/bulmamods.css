@@ -7031,6 +7031,16 @@ body {
 .button {
   border-radius: 0px; }
 
+/* Force cards to take all available width */
+.card {
+  width: 100%; }
+
+.card-image {
+  width: 100%; }
+
+.card .card-content {
+  width: 100%; }
+
 /* 3D Canvas class */
 #spatial-canvas {
   background-color: #000;
@@ -7168,6 +7178,14 @@ div.navitem-double-space a.navbar-item {
 
 .card.is-neon-gold p.title {
   color: #e4a126 !important; }
+
+.card.is-neon-trident-cyan {
+  background-color: transparent;
+  color: #cccccc;
+  border: 2px solid #34caf8; }
+
+.card.is-neon-trident-cyan p.title {
+  color: #cccccc !important; }
 
 .section.is-white-c-dark-3 {
   color: #cccccc;
@@ -7429,10 +7447,39 @@ section.trench-footer {
   border-color: transparent;
   background-color: #991f30; }
 
-.gif-gallery-container {
+/* The GIF display */
+.gallery-main-container {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.gallery-menu-container {
+  width: 100%;
+  position: sticky;
+  top: 0; }
+
+.gallery-columns-container {
+  width: 100%;
+  padding: 20px; }
+
+.gallery-table {
+  height: 100%;
   background-color: #232629;
-  padding: 0.3em;
-  border: 2px solid #cccccc; }
+  padding: 0.3em; }
+
+.video-container {
+  position: relative;
+  padding-top: 56.25%;
+  /*16:9*/
+  height: 0;
+  overflow: hidden;
+  background-color: #232629; }
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .menu-item {
   border: 2px solid #232629; }
@@ -7454,9 +7501,6 @@ section.trench-footer {
 
 .menu-item.is-selected p, .menu-item.is-selected i {
   color: #34caf8 !important; }
-
-.gif-gallery-panel {
-  background-color: #991f30; }
 
 code.code-black {
   color: #eeeeee;
@@ -7481,27 +7525,3 @@ ol.numbered-list li {
 
 .content.paragraph-double-space-after p {
   margin-bottom: 70px; }
-
-.video-container {
-  position: relative;
-  padding-top: 56.25%;
-  /*16:9*/
-  height: 0;
-  overflow: hidden;
-  background-color: black; }
-
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.card {
-  width: 100%; }
-
-.card-image {
-  width: 100%; }
-
-.card .card-content {
-  width: 100%; }

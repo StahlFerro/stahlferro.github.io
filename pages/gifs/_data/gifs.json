@@ -9,12 +9,24 @@
                 "fname_mp4": "pingu.mp4"
             },
             {
-                "name": "Mariletta",
+                "name": "War Demon Shusui",
+                "fname_mp4": "sushi.mp4"
+            },
+            {
+                "name": "MLG Myoukei",
+                "fname_mp4": "mlg_myoukei.mp4"
+            },
+            {
+                "name": "Scoper Burny",
+                "fname_mp4": "scoper_burny.mp4"
+            },
+            {
+                "name": "Live 2D Mariletta",
                 "fname_mp4": "mariletta_animated.mp4"
             },
             {
-                "name": "War Demon Shusui",
-                "fname_mp4": "sushi.mp4"
+                "name": "GIMU HQ Preview",
+                "fname_mp4": "gimu_hq.mp4"
             },
             {
                 "name": "Swaglords Silhouette",
@@ -30,6 +42,10 @@
             {
                 "name": "B4nzy",
                 "fname_mp4": "b4nzy.mp4"
+            },
+            {
+                "name": "Navy Blob Copypasta",
+                "fname_mp4": "blobbypasta.mp4"
             },
             {
                 "name": "Cosmic Ban",
