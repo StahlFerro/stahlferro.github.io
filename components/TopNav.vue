@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top is-dark-2" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item navbar-brand-button"
-        v-on:click.native="navselection = 'home';" v-bind:class="{'selected': navselection == 'home'}">
+        v-on:click.native="navselection = 'home';">
         <img
           src="/favicons/android-chrome-256x256.png"
           alt="StahlFerro"
@@ -15,9 +15,10 @@
       <a
         role="button"
         class="navbar-burger"
-        data-target="nav-menu"
         aria-label="menu"
         aria-expanded="false"
+        @click="burger_open = !burger_open"
+        v-bind:class="{'is_active': burger_open}"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -25,7 +26,7 @@
       </a>
     </div>
 
-    <div id="nav-menu" class="navbar-menu">
+    <div class="navbar-menu" v-bind:class="{'is-active': burger_open}">
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about'">About</nuxt-link>
         <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
@@ -66,37 +67,37 @@ var urls = require('@@/config/externalinks.json');
 var data = {
   urls: urls,
   navselection: navselection,
+  burger_open: false,
 };
 
-function mountnavbar() {
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(
-    document.querySelectorAll(".navbar-burger"),
-    0
-  );
+// function mountnavbar() {
+//   // Get all "navbar-burger" elements
+//   const $navbarBurgers = Array.prototype.slice.call(
+//     document.querySelectorAll(".navbar-burger"),
+//   );
 
-  // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
-    // Add a click event on each of them
-    $navbarBurgers.forEach(el => {
-      el.addEventListener("click", () => {
-        // Get the target from the "data-target" attribute
-        const target = el.dataset.target;
-        console.log("dataset", el.dataset);
-        console.log("target", target);
-        const $target = document.getElementById(target);
+//   // Check if there are any navbar burgers
+//   if ($navbarBurgers.length > 0) {
+//     // Add a click event on each of them
+//     $navbarBurgers.forEach(el => {
+//       el.addEventListener("click", () => {
+//         // Get the target from the "data-target" attribute
+//         const target = el.dataset.target;
+//         console.log("dataset", el.dataset);
+//         console.log("target", target);
+//         const $target = document.getElementById(target);
 
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        el.classList.toggle("is-active");
-        $target.classList.toggle("is-active");
-      });
-    });
-  }
-}
+//         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+//         el.classList.toggle("is-active");
+//         $target.classList.toggle("is-active");
+//       });
+//     });
+//   }
+// }
 
 
 export default {
-    mounted: mountnavbar,
+    // mounted: mountnavbar,
     data: function() {
       return data;
     }
