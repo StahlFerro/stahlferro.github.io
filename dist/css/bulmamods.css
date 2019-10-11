@@ -7421,17 +7421,44 @@ section.trench-footer {
   background-color: transparent;
   color: #cccccc; }
 
+.button.is-patreon-coral:hover {
+  border-color: #fcbeb6;
+  color: #eeeeee; }
+
+.button.is-patreon-coral:active {
+  border-color: #f86754;
+  background-color: #f86754;
+  color: #232629; }
+
 /* Ko-fi button */
 .button.is-kofi-cyan {
   border: 2px solid #29ABE0;
   background-color: transparent;
   color: #29ABE0; }
 
+.button.is-kofi-cyan:hover {
+  border-color: #82ceed;
+  color: #82ceed; }
+
+.button.is-kofi-cyan:active {
+  border-color: #29ABE0;
+  background-color: #29ABE0;
+  color: #232629; }
+
 /* Liberapay button */
 .button.is-liberapay-yellow {
   border: 2px solid #f6c915;
   background-color: transparent;
   color: #cccccc; }
+
+.button.is-liberapay-yellow:hover {
+  border-color: #fae077;
+  color: #eeeeee; }
+
+.button.is-liberapay-yellow:active {
+  border-color: #f6c915;
+  background-color: #f6c915;
+  color: #232629; }
 
 .button.is-iron-red {
   color: #991f30;

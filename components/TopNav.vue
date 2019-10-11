@@ -30,7 +30,7 @@
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about'">About</nuxt-link>
         <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
-        <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'gifs'">GIFs</nuxt-link>
+        <nuxt-link to="/gifs" class="navbar-item" v-on:click.native="navselection = 'gifs'">GIFs</nuxt-link>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
       </div>

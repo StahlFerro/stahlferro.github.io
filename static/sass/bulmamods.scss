@@ -459,6 +459,15 @@ section.trench-footer {
     background-color: transparent;
     color: $white-c;
 }
+.button.is-patreon-coral:hover {
+    border-color: lighten($patreon-coral, 20%);
+    color: $white-e;
+}
+.button.is-patreon-coral:active {
+    border-color: $patreon-coral;
+    background-color: $patreon-coral;
+    color: $dark-2;
+}
 
 /* Ko-fi button */
 .button.is-kofi-cyan {
@@ -466,12 +475,30 @@ section.trench-footer {
     background-color: transparent;
     color: $kofi-cyan;
 }
+.button.is-kofi-cyan:hover {
+    border-color: lighten($kofi-cyan, 20%);
+    color: lighten($kofi-cyan, 20%);
+}
+.button.is-kofi-cyan:active {
+    border-color: $kofi-cyan;
+    background-color: $kofi-cyan;
+    color: $dark-2;
+}
 
 /* Liberapay button */
 .button.is-liberapay-yellow {
     border: 2px solid $liberapay-yellow;
     background-color: transparent;
     color: $white-c;
+}
+.button.is-liberapay-yellow:hover {
+    border-color: lighten($liberapay-yellow, 20%);
+    color: $white-e;
+}
+.button.is-liberapay-yellow:active {
+    border-color: $liberapay-yellow;
+    background-color: $liberapay-yellow;
+    color: $dark-2;
 }
 
 .button.is-iron-red {
