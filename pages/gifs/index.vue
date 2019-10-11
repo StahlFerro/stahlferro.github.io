@@ -5,7 +5,7 @@
         <tr>
       <td width="10%" class="gallery-sticky-menu-column">-->
       <div class="columns">
-        <div class="column is-2">
+        <div class="column is-1">
           <div class="gallery-menu-container">
             <aside class="menu" style="margin: 0;">
               <ul class="menu-list left-menu">
@@ -23,11 +23,11 @@
             </aside>
           </div>
         </div>
-        <div class="column is-10">
+        <div class="column is-11">
           <div class="gallery-columns-container">
             <div class="columns is-multiline" width="100%"
               v-for="(collection, index) in gifs" v-show="menuselection == collection.page_url" v-bind:key="index">
-              <div class="column is-one-third"
+              <div class="column is-one-quarter"
                 v-for="(gif, index) in collection.medias" v-bind:key="index">
                 <div class="card is-neon-trident-cyan">
                   <div class="card-image">
@@ -67,6 +67,17 @@ var data = {
   gifs: gifs,
   menuselection: gifs[0].page_url
 };
+var ogconf = {
+  'og:title': 'GIFS',
+  'og:description': "All VFX GIFs/MP4s that I've made",
+  'og:image': '/thumb/FortressBot_Thumb.png',
+  'og_color': '#3370cc',
+  'og:url': 'https://stahlferro.github.io/',
+};
+var metas = Object.entries(ogconf).map(function([key, value]) {
+  return { hid: key, name: key, content: value };
+});
+
 console.log(data);
 export default {
   data: function() {

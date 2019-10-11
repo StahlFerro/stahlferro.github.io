@@ -147,6 +147,13 @@ div.navitem-double-space a.navbar-item {
     background-color: $dark-2;
 }
 
+.depth-shadow {
+    box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.3), 0 3px 20px 7px rgba(0, 0, 0, 0.3);
+    // -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
+    // -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
+    // z-index: 0;
+}
+
 
 .hero.is-iron-blue-dark-2 {
     color: $iron-blue;
@@ -526,11 +533,14 @@ section.trench-footer {
     // position: -webkit-sticky;
     width: 100%;
     position: sticky;
+    // position: fixed;
     top: 0;
 }
 .gallery-columns-container {
     width: 100%;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 .gallery-table {
     height: 100%;

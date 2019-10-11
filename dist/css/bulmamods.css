@@ -7087,6 +7087,9 @@ div.navitem-double-space a.navbar-item {
 .navbar.is-dark-2 .navbar-menu.is-active {
   background-color: #232629; }
 
+.depth-shadow {
+  box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.3), 0 3px 20px 7px rgba(0, 0, 0, 0.3); }
+
 .hero.is-iron-blue-dark-2 {
   color: #3370cc;
   background-color: #232629; }
@@ -7486,7 +7489,9 @@ section.trench-footer {
 
 .gallery-columns-container {
   width: 100%;
-  padding: 20px; }
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; }
 
 .gallery-table {
   height: 100%;
