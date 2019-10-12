@@ -9,7 +9,7 @@
                 <nav class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <img src="/logos/TridentFrame_dark3_200px.png" class="image-shadow" width="90px" height="90px" />
+                      <img src="/logos/TridentFrame_dark3_200px.png" width="90px" height="90px" />
                     </div>
                     <div class="level-item"></div>
                     <div class="level-item">
@@ -48,7 +48,7 @@
             </div>
             <div class="column">
               <figure class="image" title="Raydn didn't feel so good. (Artist: Vayreceane)">
-                <img src="/img/TridentFrame_preview.png" />
+                <img src="/img/TridentFrame_preview.png" class="image-shadow"/>
               </figure>
             </div>
           </div>
