@@ -32,7 +32,6 @@ module.exports = {
       class: "has-navbar-fixed-top"
     },   
     script: [
-      { src: '/js/flexible.js' },
       { src: 'https://www.googletagmanager.com/gtag/js?id=UA-140998532-1' }
     ]
   },
