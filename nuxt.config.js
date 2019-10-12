@@ -54,6 +54,9 @@ module.exports = {
     // { UserAgent: '*', Disallow: '/sitemap.xml'},
     // ]]
   ],
+  plugins: [
+    '~/plugins/vue-clipboard'
+  ],
   sitemap: {
     hostname: 'https://stahlferro.github.io',
   },

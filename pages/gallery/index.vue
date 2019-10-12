@@ -1,8 +1,5 @@
 <template>
   <div>
-        <!-- <table class="gallery-table" width="100%">
-          <tr>
-        <td width="10%" class="gallery-sticky-menu-column">-->
       <section class="hero has-background-dark-2 is-medium">
         <div class="hero-body">
         <div class="container has-text-centered">
@@ -60,6 +57,15 @@
                     <p class="content">{{ gif.description }}</p>
                   </div>
                 </div>
+                <div class="card-footer">
+                  <a class="card-footer-item hover-trident-cyan"
+                    v-clipboard:copy="`${base_url}/gifstash/${collection.page_url}/${gif.fname_mp4}`"
+                    v-clipboard:success="copySuccess"
+                    v-clipboard:error="copyError">
+                    <span class="icon is-medium"><i class="fas fa-link"></i></span>
+                    <span>Copy link</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -70,26 +76,33 @@
 
 <script>
 var gifs = require("./_data/animations.json");
+var base_url = require("@@/config/opengraph.json")['og:url']
 var data = {
   gifs: gifs,
-  menuselection: gifs[0].page_url
+  menuselection: gifs[0].page_url,
+  base_url: base_url
 };
 var ogconf = {
   'og:title': 'GIFS',
   'og:description': "The grand gallery of every short VFX animations that I've made in the form of MP4s",
   'og:image': '/thumb/VFXAnim_Thumb.png',
   'theme-color': '#9947a6',
-  'og:url': 'https://stahlferro.github.io/gallery',
+  'og:url': `${data.base_url}/gallery`,
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
 });
 
+function copySuccess() {
+  console.log("Successfully copied to clipboard");
+}
+
+function copyError() {
+  console.log("Cannot copy to clipboard");
+}
+
 // console.log(data);
 export default {
-  data: function() {
-    return data;
-  },
   head() {
     return {
       title: ogconf['og:title'],
@@ -100,5 +113,12 @@ export default {
       ]
     }
   },
+  data: function() {
+    return data;
+  },
+  methods: {
+    copySuccess: copySuccess,
+    copyError: copyError,
+  }
 };
 </script>
