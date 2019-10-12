@@ -83,7 +83,7 @@ var data = {
   base_url: base_url
 };
 var ogconf = {
-  'og:title': 'GIFS',
+  'og:title': 'VFX Gallery',
   'og:description': "The grand gallery of every short VFX animations that I've made in the form of MP4s",
   'og:image': '/thumb/VFXAnim_Thumb.png',
   'theme-color': '#9947a6',
