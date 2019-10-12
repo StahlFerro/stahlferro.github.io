@@ -10,7 +10,7 @@
             <h1 class="title">VFX Gallery</h1>
             <p>
               This is the official gallery of short VFX-composite animations that I've made. 
-              Originally hosted on Imgur and are only link-viewable, they are now compiled here on this webpage.
+              Originally hosted on Imgur and are only link-viewable, they are now gradually compiled here on this webpage.
             </p>
             <p>
               All of the animations listed below use the <br/>
