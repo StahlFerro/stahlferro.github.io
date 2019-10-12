@@ -30,7 +30,7 @@
           <div class="has-text-centered">
             <div class="field is-grouped is-grouped-centered">
               <p class="control">
-                <a href="site.discord_server" class="button is-neon-trident-cyan is-medium">
+                <a v-bind:href="discord_server_url" class="button is-neon-trident-cyan is-medium">
                   <span class="icon">
                     <i class="fas fa-info-circle"></i>
                   </span>
@@ -135,13 +135,17 @@ var ogconf = {
   'og:title': 'FortressBot',
   'og:description': 'A moderation bot that auto-nukes server invite links and auto-cleans hoisting or zalgo usernames/nicknames',
   'og:image': '/thumb/FortressBot_Thumb.png',
-  'og_color': '#3370cc',
+  'theme-color': '#3370cc',
   'og:url': 'https://stahlferro.github.io/softwares/fortressbot',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
 });
-
+var extlinks = require('@@/config/externalinks.json');
+var discord_server_url = extlinks.discord;
+var data = {
+  discord_server_url: discord_server_url,
+}
 export default {
   head() {
     return {
@@ -152,6 +156,9 @@ export default {
         ...metas,
       ]
     }
+  },
+  data: function() {
+    return data;
   }
 }
 </script>

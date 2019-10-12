@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar is-fixed-top is-dark-2 depth-shadow" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top is-dark-2 navbar-depth-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item navbar-brand-button"
-        v-on:click.native="navselection = 'home';">
+        v-on:click.native="navselection = 'home'">
         <img
           src="/favicons/android-chrome-256x256.png"
           alt="StahlFerro"
@@ -30,7 +30,7 @@
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about'">About</nuxt-link>
         <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
-        <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'gifs'">GIFs</nuxt-link>
+        <nuxt-link to="/gallery" class="navbar-item" v-on:click.native="navselection = 'gifs'">VFX Gallery</nuxt-link>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
       </div>

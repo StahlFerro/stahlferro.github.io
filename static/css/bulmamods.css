@@ -7054,6 +7054,13 @@ body {
   top: 10px;
   left: 10px; }
 
+.content.theme-dark-2 {
+  background-color: #232629;
+  color: #cccccc; }
+
+.content.theme-dark-2 h1.title {
+  color: #cccccc !important; }
+
 /* Desktop Navbar */
 a.nuxt-link-exact-active {
   color: #3370cc;
@@ -7087,8 +7094,11 @@ div.navitem-double-space a.navbar-item {
 .navbar.is-dark-2 .navbar-menu.is-active {
   background-color: #232629; }
 
-.depth-shadow {
+.navbar-depth-shadow {
   box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.3), 0 3px 20px 7px rgba(0, 0, 0, 0.3); }
+
+.image-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
 
 .hero.is-iron-blue-dark-2 {
   color: #3370cc;
@@ -7478,25 +7488,26 @@ section.trench-footer {
   background-color: #991f30; }
 
 /* The GIF display */
-.gallery-main-container {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-.gallery-menu-container {
-  width: 100%;
-  position: sticky;
-  top: 0; }
-
-.gallery-columns-container {
-  width: 100%;
+.gallery-container {
+  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px; }
 
-.gallery-table {
-  height: 100%;
-  background-color: #232629;
-  padding: 0.3em; }
+.tabs.is-neon-trident-cyan ul {
+  border-bottom: 2px solid #444851; }
+
+.tabs.is-neon-trident-cyan li a {
+  color: #cccccc !important;
+  border-bottom: 2px solid #cccccc; }
+
+.tabs.is-neon-trident-cyan li a {
+  color: #cccccc !important;
+  border-bottom: 2px solid #cccccc; }
+
+.tabs.is-neon-trident-cyan li.is-active a {
+  color: #34caf8 !important;
+  border-bottom: 2px solid #34caf8; }
 
 .video-container {
   position: relative;

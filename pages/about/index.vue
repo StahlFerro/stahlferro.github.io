@@ -21,10 +21,23 @@
                 <p>Although videos require weeks to months to work on, and infrequent youtube uploads make me appear very inactive,
                     I am most active on my Discord server, where I centralize both FortressBot's development and my youtube community inside it.
                     I monitor the server everyday regardless of its current activity.<br/>
-                    <a class="hover-trident-cyan" href="">Come have a visit!</a></p>
+                    <a class="hover-trident-cyan" v-bind:href="discord_server_url">Come have a visit!</a></p>
             </div>
         </div>
     </div>
 </section>
 
 </template>
+
+<script>
+var extlinks = require('@@/config/externalinks.json');
+var discord_server_url = extlinks.discord;
+var data = {
+    discord_server_url: discord_server_url,
+}
+export default {
+    data: function() {
+        return data;
+    }
+}
+</script>

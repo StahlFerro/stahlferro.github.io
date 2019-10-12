@@ -9,11 +9,7 @@
                 <nav class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <img
-                        src="/logos/TridentFrame_dark3_200px.png"
-                        width="90px"
-                        height="90px"
-                      />
+                      <img src="/logos/TridentFrame_dark3_200px.png" class="image-shadow" width="90px" height="90px" />
                     </div>
                     <div class="level-item"></div>
                     <div class="level-item">
@@ -156,7 +152,7 @@ var ogconf = {
   "og:description":
     "The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux",
   "og:image": "/thumb/TridentFrame_Thumb.png",
-  "og_color": "#34caf8",
+  "theme-color": "#34caf8",
   "og:url": "https://stahlferro.github.io/softwares/tridentframe"
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {

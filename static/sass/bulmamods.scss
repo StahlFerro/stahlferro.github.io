@@ -109,6 +109,14 @@ body {
     left: 10px;
 }
 
+.content.theme-dark-2 {
+    background-color: $dark-2;
+    color: $white-c;
+}
+.content.theme-dark-2 h1.title {
+    color: $white-c !important;
+}
+
 
 /* Desktop Navbar */
 a.nuxt-link-exact-active {
@@ -147,11 +155,15 @@ div.navitem-double-space a.navbar-item {
     background-color: $dark-2;
 }
 
-.depth-shadow {
+.navbar-depth-shadow {
     box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.3), 0 3px 20px 7px rgba(0, 0, 0, 0.3);
     // -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
     // -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
     // z-index: 0;
+}
+
+.image-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 
@@ -525,28 +537,52 @@ section.trench-footer {
 
 
 /* The GIF display */
-.gallery-main-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.gallery-menu-container {
-    // position: -webkit-sticky;
-    width: 100%;
-    position: sticky;
-    // position: fixed;
-    top: 0;
-}
-.gallery-columns-container {
-    width: 100%;
+.gallery-container {
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
-.gallery-table {
-    height: 100%;
-    background-color: $dark-2;
-    padding: 0.3em;
+.tabs.is-neon-trident-cyan ul {
+    border-bottom: 2px solid $dark-4;
 }
+.tabs.is-neon-trident-cyan li a {
+    color: $white-c !important;
+    border-bottom: 2px solid $white-c;
+}
+.tabs.is-neon-trident-cyan li a {
+    color: $white-c !important;
+    border-bottom: 2px solid $white-c;
+}
+.tabs.is-neon-trident-cyan li.is-active a {
+    color: $trident-cyan !important;
+    border-bottom: 2px solid $trident-cyan;
+}
+// .gallery-main-container {
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+// }
+// .gallery-menu-container {
+//     // position: -webkit-sticky;
+//     width: 100%;
+//     position: sticky;
+//     // position: fixed;
+//     top: 0;
+// }
+// .gallery-columns-container {
+//     width: 100%;
+//     height: 100%;
+//     padding: 30px;
+//     position: relative;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    // padding-bottom: 20px;
+// }
+// .gallery-table {
+//     height: 100%;
+//     background-color: $dark-2;
+//     padding: 0.3em;
+// }
 .video-container {
     position: relative;
     padding-top: 56.25%; /*16:9*/

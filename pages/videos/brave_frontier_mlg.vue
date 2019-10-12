@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="content has-text-centered">
-            <img src="/thumb/BFMLG_Thumb.png" width="800px" height="450px" />
+            <img src="/thumb/BFMLG_Thumb.png" class="image-shadow" width="800px" height="450px"/>
             <h1 class="title is-1">Brave Frontier MLG Series</h1>
             <h2 class="title is-3">2015 - 2017</h2>
             <p>
@@ -220,7 +220,7 @@ var ogconf = {
   'og:title': 'Brave Frontier MLG',
   'og:description': 'Brave Frontier MLG: The 8 video series of intense montages made with various editing styles revolving around the Montage Parody memes and a mix of hybrid VFX-animation',
   'og:image': '/thumb/BFMLG_Thumb.png',
-  'og_color': '#e4a126',
+  'theme-color': '#e4a126',
   'og:url': 'https://stahlferro.github.io/softwares/brave_frontier_mlg',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
