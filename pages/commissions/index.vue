@@ -47,7 +47,7 @@
                                     digital animators instead. Vector images can be made if you don't have them.
                                 </li>
                                 <li>During the process, preview images are made for you to see before the final product is made. 
-                                    These cannot be shared for others to see. You can keep/modify it to yourself however.
+                                    These cannot be shared/modified for others to see until the final product is ready.
                                 </li>
                                 <li>Before the finished final product is delivered to you, payment must be completed through Paypal. Follow the guide below.
                                 </li>
@@ -59,7 +59,8 @@
                         <p>
                             <ol>
                                 <li>All payments are made through Paypal (USD$)</li>
-                                <li>An 
+                                <li>An invoice will be delivered to your Paypal email when the finished product is ready. After completing the invoice, the product will be
+                                    delivered to you.
                                 </li>
                             </ol>
                         </p>
