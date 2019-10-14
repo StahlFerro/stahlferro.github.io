@@ -7568,3 +7568,9 @@ ol.numbered-list li {
 
 .content.paragraph-double-space-after p {
   margin-bottom: 70px; }
+
+.commission-info h1 {
+  text-align: center; }
+
+.commission-info p {
+  text-align: justify; }

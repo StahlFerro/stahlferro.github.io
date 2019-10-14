@@ -1,9 +1,9 @@
 <template>
-<section class="hero is-dark-2">
+<section class="hero is-medium is-dark-2">
     <div class="hero-body">
         <div class="container">
             <div class="content paragraph-double-space-after">
-                <h1 class="title is-1">About StahlFerro</h1>
+                <h1 class="title is-1 has-text-centered">About StahlFerro</h1>
                 <p>Hello! I am StahlFerro - I make hybrid VFX-composite-animations in the form of youtube videos and GIFs, and also a developer of various softwares</p>
                 <p><strong>&gt; VFX Composite-Animations</strong><br/>
                     Ranging from the crudely-made Montage Parody-style videos, to cinematic animation and VFX composites, I create a very wide range
