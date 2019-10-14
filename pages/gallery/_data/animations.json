@@ -106,6 +106,10 @@
             {
                 "name": "Blob Samurai",
                 "fname_mp4": "blobsamurai.mp4"
+            },
+            {
+                "name": "SUPER BLOB",
+                "fname_mp4": "SUPERBLOB.mp4"
             }
         ]
     }
