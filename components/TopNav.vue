@@ -32,7 +32,7 @@
         <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
         <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'gallery'">VFX Gallery</nuxt-link>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
-        <nuxt-link to="/commissions" class="navbar-item" v-on:click.native="navselection = 'commissions'">Commissions</nuxt-link>
+        <nuxt-link to="/wips" class="navbar-item" v-on:click.native="navselection = 'commissions'">Commissions</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
       </div>
       <div class="navbar-end navitem-double-space">
