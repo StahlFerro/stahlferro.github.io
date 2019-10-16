@@ -6985,7 +6985,7 @@ label.panel-block {
 .is-dark-3 {
   color: #31363b; }
 
-.is-dark-2-gold {
+.is-gold {
   color: #e4a126; }
 
 .is-iron-blue {
@@ -7119,29 +7119,29 @@ body {
 .hero.is-dark-2-iron-turqoise h6 {
   color: #232629; }
 
-.hero.is-dark-2-gold {
+.hero.is-gold {
   color: #232629;
   background-color: #e4a126; }
 
-.hero.is-dark-2-gold h1 {
+.hero.is-gold h1 {
   color: #232629; }
 
-.hero.is-dark-2-gold h2 {
+.hero.is-gold h2 {
   color: #232629; }
 
-.hero.is-dark-2-gold h3 {
+.hero.is-gold h3 {
   color: #232629; }
 
-.hero.is-dark-2-gold h4 {
+.hero.is-gold h4 {
   color: #232629; }
 
-.hero.is-dark-2-gold h5 {
+.hero.is-gold h5 {
   color: #232629; }
 
-.hero.is-dark-2-gold h6 {
+.hero.is-gold h6 {
   color: #232629; }
 
-.card.is-dark-2-gold {
+.card.is-gold {
   background-color: #e4a126;
   border: 2px solid #232629; }
 

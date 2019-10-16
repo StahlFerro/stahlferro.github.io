@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-medium is-dark-2">
+        <section class="hero is-fullheight-with-navbar is-dark-2">
             <div class="hero-body">
                 <div class="container">
                     <div class="content has-text-centered">

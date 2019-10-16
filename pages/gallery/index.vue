@@ -4,9 +4,9 @@
         <div class="hero-body">
         <div class="container has-text-centered">
           <div class="content theme-dark-2">
-            <h1 class="title">VFX Gallery</h1>
+            <h1 class="title">Gallery</h1>
             <p>
-              This is the official gallery of short VFX-composite animations that I've made. 
+              This is the official gallery of short VFX-vector animations that I've made. 
               Originally hosted on Imgur and are only link-viewable, they are now gradually compiled here on this webpage.
             </p>
             <p>
