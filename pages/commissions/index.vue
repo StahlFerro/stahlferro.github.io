@@ -16,7 +16,7 @@
                             <span class="icon is-large"><i class="fas fa-info-circle"></i></span>
                             <span>Disclaimer</span></h1>
                         <p>
-                            This type of work leans more towards 'vector animation' rather than 'classic animation' where in the latter, each frame is drawn by hand. 
+                            This type of work is categorized as 'vector animation' rather rather than 'classic animation' where in the latter, each frame is drawn by hand. 
                             In essence, these 'vfx animations' I make consist of animation of existing static images/shapes, composited with various VFX 
                             (glows, lens flare, energy blasts, laser shots, fractals, glitches, etc.).
                             A great example is to see the <nuxt-link to="/gallery" class="hover-trident-cyan">Gallery</nuxt-link>, on the Blobs category.
@@ -52,9 +52,9 @@
                             </a><br/>
                             Which roughly means, you can share the finished commission on social media, or repost/retweet it, as long as you:<br/>
                             <ol>
-                                <li>State my name "StahlFerro" and provide a link to this website.</li>
-                                <li>Do not use it for commercial purposes.</li>
-                                <li>Do not modify it.</li>
+                                <li>State my name "StahlFerro" and provide a link to this website. This applies to even retweets and reposts</li>
+                                <li>Do not use it for any kinds of commercial purposes.</li>
+                                <li>Do not modify it. Changing of format is an exemption and is allowed (ex: png to jpg)</li>
                             </ol>
                         </p>
                         <br/>

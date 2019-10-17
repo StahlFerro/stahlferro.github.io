@@ -141,9 +141,38 @@ a.nuxt-link-exact-active {
     border: 2px solid $white-c;
 }
 
+.navbar.is-dark-2 a.navbar-link {
+    color: $white-c !important;
+    background-color: $dark-2 !important;
+    border: 2px solid $dark-2 !important;
+    // z-index: 12;
+}
+
+/* Sets the colors of the navbar dropdown caret */
+.navbar.is-dark-2 a.navbar-link::after {
+    border-color: $white-c !important
+}
+.navbar.is-dark-2 a.navbar-link:hover::after {
+    border-color: $iron-blue !important
+}
+
+
 div.navitem-double-space a.navbar-item {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.navbar-dropdown {
+    background-color: $dark-2;
+    border: none;
+    z-index: 100;
+}
+
+.navbar-shadow {
+    box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.2), 0 3px 20px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar-shadow div.navbar-menu:not(.is-active) div.navbar-dropdown {
+    box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Mobile Navbar */
@@ -153,13 +182,6 @@ div.navitem-double-space a.navbar-item {
 
 .navbar.is-dark-2 .navbar-menu.is-active {
     background-color: $dark-2;
-}
-
-.navbar-depth-shadow {
-    box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.3), 0 3px 20px 7px rgba(0, 0, 0, 0.3);
-    // -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
-    // -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 5);
-    // z-index: 0;
 }
 
 .image-shadow {

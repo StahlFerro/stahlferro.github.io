@@ -7083,9 +7083,32 @@ a.nuxt-link-exact-active {
   background-color: #cccccc;
   border: 2px solid #cccccc; }
 
+.navbar.is-dark-2 a.navbar-link {
+  color: #cccccc !important;
+  background-color: #232629 !important;
+  border: 2px solid #232629 !important; }
+
+/* Sets the colors of the navbar dropdown caret */
+.navbar.is-dark-2 a.navbar-link::after {
+  border-color: #cccccc !important; }
+
+.navbar.is-dark-2 a.navbar-link:hover::after {
+  border-color: #3370cc !important; }
+
 div.navitem-double-space a.navbar-item {
   padding-left: 20px;
   padding-right: 20px; }
+
+.navbar-dropdown {
+  background-color: #232629;
+  border: none;
+  z-index: 100; }
+
+.navbar-shadow {
+  box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.2), 0 3px 20px 4px rgba(0, 0, 0, 0.2); }
+
+.navbar-shadow div.navbar-menu:not(.is-active) div.navbar-dropdown {
+  box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2); }
 
 /* Mobile Navbar */
 .navbar.is-dark-2 a.navbar-burger {
@@ -7093,9 +7116,6 @@ div.navitem-double-space a.navbar-item {
 
 .navbar.is-dark-2 .navbar-menu.is-active {
   background-color: #232629; }
-
-.navbar-depth-shadow {
-  box-shadow: 0 2px 8px 7px rgba(0, 0, 0, 0.3), 0 3px 20px 7px rgba(0, 0, 0, 0.3); }
 
 .image-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-fixed-top is-dark-2 navbar-depth-shadow" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top is-dark-2 navbar-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item navbar-brand-button"
         v-on:click.native="navselection = 'home'">
@@ -29,8 +29,15 @@
     <div class="navbar-menu" v-bind:class="{'is-active': burger_open}">
       <div class="navbar-start">
         <nuxt-link to="/about" class="navbar-item" v-on:click.native="navselection = 'about'">About</nuxt-link>
-        <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
-        <nuxt-link to="/gallery" class="navbar-item" v-on:click.native="navselection = 'gallery'">Gallery</nuxt-link>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Multimedia
+          </a>
+          <div class="navbar-dropdown">
+            <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
+            <nuxt-link to="/gallery" class="navbar-item" v-on:click.native="navselection = 'gallery'">Gallery</nuxt-link>
+          </div>
+        </div>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
         <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'commissions'">Commissions</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
