@@ -6977,6 +6977,9 @@ label.panel-block {
 .is-lavender {
   color: #9683ff; }
 
+.is-iron-violet {
+  color: #5a3bad !important; }
+
 .is-white-c {
   color: #cccccc; }
 
@@ -6996,7 +6999,14 @@ label.panel-block {
   color: #991f30 !important; }
 
 .has-background-dark-2 {
-  background-color: #232629; }
+  background-color: #232629;
+  color: #cccccc; }
+
+.has-background-dark-2 .title {
+  color: #cccccc; }
+
+.has-background-dark-2 strong {
+  color: #cccccc; }
 
 /* Base element overrides */
 table, tr, th, td {
@@ -7262,11 +7272,6 @@ div.navitem-double-space a.navbar-item {
 
 a.hover-trident-cyan:hover {
   color: #34caf8; }
-
-/* $dark-2 footer color */
-section.has-background-dark-2 {
-  color: #cccccc;
-  background-color: #232629; }
 
 /*! $dark-3 hero color */
 .hero.is-dark-3 {

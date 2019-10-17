@@ -4,9 +4,9 @@
         <div class="hero-body">
         <div class="container has-text-centered">
           <div class="content theme-dark-2">
-            <h1 class="title">Gallery</h1>
+            <h1 class="title">VFX Gallery</h1>
             <p>
-              This is the official gallery of short VFX-vector animations that I've made. 
+              This is the official gallery of short VFX-composited vector animations that I've made. 
               Originally hosted on Imgur and are only link-viewable, they are now gradually compiled here on this webpage.
             </p>
             <p>
@@ -84,7 +84,7 @@ var data = {
 };
 var ogconf = {
   'og:title': 'VFX Gallery',
-  'og:description': "The grand gallery of every short VFX animations that I've made in the form of MP4s",
+  'og:description': "The gallery of every short VFX animations that I've made in the form of MP4s",
   'og:image': '/thumb/VFXAnim_Thumb.png',
   'theme-color': '#9947a6',
   'og:url': `${data.base_url}/gallery`,

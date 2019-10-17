@@ -35,7 +35,7 @@
           </a>
           <div class="navbar-dropdown">
             <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">Videos</nuxt-link>
-            <nuxt-link to="/gallery" class="navbar-item" v-on:click.native="navselection = 'gallery'">Gallery</nuxt-link>
+            <nuxt-link to="/gallery" class="navbar-item" v-on:click.native="navselection = 'gallery'">VFX Gallery</nuxt-link>
           </div>
         </div>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
