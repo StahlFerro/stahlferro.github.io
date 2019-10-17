@@ -1,10 +1,10 @@
 <template>
-  <section class="section has-background-dark-2">
+  <section class="section is-dark-2">
     <div class="container">
       <div class="columns is-multiline">
         <!-- {% for vd in site.data.videos %} -->
         <div v-for="(vd, index) in videos" v-bind:key="index" class="column is-one-third">
-          <div class="card has-background-light">
+          <div class="card is-white-e">
             <div class="card-image">
               <figure class="image is-16by9">
                 <template v-if="vd.thumb_url">

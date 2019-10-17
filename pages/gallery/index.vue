@@ -1,6 +1,6 @@
 <template>
   <div>
-      <section class="hero has-background-dark-2 is-medium">
+      <section class="hero is-dark-2 is-medium">
         <div class="hero-body">
         <div class="container has-text-centered">
           <div class="content theme-dark-2">
@@ -34,7 +34,7 @@
         </div>
       </section>
 
-      <section class="hero has-background-dark-2 is-fullheight-with-navbar">
+      <section class="hero is-dark-2 is-fullheight-with-navbar">
         <div class="gallery-container">
           <div class="columns is-multiline" width="100%"
             v-for="(collection, index) in gifs" v-show="menuselection == collection.page_url" v-bind:key="index">

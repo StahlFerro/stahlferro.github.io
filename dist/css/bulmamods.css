@@ -6978,7 +6978,7 @@ label.panel-block {
   color: #9683ff; }
 
 .is-iron-violet {
-  color: #5a3bad !important; }
+  color: #684dc9 !important; }
 
 .is-white-c {
   color: #cccccc; }
@@ -6997,16 +6997,6 @@ label.panel-block {
 
 .is-iron-red {
   color: #991f30 !important; }
-
-.has-background-dark-2 {
-  background-color: #232629;
-  color: #cccccc; }
-
-.has-background-dark-2 .title {
-  color: #cccccc; }
-
-.has-background-dark-2 strong {
-  color: #cccccc; }
 
 /* Base element overrides */
 table, tr, th, td {
@@ -7093,12 +7083,15 @@ a.nuxt-link-exact-active {
   background-color: #cccccc;
   border: 2px solid #cccccc; }
 
+/* Navbar dropdown customizations */
 .navbar.is-dark-2 a.navbar-link {
   color: #cccccc !important;
   background-color: #232629 !important;
   border: 2px solid #232629 !important; }
 
-/* Sets the colors of the navbar dropdown caret */
+.navbar.is-dark-2 div.navbar-dropdown .navbar-item {
+  font-size: 20px; }
+
 .navbar.is-dark-2 a.navbar-link::after {
   border-color: #cccccc !important; }
 
@@ -7146,7 +7139,7 @@ div.navitem-double-space a.navbar-item {
 
 .hero.is-white-e-iron-violet {
   color: #eeeeee;
-  background-color: #5a3bad; }
+  background-color: #684dc9; }
 
 .hero.is-white-e-iron-violet h1 {
   color: #eeeeee; }
@@ -7210,6 +7203,19 @@ div.navitem-double-space a.navbar-item {
 .hero.is-gold h6 {
   color: #232629; }
 
+.card.is-white-e {
+  color: #232629 !important;
+  background-color: #eeeeee; }
+
+.card.is-white-e .title {
+  color: #232629 !important; }
+
+.card.is-white-e .subtitle {
+  color: #232629 !important; }
+
+.card.is-white-e strong {
+  color: #444851 !important; }
+
 .card.is-gold {
   background-color: #e4a126;
   border: 2px solid #232629; }
@@ -7222,6 +7228,17 @@ div.navitem-double-space a.navbar-item {
 .card.is-neon-gold p.title {
   color: #e4a126 !important; }
 
+.card.is-neon-iron-violet {
+  background-color: transparent;
+  color: #cccccc;
+  border: 2px solid #684dc9; }
+
+.card.is-iron-violet p.title {
+  color: #684dc9 !important; }
+
+.card.is-iron-violet p.subtitle {
+  color: #684dc9 !important; }
+
 .card.is-neon-trident-cyan {
   background-color: transparent;
   color: #cccccc;
@@ -7229,10 +7246,6 @@ div.navitem-double-space a.navbar-item {
 
 .card.is-neon-trident-cyan p.title {
   color: #cccccc !important; }
-
-.section.is-white-c-dark-3 {
-  color: #cccccc;
-  background-color: #31363b; }
 
 .section.is-white-c-dark-3 h1 {
   color: #cccccc; }
@@ -7252,19 +7265,15 @@ div.navitem-double-space a.navbar-item {
 .section.is-white-c-dark-3 h6 {
   color: #cccccc; }
 
-.is-white-e {
-  color: black;
-  background-color: #eeeeee; }
-
-.is-white-e h1 {
-  color: black !important; }
-
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
   color: #cccccc;
   background-color: #232629; }
 
-.hero.is-dark-2 h1 {
+.hero.is-dark-2 .title {
+  color: #cccccc; }
+
+.hero.is-dark-2 .subtitle {
   color: #cccccc; }
 
 .hero.is-dark-2 strong {
@@ -7279,6 +7288,20 @@ a.hover-trident-cyan:hover {
   background-color: #31363b; }
 
 .hero.is-dark-3 h1 {
+  color: #cccccc; }
+
+/*! $dark-2 section color */
+.section.is-dark-2 {
+  color: #cccccc;
+  background-color: #232629; }
+
+.section.is-dark-2 .title {
+  color: #cccccc; }
+
+.section.is-dark-2 .subtitle {
+  color: #cccccc; }
+
+.section.is-dark-2 strong {
   color: #cccccc; }
 
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */

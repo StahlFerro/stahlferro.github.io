@@ -1,13 +1,13 @@
 <template>
     <div>
 
-    <section class="hero is-medium has-background-dark-2">
+    <section class="hero is-medium is-dark-2">
       <div class="container">
           <div class="content">
           </div>
       </div>
     </section>
-        <section class="section has-background-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-1">EMERGENCY COMMISSIONS</h1>
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </section>
-        <section class="section has-background-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-2 has-text-info">
@@ -39,7 +39,7 @@
             </div>
         </section>
 
-        <section class="section has-background-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-2 has-text-danger">
@@ -57,7 +57,7 @@
             </div>
         </section>
 
-        <section class="section has-background-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-2 has-text-primary">
@@ -82,25 +82,82 @@
             </div>
         </section>
 
-        <section class="section has-background-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
-                    <h1 class="title is-2 is-iron-violet">Commission Info</h1>
-                    <p>
-                        s
-                    </p>
+                    <h1 class="title is-2 is-iron-violet">
+                        <span class="icon is-large"><i class="fas fa-pencil-ruler"></i></span>
+                        <span>Commission Info</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="columns is-multiline">
+                    <div class="column is-half">
+                        <div class="card is-neon-iron-violet">
+                            <div class="card-image">
+                                <div class="video-container">
+                                    <video controls="controls" loop="loop">
+                                        <source src="/gifstash/blobs/blobsamurai.mp4" type="video/mp4"/>
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-3">2D Animation</p>
+                                        <p class="subtitle is-4">US$ 7 - 15</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <ul>
+                                        <li>Maximum resolution: 1920 x 1080</li>
+                                        <li>Maximum duration: 10 seconds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-half">
+
+                        <div class="card is-neon-iron-violet">
+                            <div class="card-image">
+                                <div class="video-container">
+                                    <video controls="controls" loop="loop">
+                                        <source src="/gifstash/blobs/blobcosmicban.mp4" type="video/mp4"/>
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                    <p class="title is-3">3D Animation</p>
+                                    <p class="subtitle is-4">US$ 15 - 30</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <ul>
+                                        <li>Maximum resolution: 1920 x 1080</li>
+                                        <li>Maximum duration: 10 seconds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section has-background-dark-2">
+
+    <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-2 is-gold">Start commissioning here!</h1>
                     <p>
                         <ol>
                             <li>Fill in this form: </li>
-                            <li>Contact me through either my business email (forgeworkseven@gmail.com) or through Discord (username: StahlFerro#0055).
-                                If no response from you is seen 72 hours after the form is sent, the commission is invalidated
+                            <li>Wait for 12-72 hours for me to be able to respond through email or discord. The response will be if I am able to accept your commission.
+                                If I am able to, we will discuss on further details.
                             </li>
                             <li>Provide the static images that you want animated. If you don't have or need me to draw them, then I'm afraid you need to seek
                                 digital animators instead. Vector images can be made if you don't have them.
@@ -115,7 +172,7 @@
                 </div>
             </div>
         </section>
-        <section class="section has-background-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-2">Payment guide</h1>

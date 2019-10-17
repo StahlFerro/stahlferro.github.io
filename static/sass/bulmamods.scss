@@ -6,7 +6,7 @@
 $iron-red: #991f30;
 $iron-blue: #3370cc;
 $iron-turqoise: #41c0d1;
-$iron-violet: #5a3bad;
+$iron-violet: #684dc9;
 $powdered-iron: #bcbdc2;
 $gold: #e4a126;
 $pink: #fa7cb7;
@@ -43,12 +43,6 @@ $liberapay-yellow: #f6c915;
 .is-iron-blue { color: $iron-blue; }
 .is-iron-red { color: $iron-red !important; }
 
-.has-background-dark-2 { 
-    background-color: $dark-2;
-    color: $white-c; 
-}
-.has-background-dark-2 .title { color: $white-c; }
-.has-background-dark-2 strong { color: $white-c; }
 
 
 /* Base element overrides */ 
@@ -148,20 +142,23 @@ a.nuxt-link-exact-active {
     border: 2px solid $white-c;
 }
 
+/* Navbar dropdown customizations */
 .navbar.is-dark-2 a.navbar-link {
     color: $white-c !important;
     background-color: $dark-2 !important;
     border: 2px solid $dark-2 !important;
     // z-index: 12;
 }
-
-/* Sets the colors of the navbar dropdown caret */
+.navbar.is-dark-2 div.navbar-dropdown .navbar-item {
+    font-size: 20px;
+}
 .navbar.is-dark-2 a.navbar-link::after {
     border-color: $white-c !important
 }
 .navbar.is-dark-2 a.navbar-link:hover::after {
     border-color: $iron-blue !important
 }
+
 
 
 div.navitem-double-space a.navbar-item {
@@ -244,6 +241,14 @@ div.navitem-double-space a.navbar-item {
 .hero.is-gold h6 { color: $dark-2; }
 
 
+.card.is-white-e {
+    color: $dark-2 !important;
+    background-color: $white-e;
+}
+.card.is-white-e .title { color: $dark-2 !important; }
+.card.is-white-e .subtitle { color: $dark-2 !important; }
+.card.is-white-e strong { color: $dark-4 !important; }
+
 .card.is-gold {
     background-color: $gold;
     border: 2px solid $dark-2;
@@ -257,6 +262,18 @@ div.navitem-double-space a.navbar-item {
     color: $gold !important;
 }
 
+.card.is-neon-iron-violet {
+    background-color: transparent;
+    color: $white-c;
+    border: 2px solid $iron-violet;
+}
+.card.is-iron-violet p.title {
+    color: $iron-violet !important;
+}
+.card.is-iron-violet p.subtitle {
+    color: $iron-violet !important;
+}
+
 .card.is-neon-trident-cyan {
     background-color: transparent;
     color: $white-c;
@@ -266,10 +283,6 @@ div.navitem-double-space a.navbar-item {
     color: $white-c !important;
 }
 
-.section.is-white-c-dark-3 {
-    color: $white-c;
-    background-color: $dark-3;
-}
 .section.is-white-c-dark-3 h1 { color: $white-c; }
 .section.is-white-c-dark-3 h2 { color: $white-c; }
 .section.is-white-c-dark-3 h3 { color: $white-c; }
@@ -277,21 +290,13 @@ div.navitem-double-space a.navbar-item {
 .section.is-white-c-dark-3 h5 { color: $white-c; }
 .section.is-white-c-dark-3 h6 { color: $white-c; }
 
-.is-white-e { 
-    color: black; 
-    background-color: $white-e; 
-}
-.is-white-e h1 {
-    color: black !important;
-}
-
-
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
     color: $white-c;
     background-color: $dark-2;
 }
-.hero.is-dark-2 h1{ color: $white-c; }
+.hero.is-dark-2 .title { color: $white-c; }
+.hero.is-dark-2 .subtitle { color: $white-c; }
 .hero.is-dark-2 strong { color: $white-c; }
 a.hover-trident-cyan:hover { color: $trident-cyan; }
 
@@ -303,6 +308,16 @@ a.hover-trident-cyan:hover { color: $trident-cyan; }
 .hero.is-dark-3 h1{
     color: $white-c;
 }
+
+
+/*! $dark-2 section color */
+.section.is-dark-2 {
+    color: $white-c;
+    background-color: $dark-2;
+}
+.section.is-dark-2 .title { color: $white-c; }
+.section.is-dark-2 .subtitle { color: $white-c; }
+.section.is-dark-2 strong { color: $white-c; }
 
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {

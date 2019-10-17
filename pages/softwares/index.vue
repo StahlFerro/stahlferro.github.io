@@ -1,9 +1,9 @@
 <template>
-  <section class="section has-background-dark-2">
+  <section class="section is-dark-2">
     <div class="container">
       <div class="columns is-multiline">
         <div v-for="(sf, index) in softwares" class="column is-one-third" v-bind:key="index">
-          <div class="card has-background-light">
+          <div class="card is-white-e">
             <div class="card-image">
               <figure class="image is-16by9">
                 <template v-if="sf.thumb_url">
