@@ -58,6 +58,9 @@ module.exports = {
   ],
   sitemap: {
     hostname: 'https://stahlferro.github.io',
+    exclude: [
+      '/wip',
+    ]
   },
   generate: {
     fallback: "404.html"

@@ -176,7 +176,7 @@
                                 If I am able to, we will discuss on further details.
                             </li>
                             <li>Provide the static images that you want animated. If you don't have or need me to draw them, then I'm afraid you need to seek
-                                digital animators instead. Simple vector images can be made if you don't have them, but for an additional surcharge .
+                                digital animators instead. Simple vector images can be made if you don't have them, but for an additional surcharge ranging from $1 to $5.
                             </li>
                             <li>During the process, preview images are made for you to see before the final product is made. 
                                 These cannot be shared/modified for anyone else to see other than yourself until the final product is ready.
