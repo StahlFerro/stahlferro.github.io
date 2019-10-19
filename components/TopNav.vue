@@ -39,7 +39,7 @@
           </div>
         </div>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">Softwares</nuxt-link>
-        <nuxt-link to="/wip" class="navbar-item" v-on:click.native="navselection = 'commissions'">Commissions</nuxt-link>
+        <nuxt-link to="/commissions" class="navbar-item" v-on:click.native="navselection = 'commissions'">Commissions</nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">Donate</nuxt-link>
       </div>
       <div class="navbar-end navitem-double-space">
@@ -83,7 +83,6 @@ var data = {
 };
 
 export default {
-    // mounted: mountnavbar,
     data: function() {
       return data;
     }

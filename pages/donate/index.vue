@@ -57,7 +57,29 @@ var urls = require('@@/config/externalinks.json');
 var data = {
     urls: urls,
 };
+
+var ogconf = {
+  'og:title': 'Donations',
+  'og:description': "Donations to support the development of free software and VFX videos that StahlFerro makes",
+  'og:image': '/thumb/Donations_Thumb.png',
+  'theme-color': '#eb2a71',
+  'og:url': `${data.base_url}/donate`,
+};
+var metas = Object.entries(ogconf).map(function([key, value]) {
+  return { hid: key, name: key, content: value };
+});
+
 export default {
+  head() {
+    return {
+      title: ogconf['og:title'],
+      meta: [
+        { hid: 'title', name: 'title', content: ogconf['og:title'] },
+        { hid: 'description', name: 'description', content: ogconf['og:description'] },
+        ...metas,
+      ]
+    }
+  },
     data: function() {
         return data
     }

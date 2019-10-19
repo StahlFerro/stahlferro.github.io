@@ -2,15 +2,16 @@
     <div>
 
     <section class="hero is-medium is-dark-2">
-      <div class="container">
-          <div class="content">
-          </div>
-      </div>
-    </section>
-        <section class="section is-dark-2">
+        <div class="hero-body">
             <div class="container">
-                <div class="content commission-info">
+                <div class="content has-text-centered">
                     <h1 class="title is-1">EMERGENCY COMMISSIONS</h1>
+                    <video controls="controls" style="width: 640px; height: 360px;">
+                        <source src="/misc/emergency_comm_notice.mp4" type="video/mp4"/>
+                    </video>
+                    <br/>
+                </div>
+                <div class="content has-text-centered">
                     <p>
                         I'm opening my very first and emergency commission to help with urgent bills that are near due.
                         My minimum wage job is not helping me enough and I need to help fund both me and my sibling's university fees.
@@ -18,7 +19,20 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- <div class="hero-footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                </div>
+            </div>
+        </div> -->
+    </section>
+        <!-- <section class="section is-dark-2">
+            <div class="container">
+                <div class="content commission-info">
+                </div>
+            </div>
+        </section> -->
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -155,12 +169,12 @@
                     <h1 class="title is-2 is-gold">Start commissioning here!</h1>
                     <p>
                         <ol>
-                            <li>Fill in this form: </li>
+                            <li>Fill in this form: <a href="https://forms.gle/RarDAEFMo9ZGPJ8XA" class="hover-trident-cyan">VFX Commission Form</a></li>
                             <li>Wait for 12-72 hours for me to be able to respond through email or discord. The response will be if I am able to accept your commission.
                                 If I am able to, we will discuss on further details.
                             </li>
                             <li>Provide the static images that you want animated. If you don't have or need me to draw them, then I'm afraid you need to seek
-                                digital animators instead. Vector images can be made if you don't have them.
+                                digital animators instead. Simple vector images can be made if you don't have them, but for an additional surcharge .
                             </li>
                             <li>During the process, preview images are made for you to see before the final product is made. 
                                 These cannot be shared/modified for anyone else to see other than yourself until the final product is ready.
@@ -201,8 +215,8 @@ var data = {
 
 var ogconf = {
   'og:title': 'Commissions',
-  'og:description': "StahlFerro is now accepting VFX commissions! Visit this page if you want some sweet lensflares",
-  'og:image': '/thumb/VFXAnim_Thumb.png',
+  'og:description': "StahlFerro is now accepting their very first VFX commissions! Visit this page if you want some sweet VFX animations",
+  'og:image': '/thumb/Commissions_Thumb.png',
   'theme-color': '#32b354',
   'og:url': `${data.base_url}/commissions`,
 };
