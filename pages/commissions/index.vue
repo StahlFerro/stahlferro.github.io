@@ -6,9 +6,11 @@
             <div class="container">
                 <div class="content has-text-centered">
                     <h1 class="title is-1">EMERGENCY COMMISSIONS</h1>
-                    <video controls="controls" style="width: 640px; height: 360px;">
+                    <!-- <video controls="controls" style="width: 640px; height: 360px;">
                         <source src="/misc/emergency_comm_notice.mp4" type="video/mp4"/>
-                    </video>
+                    </video> -->
+                    <iframe style="width: 640px; height: 360px;" src="https://www.youtube.com/embed/opNKIpgIlzw" frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                     <br/>
                 </div>
                 <div class="content has-text-centered">
