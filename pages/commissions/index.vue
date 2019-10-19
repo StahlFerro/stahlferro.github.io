@@ -182,7 +182,8 @@
                                 These cannot be shared/modified for anyone else to see other than yourself until the final product is ready.
                             </li>
                             <li>
-                                Please, be patient. I'm still working my irl dev job while also trying to finish my undergraduate thesis.
+                                Please, be patient. I'm still working my irl dev job while also trying to finish my undergraduate thesis. I will do my best
+                                to give daily updates towards the commission progress.
                             </li>
                             <li>Before the finished final animation is delivered to you, payment must be completed through Paypal. Follow the guide below.
                             </li>
