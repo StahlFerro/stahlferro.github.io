@@ -15,9 +15,9 @@
                 </div>
                 <div class="content has-text-centered">
                     <p>
-                        I'm opening my very first and emergency commission to help with urgent bills that are near due.
-                        My minimum wage job is not helping me enough and I need to help fund both me and my sibling's university fees.
-                        This commission will remain open until further notice.
+                        I'm opening my very first and emergency commission to help with urgent bills that are near due. I am the last person
+                        supporting my family and my minimum wage job is not helping me enough and I need to help fund both me and my sibling's 
+                        university fees. This commission will remain open until further notice.
                     </p>
                 </div>
             </div>
@@ -180,6 +180,9 @@
                             </li>
                             <li>During the process, preview images are made for you to see before the final product is made. 
                                 These cannot be shared/modified for anyone else to see other than yourself until the final product is ready.
+                            </li>
+                            <li>
+                                Please, be patient. I'm still working my irl dev job while also trying to finish my undergraduate thesis.
                             </li>
                             <li>Before the finished final animation is delivered to you, payment must be completed through Paypal. Follow the guide below.
                             </li>
