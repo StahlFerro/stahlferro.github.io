@@ -6998,6 +6998,9 @@ label.panel-block {
 .is-iron-red {
   color: #991f30 !important; }
 
+.is-maroon {
+  color: #911039 !important; }
+
 /* Base element overrides */
 table, tr, th, td {
   padding: 10px; }
@@ -7314,6 +7317,26 @@ section.trench-footer {
 
 .hero.is-black p.title {
   color: #cccccc; }
+
+.section.is-maroon {
+  background-color: #911039 !important;
+  color: #cccccc !important; }
+
+.section.is-maroon .title {
+  color: #cccccc !important; }
+
+.section.is-maroon .subtitle {
+  color: #cccccc !important; }
+
+.hero.is-maroon {
+  background-color: #911039 !important;
+  color: #cccccc !important; }
+
+.hero.is-maroon .title {
+  color: #cccccc !important; }
+
+.hero.is-maroon .subtitle {
+  color: #cccccc !important; }
 
 /* $trident-cyan hero */
 .hero.is-trident-cyan-dark-3 {

@@ -13,7 +13,7 @@
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                     <br/>
                 </div>
-                <div class="content has-text-centered">
+                <div class="content has-text-justified">
                     <p>
                         I'm opening my very first and emergency commission to help with urgent bills that are near due. I am the last person
                         supporting my family and my minimum wage job is not helping me enough and I need to help fund both me and my sibling's 
