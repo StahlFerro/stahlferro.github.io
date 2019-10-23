@@ -1,4 +1,5 @@
 <template>
+<div>
   <nav class="navbar is-fixed-top is-dark-2 navbar-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item navbar-brand-button"
@@ -67,9 +68,45 @@
           </span>
           <span v-show="burger_open">Github</span>
         </a>
+        <a class="navbar-item" v-on:click="email_modal_open = true" title="email">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span v-show="burger_open">Email</span>
+        </a>
       </div>
     </div>
   </nav>
+  <div class="modal" v-bind:class="{'is-active': email_modal_open}">
+    <div class="modal-background" v-on:click="email_modal_open = false"></div>
+      <div class="modal-content">
+        <article class="message is-dark-2 is-medium">
+          <div class="message-header">
+            <p>Email</p>
+            <button class="delete" aria-label="delete" v-on:click="email_modal_open = false"></button>
+          </div>
+          <div class="message-body has-text-centered">
+            <!-- <p class="has-text-centered">
+              <span class="icon has-text-centered">
+                <i class="fas fa-envelope fa-3x"></i>
+              </span>
+            </p> -->
+            <h1 class="title">
+              forgeworkseven@gmail.com
+            </h1>
+            <button class="button is-neon-white-c is-medium"
+              v-clipboard:copy="'forgeworkseven@gmail.com'"
+              v-clipboard:success="copySuccess"
+              v-clipboard:error="copyError">
+              <span class="icon is-medium"><i class="fas fa-copy"></i></span>
+              <span>Copy to clipboard</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    <!-- <button class="modal-close is-large" aria-label="close" v-on:click="email_modal_open = false"></button> -->
+  </div>
+</div>
 </template>
 
 <script>
@@ -80,6 +117,7 @@ var data = {
   urls: urls,
   navselection: navselection,
   burger_open: false,
+  email_modal_open: false,
 };
 
 export default {
