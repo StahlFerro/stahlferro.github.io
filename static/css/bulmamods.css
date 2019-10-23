@@ -7307,6 +7307,24 @@ a.hover-trident-cyan:hover {
 .section.is-dark-2 strong {
   color: #cccccc; }
 
+.section.is-dark-2 h1 {
+  color: #cccccc; }
+
+.section.is-dark-2 h2 {
+  color: #cccccc; }
+
+.section.is-dark-2 h3 {
+  color: #cccccc; }
+
+.section.is-dark-2 h4 {
+  color: #cccccc; }
+
+.section.is-dark-2 h5 {
+  color: #cccccc; }
+
+.section.is-dark-2 h6 {
+  color: #cccccc; }
+
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {
   font-size: 20px; }
