@@ -232,8 +232,8 @@ div.navitem-double-space a.navbar-item {
 
 
 .hero.is-gold {
-    color: $dark-2;
-    background-color: $gold;
+    color: $dark-2 !important;
+    background-color: $gold !important;
 }
 .hero.is-gold h1 { color: $dark-2; }
 .hero.is-gold h2 { color: $dark-2; }

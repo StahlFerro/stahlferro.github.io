@@ -17,6 +17,7 @@ $white-e: #eeeeee;
 $white-c: #cccccc;
 $emerald: #50c878;
 $lavender: #9683ff;
+$maroon: #911039;
 $docs-grey: #7c8f99;
 /*! Brand color variables !*/
 $blurple: #7289DA;
@@ -42,6 +43,7 @@ $liberapay-yellow: #f6c915;
 .is-gold { color: $gold !important; }
 .is-iron-blue { color: $iron-blue; }
 .is-iron-red { color: $iron-red !important; }
+.is-maroon { color: $maroon !important; }
 
 
 
@@ -230,8 +232,8 @@ div.navitem-double-space a.navbar-item {
 
 
 .hero.is-gold {
-    color: $dark-2;
-    background-color: $gold;
+    color: $dark-2 !important;
+    background-color: $gold !important;
 }
 .hero.is-gold h1 { color: $dark-2; }
 .hero.is-gold h2 { color: $dark-2; }
@@ -318,6 +320,12 @@ a.hover-trident-cyan:hover { color: $trident-cyan; }
 .section.is-dark-2 .title { color: $white-c; }
 .section.is-dark-2 .subtitle { color: $white-c; }
 .section.is-dark-2 strong { color: $white-c; }
+.section.is-dark-2 h1 { color: $white-c; }
+.section.is-dark-2 h2 { color: $white-c; }
+.section.is-dark-2 h3 { color: $white-c; }
+.section.is-dark-2 h4 { color: $white-c; }
+.section.is-dark-2 h5 { color: $white-c; }
+.section.is-dark-2 h6 { color: $white-c; }
 
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {
@@ -327,6 +335,20 @@ section.trench-footer {
 /* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
 .hero.is-black { color: $white-c; }
 .hero.is-black p.title { color: $white-c; }
+
+.section.is-maroon {
+    background-color: $maroon !important;
+    color: $white-c !important;
+}
+.section.is-maroon .title { color: $white-c !important; }
+.section.is-maroon .subtitle { color: $white-c !important; }
+
+.hero.is-maroon {
+    background-color: $maroon !important;
+    color: $white-c !important;
+}
+.hero.is-maroon .title { color: $white-c !important; }
+.hero.is-maroon .subtitle { color: $white-c !important; }
 
 
 /* $trident-cyan hero */

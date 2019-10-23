@@ -6998,6 +6998,9 @@ label.panel-block {
 .is-iron-red {
   color: #991f30 !important; }
 
+.is-maroon {
+  color: #911039 !important; }
+
 /* Base element overrides */
 table, tr, th, td {
   padding: 10px; }
@@ -7182,8 +7185,8 @@ div.navitem-double-space a.navbar-item {
   color: #232629; }
 
 .hero.is-gold {
-  color: #232629;
-  background-color: #e4a126; }
+  color: #232629 !important;
+  background-color: #e4a126 !important; }
 
 .hero.is-gold h1 {
   color: #232629; }
@@ -7304,6 +7307,24 @@ a.hover-trident-cyan:hover {
 .section.is-dark-2 strong {
   color: #cccccc; }
 
+.section.is-dark-2 h1 {
+  color: #cccccc; }
+
+.section.is-dark-2 h2 {
+  color: #cccccc; }
+
+.section.is-dark-2 h3 {
+  color: #cccccc; }
+
+.section.is-dark-2 h4 {
+  color: #cccccc; }
+
+.section.is-dark-2 h5 {
+  color: #cccccc; }
+
+.section.is-dark-2 h6 {
+  color: #cccccc; }
+
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {
   font-size: 20px; }
@@ -7314,6 +7335,26 @@ section.trench-footer {
 
 .hero.is-black p.title {
   color: #cccccc; }
+
+.section.is-maroon {
+  background-color: #911039 !important;
+  color: #cccccc !important; }
+
+.section.is-maroon .title {
+  color: #cccccc !important; }
+
+.section.is-maroon .subtitle {
+  color: #cccccc !important; }
+
+.hero.is-maroon {
+  background-color: #911039 !important;
+  color: #cccccc !important; }
+
+.hero.is-maroon .title {
+  color: #cccccc !important; }
+
+.hero.is-maroon .subtitle {
+  color: #cccccc !important; }
 
 /* $trident-cyan hero */
 .hero.is-trident-cyan-dark-3 {

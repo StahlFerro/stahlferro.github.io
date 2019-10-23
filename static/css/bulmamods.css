@@ -7185,8 +7185,8 @@ div.navitem-double-space a.navbar-item {
   color: #232629; }
 
 .hero.is-gold {
-  color: #232629;
-  background-color: #e4a126; }
+  color: #232629 !important;
+  background-color: #e4a126 !important; }
 
 .hero.is-gold h1 {
   color: #232629; }
