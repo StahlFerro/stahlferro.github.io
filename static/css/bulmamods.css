@@ -7367,14 +7367,14 @@ section.trench-footer {
 .hero.is-trident-cyan-dark-3 .subtitle {
   color: #34caf8; }
 
-.hero.is-dark-3-trident-cyan {
-  color: #31363b;
-  background-color: #34caf8; }
+.hero.is-trident-cyan {
+  color: #31363b !important;
+  background-color: #34caf8 !important; }
 
-.hero.is-dark-3-trident-cyan .title {
+.hero.is-trident-cyan .title {
   color: #31363b; }
 
-.hero.is-dark-3-trident-cyan .subtitle {
+.hero.is-trident-cyan .subtitle {
   color: #31363b; }
 
 .hero.is-white-e-iron-red {

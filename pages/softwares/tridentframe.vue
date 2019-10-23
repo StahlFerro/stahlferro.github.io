@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium is-dark-3-trident-cyan">
+    <section class="hero is-medium is-trident-cyan">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-8 is-variable is-vcentered">
@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <section class="hero is-medium is-dark-3-trident-cyan">
+    <section class="hero is-medium is-trident-cyan">
       <div class="hero-body">
         <div class="container">
           <div class="content">
@@ -133,7 +133,7 @@
       </div>
     </section>
 
-    <section class="hero is-medium is-dark-3-trident-cyan">
+    <section class="hero is-medium is-trident-cyan">
       <div class="hero-body">
         <div class="container">
           <div class="content">

@@ -363,16 +363,12 @@ section.trench-footer {
     color: $trident-cyan;
 }
 
-.hero.is-dark-3-trident-cyan {
-    color: $dark-3;
-    background-color: $trident-cyan;
+.hero.is-trident-cyan {
+    color: $dark-3 !important;
+    background-color: $trident-cyan !important;
 }
-.hero.is-dark-3-trident-cyan .title {
-    color: $dark-3;
-}
-.hero.is-dark-3-trident-cyan .subtitle {
-    color: $dark-3;
-}
+.hero.is-trident-cyan .title { color: $dark-3; }
+.hero.is-trident-cyan .subtitle { color: $dark-3; }
 
 .hero.is-white-e-iron-red {
     background-color: $iron-red;
