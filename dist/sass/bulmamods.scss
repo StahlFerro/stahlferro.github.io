@@ -424,6 +424,22 @@ section.trench-footer {
     color: #000;
 }
 
+/* $white-c button */
+.button.is-neon-white-c {
+    background-color: transparent;
+    border-color: $white-c;
+    color: $white-c;
+    border-width: 2px; 
+}
+.button.is-neon-white-c:hover, .button.is-neon-white-c.is-hovered {
+    border-color: lighten($white-c, 20%);
+}
+.button.is-neon-white-c:active, .button.is-neon-white-c.is-active {
+    background-color: $white-c;
+    border-color: $white-c;
+    color: #000;
+}
+
 
 /* $trident-cyan button */
 .button.is-neon-trident-cyan {
@@ -700,3 +716,16 @@ ol.numbered-list li {
 .commission-info p {
     text-align: justify;
 }
+
+.message.is-dark-2 {
+    border: 2px solid $white-c;
+}
+.message.is-dark-2 .message-header {
+    color: $white-c !important;
+    background-color: $dark-2;
+}
+.message.is-dark-2 .message-body {
+    color: $white-c !important;
+    background-color: $dark-2;
+}
+.message.is-dark-2 .message-body .title { color: $white-c !important; }

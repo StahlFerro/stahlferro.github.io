@@ -7427,6 +7427,21 @@ section.trench-footer {
   border-color: #7c8f99;
   color: #000; }
 
+/* $white-c button */
+.button.is-neon-white-c {
+  background-color: transparent;
+  border-color: #cccccc;
+  color: #cccccc;
+  border-width: 2px; }
+
+.button.is-neon-white-c:hover, .button.is-neon-white-c.is-hovered {
+  border-color: white; }
+
+.button.is-neon-white-c:active, .button.is-neon-white-c.is-active {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #000; }
+
 /* $trident-cyan button */
 .button.is-neon-trident-cyan {
   background-color: transparent;
@@ -7663,3 +7678,17 @@ ol.numbered-list li {
 
 .commission-info p {
   text-align: justify; }
+
+.message.is-dark-2 {
+  border: 2px solid #cccccc; }
+
+.message.is-dark-2 .message-header {
+  color: #cccccc !important;
+  background-color: #232629; }
+
+.message.is-dark-2 .message-body {
+  color: #cccccc !important;
+  background-color: #232629; }
+
+.message.is-dark-2 .message-body .title {
+  color: #cccccc !important; }
