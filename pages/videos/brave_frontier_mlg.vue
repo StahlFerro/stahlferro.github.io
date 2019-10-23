@@ -69,7 +69,7 @@
       </div>
     </section>
 
-    <section class="section is-white-c-dark-3">
+    <section class="section is-dark-2">
       <div class="hero-body">
         <div class="container">
           <div class="content justified">
