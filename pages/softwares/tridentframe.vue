@@ -48,7 +48,7 @@
             </div>
             <div class="column">
               <figure class="image" title="Raydn didn't feel so good. (Artist: Vayreceane)">
-                <img src="/img/TridentFrame_preview.png" class="image-shadow"/>
+                <img src="/img/TridentFrame_preview_opt.png" class="image-shadow"/>
               </figure>
             </div>
           </div>
