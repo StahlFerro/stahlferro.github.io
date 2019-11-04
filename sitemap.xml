@@ -6,39 +6,39 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://stahlferro.github.io/about</loc>
+        <loc>https://stahlferro.github.io/about/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/commissions</loc>
+        <loc>https://stahlferro.github.io/commissions/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/donate</loc>
+        <loc>https://stahlferro.github.io/donate/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/gallery</loc>
+        <loc>https://stahlferro.github.io/gallery/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/softwares</loc>
+        <loc>https://stahlferro.github.io/softwares/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/videos</loc>
+        <loc>https://stahlferro.github.io/videos/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/softwares/fortressbot</loc>
+        <loc>https://stahlferro.github.io/softwares/fortressbot/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/softwares/statusbot</loc>
+        <loc>https://stahlferro.github.io/softwares/statusbot/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/softwares/tridentframe</loc>
+        <loc>https://stahlferro.github.io/softwares/tridentframe/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/videos/brave_frontier_mlg</loc>
+        <loc>https://stahlferro.github.io/videos/brave_frontier_mlg/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/videos/thesis</loc>
+        <loc>https://stahlferro.github.io/videos/thesis/index.html</loc>
     </url>
     <url>
-        <loc>https://stahlferro.github.io/</loc>
+        <loc>https://stahlferro.github.io/index.html</loc>
     </url>
 </urlset>
