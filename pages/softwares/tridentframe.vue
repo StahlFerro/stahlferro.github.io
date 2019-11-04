@@ -9,7 +9,7 @@
                 <nav class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <img src="/logos/TridentFrame_dark3_200px.png" width="90px" height="90px" />
+                      <img src="/logos/TridentFrame_dark3_200px_opt.png" width="90px" height="90px" />
                     </div>
                     <div class="level-item"></div>
                     <div class="level-item">

@@ -39,10 +39,10 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
 });
 
 export default {
-    data: function() {
-        return data;
-    },
-    head() {
+  data: function() {
+      return data;
+  },
+  head() {
     return {
       title: ogconf["og:title"],
       meta: [

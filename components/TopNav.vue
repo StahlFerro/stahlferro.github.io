@@ -95,9 +95,7 @@
               forgeworkseven@gmail.com
             </h1>
             <button class="button is-neon-white-c is-medium"
-              v-clipboard:copy="'forgeworkseven@gmail.com'"
-              v-clipboard:success="copySuccess"
-              v-clipboard:error="copyError">
+              v-clipboard:copy="'forgeworkseven@gmail.com'">
               <span class="icon is-medium"><i class="fas fa-copy"></i></span>
               <span>Copy to clipboard</span>
             </button>
