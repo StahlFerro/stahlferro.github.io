@@ -46,7 +46,7 @@
 
 <script>
 var ogconf = {
-  'og:title': 'TridentFrame',
+  'og:title': 'StatusBot',
   'og:description': 'A special discord bot that notifies you if another bot dies.',
   // 'og:image': '/thumb/TridentFrame_thumb.png',
   'theme-color': '#991f30',
@@ -55,16 +55,20 @@ var ogconf = {
 var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
 });
+var base_url = require("@@/config/opengraph.json")['og:url'];
 
 export default {
-  head() {
+  head () {
     return {
       title: ogconf['og:title'],
       meta: [
         { hid: 'title', name: 'title', content: ogconf['og:title'] },
         { hid: 'description', name: 'description', content: ogconf['og:description'] },
         ...metas,
-      ]
+      ],
+      link: [
+        {'rel': 'canonical', 'href':  ogconf['og:url'] }
+      ],
     }
   }
 }

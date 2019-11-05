@@ -158,9 +158,10 @@ var ogconf = {
 var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
 });
+var base_url = require("@@/config/opengraph.json")['og:url'];
 
 export default {
-  head() {
+  head () {
     return {
       title: ogconf["og:title"],
       meta: [
@@ -171,8 +172,11 @@ export default {
           content: ogconf["og:description"]
         },
         ...metas
-      ]
-    };
+      ],
+      link: [
+        {'rel': 'canonical', 'href':  ogconf['og:url'] }
+      ],
+    }
   }
 };
 </script>

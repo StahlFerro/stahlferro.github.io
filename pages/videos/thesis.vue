@@ -31,7 +31,7 @@ var ogconf = {
   'og:title': 'Thesis',
   'og:description': 'The Alpha and Omega of an academic final project depicted as two VFX-animation videos',
   'og:image': '/thumb/BFMLG_Thumb.png',
-  'theme-color': '#911039',
+  'theme-color': '#944759',
   'og:url': 'https://stahlferro.github.io/videos/thesis',
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
@@ -39,10 +39,10 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
 });
 
 export default {
-  data: function() {
+  data () {
       return data;
   },
-  head() {
+  head () {
     return {
       title: ogconf["og:title"],
       meta: [
@@ -54,7 +54,7 @@ export default {
         },
         ...metas
       ]
-    };
+    }
   }
 }
 </script>

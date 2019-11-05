@@ -12,3 +12,16 @@
     </section>
   </div>
 </template>
+
+<script>
+var base_url = require("@@/config/opengraph.json")['og:url'];
+export default {
+  head () {
+    return {
+      link: [
+        {'rel': 'canonical', 'href': `${base_url}/wip/`}
+      ],
+    }
+  }
+}
+</script>

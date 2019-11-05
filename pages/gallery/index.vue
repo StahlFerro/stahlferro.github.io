@@ -103,17 +103,20 @@ function copyError() {
 
 // console.log(data);
 export default {
-  head() {
+  head () {
     return {
       title: ogconf['og:title'],
       meta: [
         { hid: 'title', name: 'title', content: ogconf['og:title'] },
         { hid: 'description', name: 'description', content: ogconf['og:description'] },
         ...metas,
-      ]
+      ],
+      link: [
+        {'rel': 'canonical', 'href': ogconf['og:url'] }
+      ],
     }
   },
-  data: function() {
+  data () {
     return data;
   },
   methods: {

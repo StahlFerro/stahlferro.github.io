@@ -213,7 +213,8 @@
 </template>
 
 <script>
-var bf_videos = require('./_data/bf_videos.json')
+var bf_videos = require('./_data/bf_videos.json');
+var base_url = require("@@/config/opengraph.json")['og:url'];
 var data = {bf_videos: bf_videos};
 
 var ogconf = {
@@ -228,11 +229,11 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
 });
 
 export default {
-    data: function() {
+    data () {
         return data;
     },
-    head() {
-    return {
+    head () {
+      return {
       title: ogconf["og:title"],
       meta: [
         { hid: "title", name: "title", content: ogconf["og:title"] },
@@ -242,7 +243,10 @@ export default {
           content: ogconf["og:description"]
         },
         ...metas
-      ]
+      ],
+      link: [
+        {'rel': 'canonical', 'href':  ogconf['og:url'] }
+      ],
     };
   }
 }

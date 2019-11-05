@@ -1,41 +1,42 @@
 <template>
-    <div>
-        <section class="hero is-fullheight-with-navbar is-dark-2">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="content has-text-centered">
-                        <h1 class="title is-1">Donations</h1>
-                        <p> Making VFX-animation videos and developing softwares that are free and open source, in hopes to provide both high quality entertainment 
-                            and technical solutions to everyone without charge, is my highest form of passion. However, with current economic disparities, my focus 
-                            are ultimately divided between these two and my IRL software dev job.
-                        </p>
-                        <p>
-                            With the rapidly declining opportunities on my local area and how dev jobs here pay no better than minimum living costs and education fees, I decided to 
-                            reach out for support on the international platform.
-                        </p>
-                        <p>
-                            Doing just either one of VFX-animation videos or software dev takes a huge amount of time and effort. This is the chance in which hopefully,
-                            through this donation, I can eventually make this my full time job. Not just a job, but it's one I will never retire from.
-                        </p>
-                        <a v-bind:href="urls.patreon" class="button is-patreon-coral is-large">
-                            <span class="icon">
-                                <i class="fab fa-patreon"></i>
-                            </span>
-                            <span>Patreon</span>
-                        </a>
-                        <a v-bind:href="urls.kofi" class="button is-kofi-cyan is-large">
-                            <span class="icon">
-                                <img class="image" src="/logos/ko-fi_round.png" style="padding: 4px;"/>
-                            </span>
-                            <span>Ko-fi</span>
-                        </a>
-                        <a v-bind:href="urls.liberapay" class="button is-liberapay-yellow is-large">
-                            <span class="icon">
-                                <img class="image" src="/logos/liberapay_white_on_yellow.svg" style="padding: 4px;"/>
-                            </span>
-                            <span>Liberapay</span>
-                        </a>
-                        <!-- <a class="button is-large"
+  <div>
+    <section class="hero is-fullheight-with-navbar is-dark-2">
+      <div class="hero-body">
+        <div class="container">
+          <div class="content has-text-centered">
+            <h1 class="title is-1">Donations</h1>
+            <p>
+              Making VFX-animation videos and developing softwares that are free and open source, in hopes to provide both high quality entertainment
+              and technical solutions to everyone without charge, is my highest form of passion. However, with current economic disparities, my focus
+              are ultimately divided between these two and my IRL software dev job.
+            </p>
+            <p>
+              With the rapidly declining opportunities on my local area and how dev jobs here pay no better than minimum living costs and education fees, I decided to
+              reach out for support on the international platform.
+            </p>
+            <p>
+              Doing just either one of VFX-animation videos or software dev takes a huge amount of time and effort. This is the chance in which hopefully,
+              through this donation, I can eventually make this my full time job. Not just a job, but it's one I will never retire from.
+            </p>
+            <a v-bind:href="urls.patreon" class="button is-patreon-coral is-large">
+              <span class="icon">
+                <i class="fab fa-patreon"></i>
+              </span>
+              <span>Patreon</span>
+            </a>
+            <a v-bind:href="urls.kofi" class="button is-kofi-cyan is-large">
+              <span class="icon">
+                <img class="image" src="/logos/ko-fi_round.png" style="padding: 4px;" />
+              </span>
+              <span>Ko-fi</span>
+            </a>
+            <a v-bind:href="urls.liberapay" class="button is-liberapay-yellow is-large">
+              <span class="icon">
+                <img class="image" src="/logos/liberapay_white_on_yellow.svg" style="padding: 4px;" />
+              </span>
+              <span>Liberapay</span>
+            </a>
+            <!-- <a class="button is-large"
                             href="https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2"
                             title="PayPal"
                             onclick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2',
@@ -44,26 +45,28 @@
                             <span class="icon" style="width: 110px;">
                                 <img src="/logos/PP_logo_h_100x26.png" alt="PayPal Logo" >
                             </span>
-                        </a> -->
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
+            </a>-->
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-var urls = require('@@/config/externalinks.json');
+var urls = require("@@/config/externalinks.json");
+var base_url = require("@@/config/opengraph.json")["og:url"];
 var data = {
-    urls: urls,
+  urls: urls
 };
 
 var ogconf = {
-  'og:title': 'Donations',
-  'og:description': "Donations to support the development of free software and VFX videos that StahlFerro makes",
-  'og:image': '/thumb/Donations_Thumb.png',
-  'theme-color': '#eb2a71',
-  'og:url': `${data.base_url}/donate`,
+  "og:title": "Donations",
+  "og:description":
+    "Donations to support the development of free software and VFX videos that StahlFerro makes",
+  "og:image": "/thumb/Donations_Thumb.png",
+  "theme-color": "#eb2a71",
+  "og:url": `${data.base_url}/donate`
 };
 var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
@@ -72,16 +75,21 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
 export default {
   head() {
     return {
-      title: ogconf['og:title'],
+      title: ogconf["og:title"],
       meta: [
-        { hid: 'title', name: 'title', content: ogconf['og:title'] },
-        { hid: 'description', name: 'description', content: ogconf['og:description'] },
-        ...metas,
-      ]
-    }
+        { hid: "title", name: "title", content: ogconf["og:title"] },
+        {
+          hid: "description",
+          name: "description",
+          content: ogconf["og:description"]
+        },
+        ...metas
+      ],
+      link: [{ rel: "canonical", href: ogconf["og:url"] }]
+    };
   },
-    data: function() {
-        return data
-    }
-}
+  data() {
+    return data;
+  }
+};
 </script>

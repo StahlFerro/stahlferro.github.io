@@ -15,9 +15,10 @@
               </figure>
             </div>
             <div class="card-content">
-              <nuxt-link v-bind:to="`/softwares/${sf.page_url}`"
-                style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;">
-                </nuxt-link>
+              <nuxt-link
+                v-bind:to="`/softwares/${sf.page_url}`"
+                style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+              ></nuxt-link>
               <div class="media">
                 <template v-if="sf.logo_url">
                   <div class="media-left">
@@ -26,7 +27,9 @@
                 </template>
                 <div class="media-content">
                   <p class="title is-size-4-mobile">{{ sf.name }}</p>
-                  <p class="subtitle is-5"><strong>{{ sf.subdesc }}</strong></p>
+                  <p class="subtitle is-5">
+                    <strong>{{ sf.subdesc }}</strong>
+                  </p>
                 </div>
               </div>
               <div class="content">
@@ -42,10 +45,27 @@
 
 <script>
 var softwares = require("./_data/softwares.json");
+var ogconf = {
+  "og:title": "Softwares",
+  "og:description": "All software projects that I develop and maintain",
+  // 'og:image': '/thumb/FortressBot_Thumb.png',
+  "theme-color": "#5fa5c5",
+  "og:url": "https://stahlferro.github.io/softwares"
+};
+var metas = Object.entries(ogconf).map(function([key, value]) {
+  return { hid: key, name: key, content: value };
+});
+var base_url = require("@@/config/opengraph.json")["og:url"];
 var data = { softwares: softwares };
 export default {
-  data: function() {
+  data() {
     return data;
+  },
+  head() {
+    return {
+      meta: [...metas],
+      link: [{ rel: "canonical", href: ogconf["og:url"] }]
+    };
   }
 };
 </script>

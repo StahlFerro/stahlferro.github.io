@@ -142,22 +142,26 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
 });
 var extlinks = require('@@/config/externalinks.json');
+var base_url = require("@@/config/opengraph.json")['og:url'];
 var discord_server_url = extlinks.discord;
 var data = {
   discord_server_url: discord_server_url,
 }
 export default {
-  head() {
+  head () {
     return {
       title: ogconf['og:title'],
       meta: [
         { hid: 'title', name: 'title', content: ogconf['og:title'] },
         { hid: 'description', name: 'description', content: ogconf['og:description'] },
         ...metas,
-      ]
+      ],
+      link: [
+        {'rel': 'canonical', 'href': ogconf['og:url'] }
+      ],
     }
   },
-  data: function() {
+  data () {
     return data;
   }
 }

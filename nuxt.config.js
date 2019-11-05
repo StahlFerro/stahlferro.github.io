@@ -22,6 +22,7 @@ module.exports = {
       { hid: 'google-site-verification', name: 'google-site-verification', content: 'xPOlLw31AN12WO6gow34wuKvlrb5nbbiU739w_CZP78'}
     ],
     link: [
+      { rel: 'canonical', href: ogconf['og:url'] },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/bulmamods.css'},

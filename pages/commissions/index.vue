@@ -1,40 +1,29 @@
 <template>
     <div>
 
-    <section class="hero is-medium is-dark-2">
-        <div class="hero-body">
-            <div class="container">
-                <div class="content has-text-centered">
-                    <h1 class="title is-1">EMERGENCY COMMISSIONS</h1>
-                    <!-- <video controls="controls" style="width: 640px; height: 360px;">
-                        <source src="/misc/emergency_comm_notice.mp4" type="video/mp4"/>
-                    </video> -->
-                    <iframe style="width: 640px; height: 360px;" src="https://www.youtube.com/embed/opNKIpgIlzw" frameborder="0" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-                    <br/>
-                </div>
-                <div class="content has-text-justified">
-                    <p>
-                        I'm opening my very first and emergency commission to help with urgent bills that are near due. I am the last person
-                        supporting my family and my minimum wage job is not helping me enough and I need to help fund both me and my sibling's 
-                        university fees. This commission will remain open until further notice.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="hero-footer">
-            <div class="container">
-                <div class="content has-text-centered">
+        <section class="hero is-medium is-dark-2">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="content has-text-centered">
+                        <h1 class="title is-1">EMERGENCY COMMISSIONS</h1>
+                        <!-- <video controls="controls" style="width: 640px; height: 360px;">
+                            <source src="/misc/emergency_comm_notice.mp4" type="video/mp4"/>
+                        </video> -->
+                        <iframe style="width: 640px; height: 360px;" src="https://www.youtube.com/embed/opNKIpgIlzw" frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                        <br/>
+                    </div>
+                    <div class="content has-text-justified">
+                        <p>
+                            I'm opening my very first and emergency commission to help with urgent bills that are near due. I am the last person
+                            supporting my family and my minimum wage job is not helping me enough and I need to help fund both me and my sibling's 
+                            university fees. This commission will remain open until further notice.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div> -->
-    </section>
-        <!-- <section class="section is-dark-2">
-            <div class="container">
-                <div class="content commission-info">
-                </div>
-            </div>
-        </section> -->
+        </section>
+
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -165,7 +154,7 @@
             </div>
         </section>
 
-    <section class="section is-dark-2">
+        <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
                     <h1 class="title is-2 is-gold">Start commissioning here!</h1>
@@ -192,6 +181,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -231,17 +221,20 @@ var metas = Object.entries(ogconf).map(function([key, value]) {
 });
 
 export default {
-  head() {
+  head () {
     return {
-      title: ogconf['og:title'],
-      meta: [
+        title: ogconf['og:title'],
+        meta: [
         { hid: 'title', name: 'title', content: ogconf['og:title'] },
         { hid: 'description', name: 'description', content: ogconf['og:description'] },
         ...metas,
-      ]
+        ],
+        link: [
+        {'rel': 'canonical', 'href': ogconf['og:url']}
+        ],
     }
   },
-    data: function() {
+    data () {
         return data;
     }
 }

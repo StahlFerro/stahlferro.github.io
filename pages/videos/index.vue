@@ -39,11 +39,32 @@
 
 <script>
 var videos = require("./_data/videos.json");
+var base_url = require("@@/config/opengraph.json")['og:url'];
+var ogconf = {
+  'og:title': 'Videos',
+  'og:description': 'Information on my VFX animation videos and tutorials',
+  // 'og:image': '/thumb/FortressBot_Thumb.png',
+  'theme-color': '#c55f83',
+  'og:url': 'https://stahlferro.github.io/videos',
+};
+var metas = Object.entries(ogconf).map(function([key, value]) {
+  return { hid: key, name: key, content: value };
+});
 var data = {
   videos: videos
 };
 export default {
-  data: function() {
+  head () {
+    return {
+      meta: [
+        ...metas
+      ],
+      link: [
+        {'rel': 'canonical', 'href': ogconf['og:url'] }
+      ],
+    }
+  },
+  data () {
     return data;
   }
 };
