@@ -11,11 +11,11 @@
               are ultimately divided between these two and my IRL software dev job.
             </p>
             <p>
-              With the rapidly declining opportunities on my local area and how dev jobs here pay no better than minimum living costs and education fees, I decided to
-              reach out for support on the international platform.
+              With the rapidly declining opportunities on my local area and how dev jobs here cover nothing more than minimum living costs, I decided to
+              reach out for support on the international platform to help reduce the financial burden of me and my sibling's education fees.
             </p>
             <p>
-              Doing just either one of VFX-animation videos or software dev takes a huge amount of time and effort. This is the chance in which hopefully,
+              Doing just either one of VFX-animation videos or software development takes a huge amount of time and effort. This is the chance in which hopefully,
               through this donation, I can eventually make this my full time job. Not just a job, but it's one I will never retire from.
             </p>
             <a v-bind:href="urls.patreon" class="button is-patreon-coral is-large">

@@ -1,10 +1,11 @@
 const ogconf = require('./config/opengraph.json');
+console.log("Loading ogconf...");
 console.log(ogconf);
 const metas = Object.entries(ogconf).map(function([key, value]) {
   return { hid: key, name: key, content: value };
 });
-console.log("Main meta");
-console.log(metas);
+// console.log("Main meta");
+// console.log(metas);
 
 module.exports = {
   /*
