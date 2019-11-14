@@ -29,9 +29,10 @@
                 <div class="content commission-info">
                     <h1 class="title is-2 has-text-info">
                         <span class="icon is-large"><i class="fas fa-info-circle"></i></span>
-                        <span>Disclaimer</span></h1>
+                        <span>GETTING STARTED</span></h1>
+                    <h1 class="title is-3 has-text-info">[Information and Disclaimer]</h1>
                     <p>
-                        This type of work is categorized as 'vector animation' rather rather than 'classic animation' where in the latter, each frame is drawn by hand. 
+                        This type of work is categorized as 'vfz animation' rather than 'classic animation' where in the latter, each frame is drawn by hand. 
                         In essence, these 'vfx animations' I make consist of animation of existing static images/shapes, composited with various VFX 
                         (glows, lens flare, energy blasts, laser shots, fractals, glitches, etc.).
                         A great example is to see the <nuxt-link to="/gallery" class="hover-trident-cyan">Gallery</nuxt-link>, on the Blobs category.
@@ -49,7 +50,8 @@
                 <div class="content commission-info">
                     <h1 class="title is-2 has-text-danger">
                         <span class="icon is-large"><i class="fas fa-exclamation-triangle"></i></span>
-                        <span>Terms</span></h1>
+                        <span>TERMS</span></h1>
+                    <h1 class="title is-3 has-text-danger">[Do's and Don'ts]</h1>
                     <p>
                         The contents used to make the animation, or the finished animation itself must abide to these following rules:
                         <ol class="has-text-danger">
@@ -67,7 +69,8 @@
                 <div class="content commission-info">
                     <h1 class="title is-2 has-text-primary">
                         <span class="icon is-large"><i class="fab fa-creative-commons"></i></span>
-                        <span>License</span></h1>
+                        <span>LICENSE</span></h1>
+                    <h1 class="title is-3 has-text-primary">[Usage and Sharing]</h1>
                     <p>
                         All commissions I made for you are licensed under the<br/>
                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="hover-trident-cyan">
@@ -92,7 +95,8 @@
                 <div class="content commission-info">
                     <h1 class="title is-2 is-iron-violet">
                         <span class="icon is-large"><i class="fas fa-pencil-ruler"></i></span>
-                        <span>Commission Info</span>
+                        <span>COMMISSION INFO</span>
+                    <h1 class="title is-3 is-iron-violet">[2D and 3D VFX Animations]</h1>
                     </h1>
                 </div>
             </div>
@@ -157,7 +161,8 @@
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
-                    <h1 class="title is-2 is-gold">Start commissioning here!</h1>
+                    <h1 class="title is-2 is-gold">ORDERING</h1>
+                    <h1 class="title is-3 is-gold">[Start commissioning here!]</h1>
                     <p>
                         <ol>
                             <li>Fill in this form: <a href="https://forms.gle/RarDAEFMo9ZGPJ8XA" class="hover-trident-cyan">VFX Commission Form</a></li>
@@ -185,7 +190,8 @@
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
-                    <h1 class="title is-2">Payment guide</h1>
+                    <h1 class="title is-2">PAYMENT</h1>
+                    <h1 class="title is-3">[How to pay]</h1>
                     <p>
                         <ol>
                             <li>All payments are made through Paypal (USD$)</li>
