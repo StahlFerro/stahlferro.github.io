@@ -33,7 +33,7 @@
           </div>
         </div>
       </section>
-
+      
       <section class="hero is-dark-2 is-fullheight-with-navbar">
         <div class="gallery-container">
           <div class="columns is-multiline" width="100%"
@@ -42,6 +42,9 @@
               v-for="(gif, index) in collection.medias" v-bind:key="index">
               <div class="card is-neon-trident-cyan">
                 <div class="card-image">
+                  <!-- <blockquote class="imgur-embed-pub" lang="en" data-id="RPscrlh">
+                  <a href="http://imgur.com/RPscrlh">View post on imgur.com</a></blockquote>
+                  <script async src="http://s.imgur.com/min/embed.js" charset="utf-8"></script> -->
                   <div class="video-container">
                     <video controls="controls" loop="loop">
                       <source
@@ -59,7 +62,7 @@
                 </div>
                 <div class="card-footer">
                   <a class="card-footer-item hover-trident-cyan"
-                    v-clipboard:copy="`${base_url}/gifstash/${collection.page_url}/${gif.fname_mp4}`"
+                    v-clipboard:copy="gif.imgur_url"
                     v-clipboard:success="copySuccess"
                     v-clipboard:error="copyError">
                     <span class="icon is-medium"><i class="fas fa-link"></i></span>
@@ -71,6 +74,7 @@
           </div>
         </div>
       </section>
+
   </div>
 </template>
 

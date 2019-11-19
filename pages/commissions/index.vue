@@ -32,7 +32,7 @@
                         <span>GETTING STARTED</span></h1>
                     <h1 class="title is-3 has-text-info">[Information and Disclaimer]</h1>
                     <p>
-                        This type of work is categorized as 'vfz animation' rather than 'classic animation' where in the latter, each frame is drawn by hand. 
+                        This type of work is categorized as 'vfx animation' rather than 'classic animation' where in the latter, each frame is drawn by hand. 
                         In essence, these 'vfx animations' I make consist of animation of existing static images/shapes, composited with various VFX 
                         (glows, lens flare, energy blasts, laser shots, fractals, glitches, etc.).
                         A great example is to see the <nuxt-link to="/gallery" class="hover-trident-cyan">Gallery</nuxt-link>, on the Blobs category.
