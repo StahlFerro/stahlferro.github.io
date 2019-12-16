@@ -147,35 +147,23 @@
 </template>
 
 <script>
-var ogconf = {
-  "og:title": "TridentFrame",
-  "og:description":
-    "The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux",
-  "og:image": "/thumb/TridentFrame_Thumb.png",
-  "theme-color": "#34caf8",
-  "og:url": "https://stahlferro.github.io/softwares/tridentframe"
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
-var base_url = require("@@/config/opengraph.json")['og:url'];
-
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+var page_path = "/softwares/tridentframe";
+var meta_list = generate_meta({
+    "title": "TridentFrame",
+    "description": "The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux",
+    "image": "/thumb/TridentFrame_Thumb.png",
+    "theme_color": "#34caf8",
+    "path": page_path
+  }
+);
+console.log(tag_canonical_url(page_path));
 export default {
   head () {
     return {
-      title: ogconf["og:title"],
-      meta: [
-        { hid: "title", name: "title", content: ogconf["og:title"] },
-        {
-          hid: "description",
-          name: "description",
-          content: ogconf["og:description"]
-        },
-        ...metas
-      ],
-      link: [
-        {'rel': 'canonical', 'href':  ogconf['og:url'] }
-      ],
+      title: meta_list["title"],
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     }
   }
 };
