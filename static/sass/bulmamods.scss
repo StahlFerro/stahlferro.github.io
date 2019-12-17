@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
+@import "../fonts/Inter-3.11/inter.css";
 
 
 /*! Color variables !*/
@@ -51,13 +52,13 @@ $liberapay-yellow: #f6c915;
 table, tr, th, td{
     padding: 10px;
 }
-body {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 24px;
-    margin: 0px;
-    padding:0px;
-    overflow: hidden;
-}
+// body {
+//     font-family: 'Inter-Thin', monospace;
+//     font-size: 18px;
+//     margin: 0px;
+//     padding:0px;
+//     overflow: hidden;
+// }
 
 
 /* Table custom classes */
