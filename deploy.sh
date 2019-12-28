@@ -17,7 +17,7 @@ git commit -m "$msg"
 git push origin dev
 
 echo -e "${CYAN}[4/5]${NC} Pushing dist/ folder into ${GREEN}master${NC} remote branch"
-npm run deploy
+npm run push2master
 
 echo -e "${CYAN}[5/5]${NC} Updating local ${GREEN}master${NC} towards remote ${GREEN}master${NC}"
 git checkout master

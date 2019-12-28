@@ -28,7 +28,7 @@ module.exports = {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/bulmamods.css'},
       { rel: 'stylesheet', type: 'text/css', href: '/css/fontawesome-all.min.css'},
-      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'},
     ],
     htmlAttrs: {
       class: "has-navbar-fixed-top"

@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
 @import "../fonts/Inter-3.11/inter.css";
+@import "../fonts/Metropolis/metropolis.css";
 
 
 /*! Color variables !*/
@@ -52,12 +53,38 @@ $liberapay-yellow: #f6c915;
 table, tr, th, td{
     padding: 10px;
 }
-// body {
-//     font-family: 'Inter-Thin', monospace;
-//     font-size: 18px;
-//     margin: 0px;
-//     padding:0px;
-//     overflow: hidden;
+body {
+    font-family: 'Fira Sans', sans-serif;
+    // font-family: 'Inter';
+    font-size: 1.1rem;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+nav {
+    font-size: 1.35rem;
+}
+
+// h1, h2, h3, h4, h5, h6, nav {
+//     font-family: 'Metropolis';
+//     font-size: 1.1em;
+//     letter-spacing: 0.03em;
+// }
+
+// nav span.navitem-text {
+//     -webkit-transform:scale(0.9, 1.0);
+//     -moz-transform:scale(0.9, 1.0);
+//     -ms-transform:scale(0.9, 1.0);
+//     -o-transform:scale(0.9, 1.0);
+//     transform:scale(0.9,1.0);
+// }
+nav span.icon i {
+    font-size: 1.2em;
+}
+
+// nav span{
+//     transform:scale(1.0,1.0);
 // }
 
 
