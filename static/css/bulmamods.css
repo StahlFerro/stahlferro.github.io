@@ -1,6 +1,4 @@
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
-@import url(../fonts/Inter-3.11/inter.css);
-@import url(../fonts/Metropolis/metropolis.css);
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -7015,7 +7013,10 @@ body {
   overflow: hidden; }
 
 nav {
-  font-size: 1.35rem; }
+  font-size: 1.25rem; }
+
+div.navbar-dropdown span.navitem-text {
+  font-size: 1.1rem; }
 
 nav span.icon i {
   font-size: 1.2em; }
