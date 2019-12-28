@@ -7006,11 +7006,20 @@ table, tr, th, td {
   padding: 10px; }
 
 body {
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 24px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.1rem;
   margin: 0px;
   padding: 0px;
   overflow: hidden; }
+
+nav {
+  font-size: 1.25rem; }
+
+div.navbar-dropdown span.navitem-text {
+  font-size: 1.1rem; }
+
+nav span.icon i {
+  font-size: 1.2em; }
 
 /* Table custom classes */
 .cellcore {

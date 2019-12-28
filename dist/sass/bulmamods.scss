@@ -52,12 +52,42 @@ table, tr, th, td{
     padding: 10px;
 }
 body {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    // font-family: 'Inter';
+    font-size: 1.1rem;
     margin: 0px;
     padding:0px;
     overflow: hidden;
 }
+
+nav {
+    font-size: 1.25rem;
+}
+
+div.navbar-dropdown span.navitem-text {
+    font-size: 1.1rem;
+}
+
+// h1, h2, h3, h4, h5, h6, nav {
+//     font-family: 'Metropolis';
+//     font-size: 1.1em;
+//     letter-spacing: 0.03em;
+// }
+
+// nav span.navitem-text {
+//     -webkit-transform:scale(0.9, 1.0);
+//     -moz-transform:scale(0.9, 1.0);
+//     -ms-transform:scale(0.9, 1.0);
+//     -o-transform:scale(0.9, 1.0);
+//     transform:scale(0.9,1.0);
+// }
+nav span.icon i {
+    font-size: 1.2em;
+}
+
+// nav span{
+//     transform:scale(1.0,1.0);
+// }
 
 
 /* Table custom classes */
