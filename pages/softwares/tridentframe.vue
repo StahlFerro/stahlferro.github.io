@@ -18,12 +18,12 @@
                   </div>
                 </nav>
                 <p class="subtitle is-4">
-                  Coming Soon: The desktop swiss-army knife for creating, splitting or converting
+                  The desktop swiss-army knife for creating, splitting or converting
                   <span class="bg-dark-3">GIFs/APNGs</span>,
                   and building/slicing
                   <span class="bg-dark-3">spritesheets</span>
                 </p>
-                <p class="subtitle is-4">Watch it's development on github!</p>
+                <p class="subtitle is-4">The beta is now out for download!</p>
                 <nav class="level">
                   <div class="level-left">
                     <!-- <div class="level-item">
@@ -32,10 +32,15 @@
                                         <span>Download</span></a>
                     </div>-->
                     <div class="level-item">
-                      <a
-                        href="https://github.com/StahlFerro/TridentFrame"
-                        class="button is-github-black is-medium"
-                      >
+                      <a href="https://github.com/StahlFerro/TridentFrame/releases" class="button is-github-black is-medium">
+                        <span class="icon">
+                          <i class="fas fa-download"></i>
+                        </span>
+                        <span>Downloads</span>
+                      </a>
+                    </div>
+                    <div class="level-item">
+                      <a href="https://github.com/StahlFerro/TridentFrame" class="button is-github-black is-medium">
                         <span class="icon">
                           <i class="fab fa-github"></i>
                         </span>
