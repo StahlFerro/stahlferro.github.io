@@ -59,6 +59,11 @@
           </div>
         </div>
       </div>
+      <div class="hero-foot">
+        <div class="container has-text-centered">
+          <p>Website's still rough and sparse at the moment</p>
+        </div>
+      </div>
     </section>
 
     <section class="hero is-medium is-trident-cyan-dark-3">
