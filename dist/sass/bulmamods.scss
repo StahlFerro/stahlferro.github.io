@@ -15,7 +15,8 @@ $dark-3: #31363b;
 $dark-4: #444851;
 $white-e: #eeeeee;
 $white-c: #cccccc;
-$emerald: #50c878;
+$emerald: #50c890;
+$forest: #267e2b;
 $lavender: #9683ff;
 $maroon: #911039;
 $docs-grey: #7c8f99;
@@ -84,6 +85,8 @@ div.navbar-dropdown span.navitem-text {
 nav span.icon i {
     font-size: 1.2em;
 }
+
+.hover-trident-cyan:hover { color: $trident-cyan; }
 
 // nav span{
 //     transform:scale(1.0,1.0);
@@ -273,6 +276,30 @@ div.navitem-double-space a.navbar-item {
 .hero.is-gold h6 { color: $dark-2; }
 
 
+.hero.is-white-e-forrest {
+    color: $white-e !important;
+    background-color: $forest !important;
+}
+.hero.is-white-e-forrest h1 { color: $white-e; }
+.hero.is-white-e-forrest h2 { color: $white-e; }
+.hero.is-white-e-forrest h3 { color: $white-e; }
+.hero.is-white-e-forrest h4 { color: $white-e; }
+.hero.is-white-e-forrest h5 { color: $white-e; }
+.hero.is-white-e-forrest h6 { color: $white-e; }
+
+.hero.is-forrest-dark-2 {
+    color: $forest !important;
+    background-color: $dark-2 !important;
+}
+.hero.is-forrest-dark-2 h1 { color: $forest; }
+.hero.is-forrest-dark-2 h2 { color: $forest; }
+.hero.is-forrest-dark-2 h3 { color: $forest; }
+.hero.is-forrest-dark-2 h4 { color: $forest; }
+.hero.is-forrest-dark-2 h5 { color: $forest; }
+.hero.is-forrest-dark-2 h6 { color: $forest; }
+
+
+
 .card.is-white-e {
     color: $dark-2 !important;
     background-color: $white-e;
@@ -330,7 +357,6 @@ div.navitem-double-space a.navbar-item {
 .hero.is-dark-2 .title { color: $white-c; }
 .hero.is-dark-2 .subtitle { color: $white-c; }
 .hero.is-dark-2 strong { color: $white-c; }
-a.hover-trident-cyan:hover { color: $trident-cyan; }
 
 /*! $dark-3 hero color */
 .hero.is-dark-3 {

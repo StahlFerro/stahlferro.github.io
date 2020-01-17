@@ -208,36 +208,27 @@
 </template>
 
 <script>
-var urls = require('@@/config/externalinks.json');
-var base_url = require("@@/config/opengraph.json")['og:url'];
-var data = {
-    urls: urls,
-    base_url: base_url,
-};
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let data = {};
 
-var ogconf = {
-  'og:title': 'Commissions',
-  'og:description': "StahlFerro is now accepting their very first VFX commissions! Visit this page if you want some sweet VFX animations",
-  'og:image': '/thumb/Commissions_Thumb.png',
-  'theme-color': '#32b354',
-  'og:url': `${data.base_url}/commissions`,
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
+let page_path = "/commissions";
+let title = "Commissions"
+let meta_list = generate_meta({
+    "title": title,
+    "description": "StahlFerro is now accepting their very first VFX commissions! Visit this page if you want some sweet VFX animations",
+    "image": "/thumb/Commissions_Thumb.png",
+    "theme_color": "#32b354",
+    "path": page_path
+  }
+);
+
 
 export default {
   head () {
     return {
-        title: ogconf['og:title'],
-        meta: [
-        { hid: 'title', name: 'title', content: ogconf['og:title'] },
-        { hid: 'description', name: 'description', content: ogconf['og:description'] },
-        ...metas,
-        ],
-        link: [
-        {'rel': 'canonical', 'href': ogconf['og:url']}
-        ],
+        title: title,
+        meta: meta_list,
+        link: tag_canonical_url(page_path),
     }
   },
     data () {

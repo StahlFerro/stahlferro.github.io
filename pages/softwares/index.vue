@@ -44,27 +44,30 @@
 </template>
 
 <script>
-var softwares = require("./_data/softwares.json");
-var ogconf = {
-  "og:title": "Softwares",
-  "og:description": "All software projects that I develop and maintain",
-  // 'og:image': '/thumb/FortressBot_Thumb.png',
-  "theme-color": "#5fa5c5",
-  "og:url": "https://stahlferro.github.io/softwares"
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/softwares";
+let title = "Softwares";
+let meta_list = generate_meta({
+    "title":title,
+    "description": "All software projects that I develop and maintain.",
+    // "image": "/thumb/TridentFrame_Thumb.png",
+    "theme_color": "#5fa5c5",
+    "path": page_path
+  }
+);
+
+let data = { 
+  softwares: require("./_data/softwares.json"),
 };
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
-var base_url = require("@@/config/opengraph.json")["og:url"];
-var data = { softwares: softwares };
 export default {
   data() {
     return data;
   },
   head() {
     return {
-      meta: [...metas],
-      link: [{ rel: "canonical", href: ogconf["og:url"] }]
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     };
   }
 };

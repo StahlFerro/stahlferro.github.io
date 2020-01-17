@@ -105,7 +105,7 @@
               <ul>
                 <li>User, server, channel and role information lookup</li>
                 <li>Emote magnification</li>
-                <li>..and much more</li>
+                <li>..and much more</li>]
               </ul>
               <li
                 class="is-iron-blue"
@@ -131,18 +131,19 @@
 </template>
 
 <script>
-var ogconf = {
-  'og:title': 'FortressBot',
-  'og:description': 'A moderation bot that auto-nukes server invite links and auto-cleans hoisting or zalgo usernames/nicknames',
-  'og:image': '/thumb/FortressBot_Thumb.png',
-  'theme-color': '#3370cc',
-  'og:url': 'https://stahlferro.github.io/softwares/fortressbot',
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/softwares/fortressbot";
+let title = "FortressBot"
+let meta_list = generate_meta({
+    "title": title,
+    "description": "A moderation bot that auto-nukes server invite links and auto-cleans hoisting or zalgo usernames/nicknames",
+    "image": "/thumb/FortressBot_Thumb.png",
+    "theme_color": "#3370cc",
+    "path": page_path
+  }
+);
+console.log(tag_canonical_url(page_path));
 var extlinks = require('@@/config/externalinks.json');
-var base_url = require("@@/config/opengraph.json")['og:url'];
 var discord_server_url = extlinks.discord;
 var data = {
   discord_server_url: discord_server_url,
@@ -150,15 +151,9 @@ var data = {
 export default {
   head () {
     return {
-      title: ogconf['og:title'],
-      meta: [
-        { hid: 'title', name: 'title', content: ogconf['og:title'] },
-        { hid: 'description', name: 'description', content: ogconf['og:description'] },
-        ...metas,
-      ],
-      link: [
-        {'rel': 'canonical', 'href': ogconf['og:url'] }
-      ],
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     }
   },
   data () {

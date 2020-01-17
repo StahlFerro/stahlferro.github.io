@@ -79,23 +79,24 @@
 </template>
 
 <script>
-var gifs = require("./_data/animations.json");
-var base_url = require("@@/config/opengraph.json")['og:url']
-var data = {
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/gallery";
+let title = "VFX Gallery";
+let meta_list = generate_meta({
+    "title":title,
+    "description": "The gallery of every short VFX animations that I've made in the form of MP4s",
+    "image": '/thumb/VFXAnim_Thumb.png',
+    "theme_color": "#9947a6",
+    "path": page_path
+  }
+);
+
+let gifs = require("./_data/animations.json");
+let data = {
   gifs: gifs,
   menuselection: gifs[0].page_url,
-  base_url: base_url
 };
-var ogconf = {
-  'og:title': 'VFX Gallery',
-  'og:description': "The gallery of every short VFX animations that I've made in the form of MP4s",
-  'og:image': '/thumb/VFXAnim_Thumb.png',
-  'theme-color': '#9947a6',
-  'og:url': `${data.base_url}/gallery`,
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
+
 
 function copySuccess() {
   console.log("Successfully copied to clipboard");
@@ -109,15 +110,9 @@ function copyError() {
 export default {
   head () {
     return {
-      title: ogconf['og:title'],
-      meta: [
-        { hid: 'title', name: 'title', content: ogconf['og:title'] },
-        { hid: 'description', name: 'description', content: ogconf['og:description'] },
-        ...metas,
-      ],
-      link: [
-        {'rel': 'canonical', 'href': ogconf['og:url'] }
-      ],
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     }
   },
   data () {

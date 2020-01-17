@@ -6969,7 +6969,7 @@ label.panel-block {
   color: #34caf8; }
 
 .is-emerald {
-  color: #50c878; }
+  color: #50c890; }
 
 .is-trident-cyan-dark-3 {
   color: #31363b; }
@@ -7020,6 +7020,9 @@ div.navbar-dropdown span.navitem-text {
 
 nav span.icon i {
   font-size: 1.2em; }
+
+.hover-trident-cyan:hover {
+  color: #34caf8; }
 
 /* Table custom classes */
 .cellcore {
@@ -7215,6 +7218,50 @@ div.navitem-double-space a.navbar-item {
 .hero.is-gold h6 {
   color: #232629; }
 
+.hero.is-white-e-forrest {
+  color: #eeeeee !important;
+  background-color: #267e2b !important; }
+
+.hero.is-white-e-forrest h1 {
+  color: #eeeeee; }
+
+.hero.is-white-e-forrest h2 {
+  color: #eeeeee; }
+
+.hero.is-white-e-forrest h3 {
+  color: #eeeeee; }
+
+.hero.is-white-e-forrest h4 {
+  color: #eeeeee; }
+
+.hero.is-white-e-forrest h5 {
+  color: #eeeeee; }
+
+.hero.is-white-e-forrest h6 {
+  color: #eeeeee; }
+
+.hero.is-forrest-dark-2 {
+  color: #267e2b !important;
+  background-color: #232629 !important; }
+
+.hero.is-forrest-dark-2 h1 {
+  color: #267e2b; }
+
+.hero.is-forrest-dark-2 h2 {
+  color: #267e2b; }
+
+.hero.is-forrest-dark-2 h3 {
+  color: #267e2b; }
+
+.hero.is-forrest-dark-2 h4 {
+  color: #267e2b; }
+
+.hero.is-forrest-dark-2 h5 {
+  color: #267e2b; }
+
+.hero.is-forrest-dark-2 h6 {
+  color: #267e2b; }
+
 .card.is-white-e {
   color: #232629 !important;
   background-color: #eeeeee; }
@@ -7290,9 +7337,6 @@ div.navitem-double-space a.navbar-item {
 
 .hero.is-dark-2 strong {
   color: #cccccc; }
-
-a.hover-trident-cyan:hover {
-  color: #34caf8; }
 
 /*! $dark-3 hero color */
 .hero.is-dark-3 {
@@ -7469,16 +7513,16 @@ section.trench-footer {
 /* $emerald button */
 .button.is-neon-emerald {
   background-color: transparent;
-  border-color: #50c878;
-  color: #50c878;
+  border-color: #50c890;
+  color: #50c890;
   border-width: 2px; }
 
 .button.is-neon-emerald:hover, .button.is-neon-emerald.is-hovered {
   border-color: #fff; }
 
 .button.is-neon-emerald:active, .button.is-neon-emerald.is-active {
-  background-color: #50c878;
-  border-color: #50c878;
+  background-color: #50c890;
+  border-color: #50c890;
   color: #000; }
 
 /* $youtube-red button */

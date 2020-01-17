@@ -14,15 +14,16 @@
           </p>
           <p class="has-text-justified">
             <strong>&gt; Software Developer</strong>
-            <br />I'm the sole developer of the Discord moderation bot FortressBot, a bot made with auto-moderative features.
-            Aside from FortressBot, I also develop StatusBot, a little discord bot to notify me if some bots I monitor goes offline.
-            I'm working on projects and tools that help me with my works, and I host them on Github so other people can find
-            use of it
+            <br />
+            I am the sole developer and maintainer of various free softwares, most notably the moderation Discord bot 
+            <nuxt-link to="/softwares/fortressbot" class="hover-trident-cyan">FortressBot</nuxt-link>
+            and the desktop GIF/APNG manipulator program <nuxt-link to="/softwares/tridentframe" class="hover-trident-cyan">TridentFrame</nuxt-link>.
+            Aside from those two I work on various small projects hosted on my Github
           </p>
           <p class="has-text-justified"></p>
           <p class="has-text-justified">
             Although videos require weeks to months to work on, and infrequent youtube uploads make me appear very inactive,
-            I am most active on my Discord server, where I centralize both FortressBot's development and my youtube community inside it.
+            I am most active on my Discord server, where I centralize FortressBot and TridentFrame development, and my youtube community inside it.
             I monitor the server everyday regardless of its current activity.
             <br />
             <a class="hover-trident-cyan" v-bind:href="discord_server_url">Come have a visit!</a>

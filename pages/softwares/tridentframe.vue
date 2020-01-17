@@ -158,9 +158,10 @@
 
 <script>
 const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
-var page_path = "/softwares/tridentframe";
-var meta_list = generate_meta({
-    "title": "TridentFrame",
+let page_path = "/softwares/tridentframe";
+let title = "TridentFrame";
+let meta_list = generate_meta({
+    "title":title,
     "description": "The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux",
     "image": "/thumb/TridentFrame_Thumb.png",
     "theme_color": "#34caf8",
@@ -171,7 +172,7 @@ console.log(tag_canonical_url(page_path));
 export default {
   head () {
     return {
-      title: meta_list["title"],
+      title: title,
       meta: meta_list,
       link: tag_canonical_url(page_path),
     }

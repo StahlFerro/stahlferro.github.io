@@ -214,39 +214,29 @@
 
 <script>
 var bf_videos = require('./_data/bf_videos.json');
-var base_url = require("@@/config/opengraph.json")['og:url'];
 var data = {bf_videos: bf_videos};
 
-var ogconf = {
-  'og:title': 'Brave Frontier MLG',
-  'og:description': 'Brave Frontier MLG: The 8 video series of intense montages made with various editing styles revolving around the Montage Parody memes and a mix of hybrid VFX-animation',
-  'og:image': '/thumb/BFMLG_Thumb.png',
-  'theme-color': '#e4a126',
-  'og:url': 'https://stahlferro.github.io/videos/brave_frontier_mlg',
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
+
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/videos/brave_frontier_mlg";
+let title = "Brave Frontier MLG";
+let meta_list = generate_meta({
+  "title":title,
+  "description": "Brave Frontier MLG: The 8 video series of intense montages made with various editing styles revolving around the Montage Parody memes and a mix of hybrid VFX-animation",
+  "image": "/thumb/BFMLG_Thumb.png",
+  "theme_color": "#e4a126",
+  "path": page_path
 });
 
 export default {
     data () {
-        return data;
+      return data;
     },
     head () {
       return {
-      title: ogconf["og:title"],
-      meta: [
-        { hid: "title", name: "title", content: ogconf["og:title"] },
-        {
-          hid: "description",
-          name: "description",
-          content: ogconf["og:description"]
-        },
-        ...metas
-      ],
-      link: [
-        {'rel': 'canonical', 'href':  ogconf['og:url'] }
-      ],
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     };
   }
 }

@@ -27,33 +27,27 @@
 var data = {};
 // var data = {bf_videos: bf_videos};
 
-var ogconf = {
-  'og:title': 'Thesis',
-  'og:description': 'The Alpha and Omega of an academic final project depicted as two VFX-animation videos',
-  'og:image': '/thumb/BFMLG_Thumb.png',
-  'theme-color': '#944759',
-  'og:url': 'https://stahlferro.github.io/videos/thesis',
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/videos/thesis";
+let title = "Thesis";
+let meta_list = generate_meta({
+    "title":title,
+    "description": "The Alpha and Omega of an academic final project depicted as two VFX-animation videos.",
+    // "image": "/thumb/BFMLG_Thumb.png",
+    "theme_color": '#944759',
+    "path": page_path
+  }
+);
 
 export default {
   data () {
-      return data;
+    return data;
   },
   head () {
     return {
-      title: ogconf["og:title"],
-      meta: [
-        { hid: "title", name: "title", content: ogconf["og:title"] },
-        {
-          hid: "description",
-          name: "description",
-          content: ogconf["og:description"]
-        },
-        ...metas
-      ]
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     }
   }
 }

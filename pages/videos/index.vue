@@ -38,30 +38,27 @@
 </template>
 
 <script>
-var videos = require("./_data/videos.json");
-var base_url = require("@@/config/opengraph.json")['og:url'];
-var ogconf = {
-  'og:title': 'Videos',
-  'og:description': 'Information on my VFX animation videos and tutorials',
-  // 'og:image': '/thumb/FortressBot_Thumb.png',
-  'theme-color': '#c55f83',
-  'og:url': 'https://stahlferro.github.io/videos',
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
-});
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/videos";
+let title = "Videos";
+let meta_list = generate_meta({
+    "title":title,
+    "description": "Information on my VFX animation videos and tutorials.",
+    // "image": "/thumb/TridentFrame_Thumb.png",
+    "theme_color": "#c55f83",
+    "path": page_path
+  }
+);
+
 var data = {
-  videos: videos
+  videos: require("./_data/videos.json"),
 };
 export default {
   head () {
     return {
-      meta: [
-        ...metas
-      ],
-      link: [
-        {'rel': 'canonical', 'href': ogconf['og:url'] }
-      ],
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path),
     }
   },
   data () {
