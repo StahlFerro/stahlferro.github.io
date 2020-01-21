@@ -119,6 +119,9 @@ nav span.icon i {
     border-radius: 0px;
 }
 
+ol li ul { /* Sublist reduce margin top */
+    margin-top: 5px !important;
+}
 
 /* Force cards to take all available width */
 .card {

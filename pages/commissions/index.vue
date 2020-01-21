@@ -1,6 +1,7 @@
 <template>
     <div>
 
+        <a id="title"></a>
         <section class="hero is-medium is-dark-2">
             <div class="hero-body">
                 <div class="container">
@@ -24,6 +25,7 @@
             </div>
         </section>
 
+        <a id="info"></a>
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -44,7 +46,8 @@
                 </div>
             </div>
         </section>
-
+        
+        <a id="terms"></a>
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -64,6 +67,7 @@
             </div>
         </section>
 
+        <a id="license"></a>
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -72,24 +76,34 @@
                         <span>LICENSE</span></h1>
                     <h1 class="title is-3 has-text-primary">[Usage and Sharing]</h1>
                     <p>
-                        All commissions I made for you are licensed under the<br/>
+                        There will be three outputs of the commission. First, is the original commission.
+                        Second, the image sequence that constructs the animation and the third is the watermarked version.<br/>
+                        The original commission and image sequence is for private use only and is licensed under the
+                        <a rel="license" href="https://web-payments.org/licenses/personal-use" class="hover-trident-cyan">
+                        Personal Use License</a><br/>
+                        The watermarked version is the only file you can share to others and is licensed under the
                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="hover-trident-cyan">
-                        Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+                        Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a><br/>
                         <br/>
                         <a class="has-text-centered" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
                             <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"/>
                         </a><br/>
-                        Which roughly means, you can share the finished commission on social media, or repost/retweet it, as long as you:<br/>
+                        Which roughly means, you can share the <strong>watermarked version</strong> of the commission on social media, or repost/retweet it, as long as you:<br/>
                         <ol>
-                            <li>State my name "StahlFerro" and provide a link to this website. This applies to even retweets and reposts</li>
                             <li>Do not use it for any kinds of commercial purposes.</li>
-                            <li>Do not modify it. Changing of format is an exemption and is allowed (ex: png to jpg)</li>
+                            <li>Do not perform any forms of image modifications. In detail:
+                                <ul>
+                                    <li>Do not resize or compress the image</li>
+                                    <li>Changing of format is allowed (ex: png to jpg)</li>
+                                </ul>
+                            </li>
                         </ol>
                     </p>
                 </div>
             </div>
         </section>
 
+        <a id="comm_info"></a>
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -158,6 +172,7 @@
             </div>
         </section>
 
+        <a id="ordering"></a>
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
@@ -187,6 +202,7 @@
             </div>
         </section>
         
+        <a id="payment"></a>
         <section class="section is-dark-2">
             <div class="container">
                 <div class="content commission-info">
