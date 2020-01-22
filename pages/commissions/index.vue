@@ -79,7 +79,7 @@
                         There will be three outputs of the commission. First, is the original commission.
                         Second, the image sequence that constructs the animation and the third is the watermarked version.<br/>
                         The original commission and image sequence is for private use only and is licensed under the
-                        <a rel="license" href="https://web-payments.org/licenses/personal-use" class="hover-trident-cyan">
+                        <a rel="license" href="/licenses/personal-use-license.txt" class="hover-trident-cyan">
                         Personal Use License</a><br/>
                         The watermarked version is the only file you can share to others and is licensed under the
                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="hover-trident-cyan">
