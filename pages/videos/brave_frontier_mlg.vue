@@ -45,7 +45,11 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-multiline">
-            <div v-for="(bf, index) in bf_videos" class="column is-one-quarter" v-bind:key="index">
+            <div v-for="(bf, index) in bf_videos" class="column 
+              is-one-quarter-widescreen
+              is-one-third-desktop 
+              is-half-tablet
+              is-full-mobile" v-bind:key="index">
               <div class="card is-neon-gold">
                 <div class="card-image">
                   <figure class="image">
@@ -73,7 +77,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="content justified">
-            <h2 class="title is-1 has-text-centered">
+            <h2 class="title is-1 is-size-3-mobile has-text-centered">
               <span class="is-gold">Compositor's Notes</span>
             </h2>
             <p></p>

@@ -38,7 +38,11 @@
         <div class="gallery-container">
           <div class="columns is-multiline" width="100%"
             v-for="(collection, index) in gifs" v-show="menuselection == collection.page_url" v-bind:key="index">
-            <div class="column is-one-quarter"
+            <div class="column 
+              is-one-quarter-widescreen
+              is-one-third-desktop
+              is-half-tablet
+              is-full-mobile"
               v-for="(gif, index) in collection.medias" v-bind:key="index">
               <div class="card is-neon-trident-cyan">
                 <div class="card-image">

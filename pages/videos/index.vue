@@ -3,7 +3,11 @@
     <div class="container">
       <div class="columns is-multiline">
         <!-- {% for vd in site.data.videos %} -->
-        <div v-for="(vd, index) in videos" v-bind:key="index" class="column is-one-third">
+        <div v-for="(vd, index) in videos" v-bind:key="index" class="column
+         is-one-third-widescreen
+         is-one-half-desktop
+         is-half-tablet
+         is-full-mobile">
           <div class="card is-white-e">
             <div class="card-image">
               <figure class="image is-16by9">
