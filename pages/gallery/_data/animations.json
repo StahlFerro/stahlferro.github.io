@@ -137,5 +137,17 @@
                 "imgur_url": "https://imgur.com/X7HpeFe"
             }
         ]
+    },
+    {
+        "name": "Arknights",
+        "page_url": "arknights",
+        "desc": "Some interesting Arknights VFX GIFs",
+        "medias": [
+            {
+                "name": "Truesilver Like and Retweet",
+                "fname_mp4": "truesilver_like_retweet.mp4",
+                "imgur_url": "https://imgur.com/a/0ExeDFv"
+            }
+        ]
     }
 ]
