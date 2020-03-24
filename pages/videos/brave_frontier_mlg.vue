@@ -78,7 +78,7 @@
         <div class="container">
           <div class="content justified">
             <h2 class="title is-1 is-size-3-mobile has-text-centered">
-              <span class="is-gold">Compositor's Notes</span>
+              <span class="is-gold">Notes on the videos</span>
             </h2>
             <p></p>
             <ol class="numbered-list">
