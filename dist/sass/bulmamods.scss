@@ -126,11 +126,11 @@ ol li ul { /* Sublist reduce margin top */
 /* Force cards to take all available width */
 .card {
     width: 100%;
+    .card-content {
+        width: 100%;
+    }
 }
 .card-image {
-    width: 100%;
-}
-.card .card-content {
     width: 100%;
 }
 
@@ -151,9 +151,9 @@ ol li ul { /* Sublist reduce margin top */
 .content.theme-dark-2 {
     background-color: $dark-2;
     color: $white-c;
-}
-.content.theme-dark-2 h1.title {
-    color: $white-c !important;
+    h1.title {
+        color: $white-c !important;
+    }
 }
 
 
@@ -165,36 +165,37 @@ a.nuxt-link-exact-active {
 }
 .navbar.is-dark-2 {
     background-color: $dark-2;
+    a.navbar-item {
+        color: $white-c;
+        border: 2px solid $dark-2;
+    }
+    a.navbar-item:hover {
+        background-color: transparent;
+        border: 2px solid $white-c;
+    }
+    a.navbar-item:active {
+        color: $dark-2;
+        background-color: $white-c;
+        border: 2px solid $white-c;
+    }
 }
-.navbar.is-dark-2 a.navbar-item {
-    color: $white-c;
-    border: 2px solid $dark-2;
-}
-.navbar.is-dark-2 a.navbar-item:hover {
-    background-color: transparent;
-    border: 2px solid $white-c;
-}
-.navbar.is-dark-2 a.navbar-item:active {
-    color: $dark-2;
-    background-color: $white-c;
-    border: 2px solid $white-c;
-}
-
 /* Navbar dropdown customizations */
-.navbar.is-dark-2 a.navbar-link {
-    color: $white-c !important;
-    background-color: $dark-2 !important;
-    border: 2px solid $dark-2 !important;
-    // z-index: 12;
-}
-.navbar.is-dark-2 div.navbar-dropdown .navbar-item {
-    font-size: 20px;
-}
-.navbar.is-dark-2 a.navbar-link::after {
-    border-color: $white-c !important
-}
-.navbar.is-dark-2 a.navbar-link:hover::after {
-    border-color: $iron-blue !important
+.navbar.is-dark-2 {
+    a.navbar-link {
+        color: $white-c !important;
+        background-color: $dark-2 !important;
+        border: 2px solid $dark-2 !important;
+        // z-index: 12;
+    }
+    div.navbar-dropdown .navbar-item {
+        font-size: 20px;
+    }
+    a.navbar-link::after {
+        border-color: $white-c !important
+    }
+    a.navbar-link:hover::after {
+        border-color: $iron-blue !important
+    }
 }
 
 
@@ -212,18 +213,19 @@ div.navitem-double-space a.navbar-item {
 
 .navbar-shadow {
     box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.2), 0 3px 20px 4px rgba(0, 0, 0, 0.2);
-}
-.navbar-shadow div.navbar-menu:not(.is-active) div.navbar-dropdown {
-    box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2);
+    div.navbar-menu:not(.is-active) div.navbar-dropdown {
+        box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2);
+    }
 }
 
 /* Mobile Navbar */
-.navbar.is-dark-2 a.navbar-burger {
-    color: $white-c;
-}
-
-.navbar.is-dark-2 .navbar-menu.is-active {
-    background-color: $dark-2;
+.navbar.is-dark-2 {
+    a.navbar-burger {
+        color: $white-c;
+    }
+    .navbar-menu.is-active {
+        background-color: $dark-2;
+    }
 }
 
 .image-shadow {
@@ -234,157 +236,160 @@ div.navitem-double-space a.navbar-item {
 .hero.is-iron-blue-dark-2 {
     color: $iron-blue;
     background-color: $dark-2;
+    h1 { color: $iron-blue; }
 }
-.hero.is-iron-blue-dark-2 h1 { color: $iron-blue; }
 
 .hero.is-dark-2-iron-blue {
     color: $dark-2;
     background-color: $iron-blue;
+    h1 { color: $dark-2; }
 }
-.hero.is-dark-2-iron-blue h1 { color: $dark-2; }
 
 .hero.is-white-e-iron-violet {
     color: $white-e;
     background-color: $iron-violet;
+    h1 { color: $white-e; }
+    h2 { color: $white-e; }
+    h3 { color: $white-e; }
+    h4 { color: $white-e; }
+    h5 { color: $white-e; }
+    h6 { color: $white-e; }
 }
-.hero.is-white-e-iron-violet h1 { color: $white-e; }
-.hero.is-white-e-iron-violet h2 { color: $white-e; }
-.hero.is-white-e-iron-violet h3 { color: $white-e; }
-.hero.is-white-e-iron-violet h4 { color: $white-e; }
-.hero.is-white-e-iron-violet h5 { color: $white-e; }
-.hero.is-white-e-iron-violet h6 { color: $white-e; }
 
 
 .hero.is-dark-2-iron-turqoise {
     color: $dark-2;
     background-color: $iron-turqoise;
+    h1 { color: $dark-2; }
+    h2 { color: $dark-2; }
+    h3 { color: $dark-2; }
+    h4 { color: $dark-2; }
+    h5 { color: $dark-2; }
+    h6 { color: $dark-2; }
 }
-.hero.is-dark-2-iron-turqoise h1 { color: $dark-2; }
-.hero.is-dark-2-iron-turqoise h2 { color: $dark-2; }
-.hero.is-dark-2-iron-turqoise h3 { color: $dark-2; }
-.hero.is-dark-2-iron-turqoise h4 { color: $dark-2; }
-.hero.is-dark-2-iron-turqoise h5 { color: $dark-2; }
-.hero.is-dark-2-iron-turqoise h6 { color: $dark-2; }
+
 
 
 .hero.is-gold {
     color: $dark-2 !important;
     background-color: $gold !important;
+    h1 { color: $dark-2; }
+    h2 { color: $dark-2; }
+    h3 { color: $dark-2; }
+    h4 { color: $dark-2; }
+    h5 { color: $dark-2; }
+    h6 { color: $dark-2; }
 }
-.hero.is-gold h1 { color: $dark-2; }
-.hero.is-gold h2 { color: $dark-2; }
-.hero.is-gold h3 { color: $dark-2; }
-.hero.is-gold h4 { color: $dark-2; }
-.hero.is-gold h5 { color: $dark-2; }
-.hero.is-gold h6 { color: $dark-2; }
 
 
 .hero.is-white-e-forrest {
     color: $white-e !important;
     background-color: $forest !important;
+    h1 { color: $white-e; }
+    h2 { color: $white-e; }
+    h3 { color: $white-e; }
+    h4 { color: $white-e; }
+    h5 { color: $white-e; }
+    h6 { color: $white-e; }
 }
-.hero.is-white-e-forrest h1 { color: $white-e; }
-.hero.is-white-e-forrest h2 { color: $white-e; }
-.hero.is-white-e-forrest h3 { color: $white-e; }
-.hero.is-white-e-forrest h4 { color: $white-e; }
-.hero.is-white-e-forrest h5 { color: $white-e; }
-.hero.is-white-e-forrest h6 { color: $white-e; }
 
 .hero.is-forrest-dark-2 {
     color: $forest !important;
     background-color: $dark-2 !important;
+    h1 { color: $forest; }
+    h2 { color: $forest; }
+    h3 { color: $forest; }
+    h4 { color: $forest; }
+    h5 { color: $forest; }
+    h6 { color: $forest; }
 }
-.hero.is-forrest-dark-2 h1 { color: $forest; }
-.hero.is-forrest-dark-2 h2 { color: $forest; }
-.hero.is-forrest-dark-2 h3 { color: $forest; }
-.hero.is-forrest-dark-2 h4 { color: $forest; }
-.hero.is-forrest-dark-2 h5 { color: $forest; }
-.hero.is-forrest-dark-2 h6 { color: $forest; }
 
 
 
 .card.is-white-e {
     color: $dark-2 !important;
     background-color: $white-e;
+    .title { color: $dark-2 !important; }
+    .subtitle { color: $dark-2 !important; }
+    strong { color: $dark-4 !important; }
 }
-.card.is-white-e .title { color: $dark-2 !important; }
-.card.is-white-e .subtitle { color: $dark-2 !important; }
-.card.is-white-e strong { color: $dark-4 !important; }
 
 .card.is-gold {
     background-color: $gold;
     border: 2px solid $dark-2;
 }
 .card.is-neon-gold {
-    background-color: transparent;
+    background-color: $dark-3;
+    // background-color: transparent;
     color: $white-c;
-    border: 2px solid $gold;
+    // border: 2px solid $gold;
+    p.title {
+        color: $gold !important;
+    }
 }
-.card.is-neon-gold p.title {
-    color: $gold !important;
-}
-
 .card.is-neon-iron-violet {
     background-color: transparent;
     color: $white-c;
     border: 2px solid $iron-violet;
-}
-.card.is-iron-violet p.title {
-    color: $iron-violet !important;
-}
-.card.is-iron-violet p.subtitle {
-    color: $iron-violet !important;
+    p.title {
+        color: $iron-violet !important;
+    }
+    p.subtitle {
+        color: $iron-violet !important;
+    }
+    
 }
 
 .card.is-neon-trident-cyan {
-    background-color: transparent;
+    background-color: $dark-3;
     color: $white-c;
-    border: 2px solid $trident-cyan;
+    // border: 2px solid $trident-cyan;
+    video {
+        background-color: $black;
+    }
+    p.title {
+        color: $white-c !important;
+    }
 }
-.card.is-neon-trident-cyan p.title {
-    color: $white-c !important;
+.section.is-white-c-dark-3 {
+    h1 { color: $white-c; }
+    h2 { color: $white-c; }
+    h3 { color: $white-c; }
+    h4 { color: $white-c; }
+    h5 { color: $white-c; }
+    h6 { color: $white-c; }
 }
-
-.section.is-white-c-dark-3 h1 { color: $white-c; }
-.section.is-white-c-dark-3 h2 { color: $white-c; }
-.section.is-white-c-dark-3 h3 { color: $white-c; }
-.section.is-white-c-dark-3 h4 { color: $white-c; }
-.section.is-white-c-dark-3 h5 { color: $white-c; }
-.section.is-white-c-dark-3 h6 { color: $white-c; }
 
 /*! $dark-2 hero color */
 .hero.is-dark-2 {
     color: $white-c;
     background-color: $dark-2;
+    .title { color: $white-c; }
+    .subtitle { color: $white-c; }
+    strong { color: $white-c; }
 }
-.hero.is-dark-2 .title { color: $white-c; }
-.hero.is-dark-2 .subtitle { color: $white-c; }
-.hero.is-dark-2 strong { color: $white-c; }
 
 /*! $dark-3 hero color */
 .hero.is-dark-3 {
     color: $white-c;
     background-color: $dark-3;
+    h1 { color: $white-c; }
 }
-.hero.is-dark-3 h1{
-    color: $white-c;
-}
-
 
 /*! $dark-2 section color */
 .section.is-dark-2 {
     color: $white-c;
     background-color: $dark-2;
+    .title { color: $white-c; }
+    .subtitle { color: $white-c; }
+    strong { color: $white-c; }
+    h1 { color: $white-c; }
+    h2 { color: $white-c; }
+    h3 { color: $white-c; }
+    h4 { color: $white-c; }
+    h5 { color: $white-c; }
+    h6 { color: $white-c; }
 }
-.section.is-dark-2 .title { color: $white-c; }
-.section.is-dark-2 .subtitle { color: $white-c; }
-.section.is-dark-2 strong { color: $white-c; }
-.section.is-dark-2 h1 { color: $white-c; }
-.section.is-dark-2 h2 { color: $white-c; }
-.section.is-dark-2 h3 { color: $white-c; }
-.section.is-dark-2 h4 { color: $white-c; }
-.section.is-dark-2 h5 { color: $white-c; }
-.section.is-dark-2 h6 { color: $white-c; }
 
 /* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
 section.trench-footer {
@@ -392,62 +397,52 @@ section.trench-footer {
 }
 
 /* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
-.hero.is-black { color: $white-c; }
-.hero.is-black p.title { color: $white-c; }
+.hero.is-black {
+    color: $white-c; 
+    p.title { color: $white-c; }
+}
 
 .section.is-maroon {
     background-color: $maroon !important;
     color: $white-c !important;
+    .title { color: $white-c !important; }
+    .subtitle { color: $white-c !important; }
 }
-.section.is-maroon .title { color: $white-c !important; }
-.section.is-maroon .subtitle { color: $white-c !important; }
 
 .hero.is-maroon {
     background-color: $maroon !important;
     color: $white-c !important;
+    .title { color: $white-c !important; }
+    .subtitle { color: $white-c !important; }
 }
-.hero.is-maroon .title { color: $white-c !important; }
-.hero.is-maroon .subtitle { color: $white-c !important; }
 
 
 /* $trident-cyan hero */
 .hero.is-trident-cyan-dark-3 {
     color: $trident-cyan;
     background-color: $dark-3;
+    .title { color: $trident-cyan; }
+    .subtitle { color: $trident-cyan; }
 }
-.hero.is-trident-cyan-dark-3 .title {
-    color: $trident-cyan;
-}
-.hero.is-trident-cyan-dark-3 .subtitle {
-    color: $trident-cyan;
-}
-
 .hero.is-trident-cyan {
     color: $dark-3 !important;
     background-color: $trident-cyan !important;
+    .title { color: $dark-3; }
+    .subtitle { color: $dark-3; }
 }
-.hero.is-trident-cyan .title { color: $dark-3; }
-.hero.is-trident-cyan .subtitle { color: $dark-3; }
 
 .hero.is-white-e-iron-red {
     background-color: $iron-red;
     color: $white-e;
+    .title { color: $white-e; }
+    .subtitle { color: $white-e; }
 }
-.hero.is-white-e-iron-red .title {
-    color: $white-e;
-}
-.hero.is-white-e-iron-red .subtitle {
-    color: $white-e;
-}
+
 .hero.is-iron-red-white-e {
     background-color: $white-e;
     color: $iron-red;
-}
-.hero.is-iron-red-white-e .title {
-    color: $iron-red;
-}
-.hero.is-iron-red-white-e .subtitle {
-    color: $iron-red;
+    .title { color: $iron-red; }
+    .subtitle { color: $iron-red; }
 }
 
 /*! $blurple button */
@@ -456,14 +451,14 @@ section.trench-footer {
     border-color: $blurple;
     color: $blurple;
     border-width: 2px;
-}
-.button.is-neon-blurple:hover, .button.is-neon-blurple.is-hovered {
-    border-color: lighten($blurple, 20%);
-}
-.button.is-neon-blurple:active, .button.is-neon-blurple.is-active {
-    background-color: $blurple;
-    border-color: $blurple;
-    color: #000;
+    &:hover, &.is-hovered {
+        border-color: lighten($blurple, 20%);
+    }
+    &:active, &.is-active {
+        background-color: $blurple;
+        border-color: $blurple;
+        color: #000;
+    }
 }
 
 
@@ -473,14 +468,14 @@ section.trench-footer {
     border-color: $docs-grey;
     color: $docs-grey;
     border-width: 2px; 
-}
-.button.is-neon-grey:hover, .button.is-neon-grey.is-hovered {
-    border-color: lighten($docs-grey, 20%);
-}
-.button.is-neon-grey:active, .button.is-neon-grey.is-active {
-    background-color: $docs-grey;
-    border-color: $docs-grey;
-    color: #000;
+    &:hover, &.is-hovered {
+        border-color: lighten($docs-grey, 20%);
+    }
+    &:active, &.is-active {
+        background-color: $docs-grey;
+        border-color: $docs-grey;
+        color: #000;
+    }
 }
 
 /* $white-c button */
@@ -488,15 +483,15 @@ section.trench-footer {
     background-color: transparent;
     border-color: $white-c;
     color: $white-c;
-    border-width: 2px; 
-}
-.button.is-neon-white-c:hover, .button.is-neon-white-c.is-hovered {
-    border-color: lighten($white-c, 20%);
-}
-.button.is-neon-white-c:active, .button.is-neon-white-c.is-active {
-    background-color: $white-c;
-    border-color: $white-c;
-    color: #000;
+    border-width: 2px;
+    &:hover, &.is-hovered {
+        border-color: lighten($white-c, 20%);
+    }
+    &:active, &.is-active {
+        background-color: $white-c;
+        border-color: $white-c;
+        color: #000;
+    }
 }
 
 
@@ -506,14 +501,14 @@ section.trench-footer {
     border-color: $trident-cyan;
     color: $trident-cyan;
     border-width: 2px;
-}
-.button.is-neon-trident-cyan:hover, .button.is-neon-trident-cyan.is-hovered {
-    border-color: lighten($trident-cyan, 20%);
-}
-.button.is-neon-trident-cyan:active, .button.is-neon-trident-cyan.is-active {
-    background-color: $trident-cyan;
-    border-color: $trident-cyan;
-    color: #000;
+    &:hover, &.is-hovered {
+        border-color: lighten($trident-cyan, 20%);
+    }
+    &:active, &.is-active {
+        background-color: $trident-cyan;
+        border-color: $trident-cyan;
+        color: #000;
+    }
 }
 
 
@@ -523,14 +518,14 @@ section.trench-footer {
     border-color: $emerald;
     color: $emerald;
     border-width: 2px;
-}
-.button.is-neon-emerald:hover, .button.is-neon-emerald.is-hovered {
-    border-color: #fff;
-}
-.button.is-neon-emerald:active, .button.is-neon-emerald.is-active {
-    background-color: $emerald;
-    border-color: $emerald;
-    color: #000;
+    &:hover, &.is-hovered {
+        border-color: #fff;
+    }
+    &:active, &.is-active {
+        background-color: $emerald;
+        border-color: $emerald;
+        color: #000;
+    }
 }
 
 
@@ -540,14 +535,14 @@ section.trench-footer {
     border-color: red;
     background-color: transparent;
     border-width: 2px;
-}
-.button.is-youtube-red:hover, .button.is-youtube-red.is-hovered {
-    border-color: lighten($youtube-red, 20%);
-}
-.button.is-youtube-red:active, .button.is-youtube-red.is-active {
-    color: white;
-    border-color: red;
-    background-color: red;
+    &:hover, &.is-hovered {
+        border-color: lighten($youtube-red, 20%);
+    }
+    &:active, &.is-active {
+        color: white;
+        border-color: red;
+        background-color: red;
+    }
 }
 
 
@@ -557,14 +552,14 @@ section.trench-footer {
     border-color: $twitter-cyan;
     background-color: transparent;
     border-width: 2px;
-}
-.button.is-twitter-cyan:hover, .button.is-twitter-cyan.is-hovered {
-    border-color: lighten($twitter-cyan, 20%);
-}
-.button.is-twitter-cyan:active, .button.is-twitter-cyan.is-active {
-    color: white;
-    border-color: $twitter-cyan;
-    background-color: $twitter-cyan;
+    &:hover, &.is-hovered {
+        border-color: lighten($twitter-cyan, 20%);
+    }
+    &:active, &.is-active {
+        color: white;
+        border-color: $twitter-cyan;
+        background-color: $twitter-cyan;
+    }
 }
 
 
@@ -574,14 +569,14 @@ section.trench-footer {
     border-color: $white-c;
     background-color: transparent;
     border-width: 2px;
-}
-.button.is-github-white:hover, .button.is-github-white.is-hovered {
-    border-color: $white-e;
-}
-.button.is-github-white:active, .button.is-github-white.is-active {
-    color: black;
-    border-color: $white-c;
-    background-color: $white-c;
+    &:hover, &.is-hovered {
+        border-color: $white-e;
+    }
+    &:active, &.is-active {
+        color: black;
+        border-color: $white-c;
+        background-color: $white-c;
+    }
 }
 
 
@@ -591,14 +586,14 @@ section.trench-footer {
     border-color: $dark-2;
     background-color: transparent;
     border-width: 2px;
-}
-.button.is-github-black:hover, .button.is-github-black.is-hovered {
-    border-color: lighten($dark-2, 20%);
-}
-.button.is-github-black:active, .button.is-github-black.is-active {
-    color: $white-e;
-    border-color: transparent;
-    background-color: $dark-2;
+    &:hover, &.is-hovered {
+        border-color: lighten($dark-2, 20%);
+    }
+    &:active, &.is-active {
+        color: $white-e;
+        border-color: transparent;
+        background-color: $dark-2;
+    }
 }
 
 
@@ -607,15 +602,15 @@ section.trench-footer {
     border: 2px solid $patreon-coral;
     background-color: transparent;
     color: $white-c;
-}
-.button.is-patreon-coral:hover {
-    border-color: lighten($patreon-coral, 20%);
-    color: $white-e;
-}
-.button.is-patreon-coral:active {
-    border-color: $patreon-coral;
-    background-color: $patreon-coral;
-    color: $dark-2;
+    &:hover {
+        border-color: lighten($patreon-coral, 20%);
+        color: $white-e;
+    }
+    &:active {
+        border-color: $patreon-coral;
+        background-color: $patreon-coral;
+        color: $dark-2;
+    }
 }
 
 /* Ko-fi button */
@@ -623,15 +618,15 @@ section.trench-footer {
     border: 2px solid $kofi-cyan;
     background-color: transparent;
     color: $kofi-cyan;
-}
-.button.is-kofi-cyan:hover {
-    border-color: lighten($kofi-cyan, 20%);
-    color: lighten($kofi-cyan, 20%);
-}
-.button.is-kofi-cyan:active {
-    border-color: $kofi-cyan;
-    background-color: $kofi-cyan;
-    color: $dark-2;
+    &:hover {
+        border-color: lighten($kofi-cyan, 20%);
+        color: lighten($kofi-cyan, 20%);
+    }
+    :active {
+        border-color: $kofi-cyan;
+        background-color: $kofi-cyan;
+        color: $dark-2;
+    }
 }
 
 /* Liberapay button */
@@ -639,30 +634,31 @@ section.trench-footer {
     border: 2px solid $liberapay-yellow;
     background-color: transparent;
     color: $white-c;
+    &:hover {
+        border-color: lighten($liberapay-yellow, 20%);
+        color: $white-e;
+    }
+    &:active {
+        border-color: $liberapay-yellow;
+        background-color: $liberapay-yellow;
+        color: $dark-2;
+    }
 }
-.button.is-liberapay-yellow:hover {
-    border-color: lighten($liberapay-yellow, 20%);
-    color: $white-e;
-}
-.button.is-liberapay-yellow:active {
-    border-color: $liberapay-yellow;
-    background-color: $liberapay-yellow;
-    color: $dark-2;
-}
+
 
 .button.is-iron-red {
     color: $iron-red;
     border-color: $iron-red;
     background-color: transparent;
     border-width: 2px;
-}
-.button.is-iron-red:hover, .button.is-iron-red.is-hovered {
-    border-color: lighten($iron-red, 20%);
-}
-.button.is-iron-red:active, .button.is-iron-red.is-active {
-    color: $white-e;
-    border-color: transparent;
-    background-color: $iron-red;
+    &:hover, &.is-hovered {
+        border-color: lighten($iron-red, 20%);
+    }
+    &:active, &.is-active {
+        color: $white-e;
+        border-color: transparent;
+        background-color: $iron-red;
+    }
 }
 
 
@@ -673,20 +669,18 @@ section.trench-footer {
     padding-right: 20px;
     padding-bottom: 20px;
 }
-.tabs.is-neon-trident-cyan ul {
-    border-bottom: 2px solid $dark-4;
-}
-.tabs.is-neon-trident-cyan li a {
-    color: $white-c !important;
-    border-bottom: 2px solid $white-c;
-}
-.tabs.is-neon-trident-cyan li a {
-    color: $white-c !important;
-    border-bottom: 2px solid $white-c;
-}
-.tabs.is-neon-trident-cyan li.is-active a {
-    color: $trident-cyan !important;
-    border-bottom: 2px solid $trident-cyan;
+.tabs.is-neon-trident-cyan { 
+    ul {
+        border-bottom: 2px solid $dark-4;
+    }
+    li a {
+        color: $white-c !important;
+        border-bottom: 2px solid $white-c;
+    }
+    li.is-active a {
+        color: $trident-cyan !important;
+        border-bottom: 2px solid $trident-cyan;
+    }
 }
 // .gallery-main-container {
 //     padding-top: 20px;
@@ -720,26 +714,28 @@ section.trench-footer {
     height: 0; 
     overflow: hidden;
     background-color: $dark-2;
-}
-.video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 // div.rolling-columns {
 //     overflow-y: auto;
 // }
 
 
-.menu-item { border: 2px solid $dark-2; }
-.menu-item a { padding: 0.3em 0.3em; }
-.menu-item:hover { border: 2px solid $dark-4; }
-.menu-item a:hover { background-color: $dark-4 !important; }
-.menu-item:active p { color: $white; }
-.menu-item.is-selected { border: 2px solid $trident-cyan; }
-.menu-item.is-selected p, .menu-item.is-selected i { color: $trident-cyan !important; }
+.menu-item { 
+    border: 2px solid $dark-2;
+    a { padding: 0.3em 0.3em; }
+    a:hover { background-color: $dark-4 !important; }
+    &:hover { border: 2px solid $dark-4; }
+    &:active p { color: $white; }
+    &.is-selected { border: 2px solid $trident-cyan; }
+    &.is-selected p, &.is-selected i { color: $trident-cyan !important; }
+ }
 
 
 code.code-black {
@@ -769,22 +765,20 @@ ol.numbered-list li {
     margin-bottom: 70px;
 }
 
-.commission-info h1 {
-    text-align: center;
-}
-.commission-info p {
-    text-align: justify;
+.commission-info {
+    h1 { text-align: center;}
+    p { text-align: justify; }
 }
 
 .message.is-dark-2 {
     border: 2px solid $white-c;
+    .message-header {
+        color: $white-c !important;
+        background-color: $dark-2;
+    }
+    .message-body {
+        color: $white-c !important;
+        background-color: $dark-2;
+        .title { color: $white-c !important; }
+    }
 }
-.message.is-dark-2 .message-header {
-    color: $white-c !important;
-    background-color: $dark-2;
-}
-.message.is-dark-2 .message-body {
-    color: $white-c !important;
-    background-color: $dark-2;
-}
-.message.is-dark-2 .message-body .title { color: $white-c !important; }
