@@ -13,6 +13,7 @@ $pink: #fa7cb7;
 $dark-2: #232629;
 $dark-3: #31363b;
 $dark-4: #444851;
+$dark-7: #72798b;
 $white-e: #eeeeee;
 $white-c: #cccccc;
 $emerald: #50c890;
@@ -344,11 +345,17 @@ div.navitem-double-space a.navbar-item {
     background-color: $dark-3;
     color: $white-c;
     // border: 2px solid $trident-cyan;
+    -webkit-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
     video {
         background-color: $black;
     }
     p.title {
         color: $white-c !important;
+    }
+    .card-footer {
+        border-top: 2px solid $dark-7;
     }
 }
 .section.is-white-c-dark-3 {
