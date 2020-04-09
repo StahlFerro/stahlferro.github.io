@@ -1,8 +1,8 @@
 {
   "name": "stahlferro.github.io",
   "version": "1.0.0",
-  "description": "Nuxt github page",
-  "author": "StahlFerro <StahlFerro@users.noreply.github.com>",
+  "description": "StahlFerro&#39;s website",
+  "author": "StahlFerro",
   "private": true,
   "scripts": {
     "css-build": "node-sass --omit-source-map-url static/sass/bulmamods.scss static/css/bulmamods.css",
@@ -19,19 +19,18 @@
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.0.0",
     "vue-clipboard2": "^0.3.1"
   },
   "devDependencies": {
     "@nuxtjs/robots": "^2.4.2",
-    "@nuxtjs/sitemap": "^2.0.1",
+    "@nuxtjs/sitemap": "^2.2.0",
     "babel-eslint": "^10.1.0",
-    "bulma": "^0.8.0",
-    "cross-env": "^6.0.3",
-    "eslint": "^4.19.1",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^4.0.0",
+    "bulma": "^0.8.1",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.13.1",
     "rimraf": "^3.0.2",
     "sass-loader": "^8.0.2"
