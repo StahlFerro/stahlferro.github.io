@@ -9,7 +9,7 @@ echo -e "${CYAN}[1/5]${NC} Enter commit message:"
 read msg
 
 echo -e "${CYAN}[2/5]${NC} Running ${GREEN}npm run genpage${NC} to generate static site on dist/ folder..."
-npm run genpage
+yarn genpage
 
 echo -e "${CYAN}[3/5]${NC} Updating remote ${GREEN}dev${NC} repo..."
 git add .
@@ -17,7 +17,7 @@ git commit -m "$msg"
 git push origin dev
 
 echo -e "${CYAN}[4/5]${NC} Pushing dist/ folder into ${GREEN}master${NC} remote branch"
-npm run push2master
+yarn push2master
 
 echo -e "${CYAN}[5/5]${NC} Updating local ${GREEN}master${NC} towards remote ${GREEN}master${NC}"
 git checkout master
