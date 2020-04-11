@@ -232,7 +232,7 @@ let title = "Commissions"
 let meta_list = generate_meta({
     "title": title,
     "description": "StahlFerro is now accepting their very first VFX commissions! Visit this page if you want some sweet VFX animations",
-    "image": "/thumb/Commissions_Thumb.png",
+    "image": "/thumb/ogthumb_donations.png",
     "theme_color": "#32b354",
     "path": page_path
   }

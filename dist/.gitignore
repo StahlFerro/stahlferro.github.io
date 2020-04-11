@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Additional ignores
+
+.idea/
+.nuxt/
+.sass-cache/
+.venv/
+.vscode/
+_site/
+
+# Temp ignore

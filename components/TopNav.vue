@@ -88,7 +88,7 @@
       <div class="modal-content">
         <article class="message is-dark-2 is-medium">
           <div class="message-header">
-            <p>Email</p>
+            <p>Contact Email</p>
             <button class="delete" aria-label="delete" v-on:click="email_modal_open = false"></button>
           </div>
           <div class="message-body has-text-centered">
@@ -103,7 +103,7 @@
             <button class="button is-neon-white-c is-medium"
               v-clipboard:copy="'forgeworkseven@gmail.com'">
               <span class="icon is-medium"><i class="fas fa-copy"></i></span>
-              <span>Copy to clipboard</span>
+              <span>Copy</span>
             </button>
           </div>
         </article>

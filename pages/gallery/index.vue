@@ -4,9 +4,9 @@
         <div class="hero-body">
         <div class="container has-text-centered">
           <div class="content theme-dark-2">
-            <h1 class="title">VFX Gallery</h1>
+            <h1 class="title">Gallery</h1>
             <p>
-              This is the official gallery of short VFX-composited vector animations that I've made. 
+              This is the official gallery of all short hybrid VFX/vector animations that I've made. 
               Originally hosted on Imgur and are only link-viewable, they are now gradually compiled here on this webpage.
             </p>
             <p>
@@ -89,7 +89,7 @@ let title = "VFX Gallery";
 let meta_list = generate_meta({
     "title":title,
     "description": "The gallery of every short VFX animations that I've made in the form of MP4s",
-    "image": '/thumb/VFXAnim_Thumb.png',
+    "image": '/thumb/ogthumb_gallery.png',
     "theme_color": "#9947a6",
     "path": page_path
   }

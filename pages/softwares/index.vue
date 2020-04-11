@@ -54,7 +54,7 @@ let title = "Softwares";
 let meta_list = generate_meta({
     "title":title,
     "description": "All software projects that I develop and maintain.",
-    // "image": "/thumb/TridentFrame_Thumb.png",
+    "image": "/thumb/ogthumb_softwares.png",
     "theme_color": "#5fa5c5",
     "path": page_path
   }
