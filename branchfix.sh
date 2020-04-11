@@ -9,7 +9,7 @@ echo -e "${CYAN}[1/7]${NC} Checkout ${GREEN}dev${NC}..."
 git checkout dev
 
 echo -e "${CYAN}[2/7]${NC} Deleting local${GREEN}gh-pages${NC} if exists..."
-git branch -d gh-pages
+git branch -D gh-pages
 
 echo -e "${CYAN}[3/7]${NC} Deleting remote ${GREEN}gh-pages${NC} if exists..."
 git push --delete origin gh-pages
