@@ -49,7 +49,7 @@ let meta_list = generate_meta({
     "title":title,
     "description": "All of the youtube videos I have made with information regarding them",
     "image": "/thumb/ogthumb_videos.png",
-    "theme_color": "#c55f83",
+    "theme_color": "#e31e1e",
     "path": page_path
   }
 );

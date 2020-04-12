@@ -232,8 +232,8 @@ let title = "Commissions"
 let meta_list = generate_meta({
     "title": title,
     "description": "StahlFerro is now accepting their very first VFX commissions! Visit this page if you want some sweet VFX animations",
-    "image": "/thumb/ogthumb_donations.png",
-    "theme_color": "#32b354",
+    "image": "/thumb/ogthumb_commissions.png",
+    "theme_color": "#18f2d5",
     "path": page_path
   }
 );

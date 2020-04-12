@@ -60,8 +60,8 @@ let title = "Donations";
 let meta_list = generate_meta({
     "title":title,
     "description": "Donations to support the development of free software and VFX videos that StahlFerro makes",
-    "image": '/thumb/Donations_Thumb.png',
-    "theme_color": "#e76544",
+    "image": '/thumb/ogthumb_donations.png',
+    "theme_color": "##e92afa",
     "path": page_path
   }
 );

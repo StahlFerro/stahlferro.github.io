@@ -90,7 +90,7 @@ let meta_list = generate_meta({
     "title":title,
     "description": "The gallery of every short VFX animations that I've made in the form of MP4s",
     "image": '/thumb/ogthumb_gallery.png',
-    "theme_color": "#9947a6",
+    "theme_color": "#ff8629",
     "path": page_path
   }
 );
