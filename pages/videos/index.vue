@@ -47,7 +47,7 @@ let page_path = "/videos";
 let title = "Videos";
 let meta_list = generate_meta({
     "title":title,
-    "description": "Information on my VFX animation videos and tutorials.",
+    "description": "All of the youtube videos I have made with information regarding them",
     "image": "/thumb/ogthumb_videos.png",
     "theme_color": "#c55f83",
     "path": page_path

@@ -16,8 +16,9 @@
         "page_url": "thesis"
     },
     {
-        "name": "Miscellaneous",
-        "desc": "MLG Parodies on miscellaneous videos, films and other media"
+        "name": "Miscellaneous MLG",
+        "desc": "MLG Parodies on miscellaneous videos, films and other media",
+        "page_url": "misc_mlg_videos"
     },
     {
         "name": "Montage Galaxy",

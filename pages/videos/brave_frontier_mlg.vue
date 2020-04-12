@@ -222,13 +222,13 @@ var data = {bf_videos: bf_videos};
 
 
 const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
-let page_path = "/videos/brave_frontier_mlg";
+let page_path = "/videos/tutorials";
 let title = "Brave Frontier MLG";
 let meta_list = generate_meta({
   "title":title,
   "description": "Brave Frontier MLG: The 8 video series of intense montages made with various editing styles revolving around the Montage Parody memes and a mix of hybrid VFX-animation",
   "image": "/thumb/BFMLG_Thumb.png",
-  "theme_color": "#e4a126",
+  "theme_color": "#267e2b",
   "path": page_path
 });
 

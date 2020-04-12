@@ -44,7 +44,7 @@
               is-half-tablet
               is-full-mobile"
               v-for="(gif, index) in collection.medias" v-bind:key="index">
-              <div class="card is-neon-trident-cyan">
+              <div class="card is-neon-white-c">
                 <div class="card-image">
                   <!-- <blockquote class="imgur-embed-pub" lang="en" data-id="RPscrlh">
                   <a href="http://imgur.com/RPscrlh">View post on imgur.com</a></blockquote>
