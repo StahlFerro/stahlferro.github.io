@@ -48,7 +48,7 @@ let title = "Videos";
 let meta_list = generate_meta({
     "title":title,
     "description": "Information on my VFX animation videos and tutorials.",
-    // "image": "/thumb/TridentFrame_Thumb.png",
+    "image": "/thumb/ogthumb_videos.png",
     "theme_color": "#c55f83",
     "path": page_path
   }
