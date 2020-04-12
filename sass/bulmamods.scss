@@ -29,6 +29,7 @@ $twitter-cyan: #1da1f2;
 $kofi-cyan: #29ABE0;
 $patreon-coral: #f86754;
 $liberapay-yellow: #f6c915;
+$mlg-dark-violet: #2d254e;
 
 
 /*! Color definitions */
@@ -173,6 +174,7 @@ a.nuxt-link-exact-active {
     a.navbar-item:hover {
         background-color: transparent;
         border: 2px solid $white-c;
+        color: $white-c;
     }
     a.navbar-item:active {
         color: $dark-2;
@@ -304,6 +306,29 @@ div.navitem-double-space a.navbar-item {
     h5 { color: $forest; }
     h6 { color: $forest; }
 }
+.hero.is-dark-2-forrest {
+    color: $dark-2 !important;
+    background-color: $forest !important;
+    h1 { color: $dark-2; }
+    h2 { color: $dark-2; }
+    h3 { color: $dark-2; }
+    h4 { color: $dark-2; }
+    h5 { color: $dark-2; }
+    h6 { color: $dark-2; }
+}
+.hero.is-mlg-dark-violet {
+    color: $dark-2 !important;
+    background-color: $mlg-dark-violet !important;
+    h1 { color: $dark-2; }
+    h2 { color: $dark-2; }
+    h3 { color: $dark-2; }
+    h4 { color: $dark-2; }
+    h5 { color: $dark-2; }
+    h6 { color: $dark-2; }
+}
+
+
+
 
 
 
@@ -319,6 +344,15 @@ div.navitem-double-space a.navbar-item {
     background-color: $gold;
     border: 2px solid $dark-2;
 }
+// .card.is-neon-white-c {
+//     background-color: $dark-3;
+//     // background-color: transparent;
+//     color: $white-c;
+//     // border: 2px solid $gold;
+//     p.title {
+//         color: $white-c !important;
+//     }
+// }
 .card.is-neon-gold {
     background-color: $dark-3;
     // background-color: transparent;
@@ -341,13 +375,13 @@ div.navitem-double-space a.navbar-item {
     
 }
 
-.card.is-neon-trident-cyan {
+.card.is-neon-white-c {
     background-color: $dark-3;
     color: $white-c;
     // border: 2px solid $trident-cyan;
-    -webkit-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
-    box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.2);
     video {
         background-color: $black;
     }
@@ -672,11 +706,14 @@ section.trench-footer {
 /* The GIF display */
 .gallery-container {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
 }
-.tabs.is-neon-trident-cyan { 
+.tabs.is-neon-trident-cyan {
+    li {
+        border: 2px solid transparent;
+    } 
     ul {
         border-bottom: 2px solid $dark-4;
     }
@@ -684,9 +721,24 @@ section.trench-footer {
         color: $white-c !important;
         border-bottom: 2px solid $white-c;
     }
-    li.is-active a {
-        color: $trident-cyan !important;
-        border-bottom: 2px solid $trident-cyan;
+    li:hover {
+        border: 2px solid $white-c;
+    }
+    li:focus {
+        border: 2px solid $white-c;
+        a {
+            color: $dark-2 !important;
+            background-color: $white-c;
+            border-bottom: 2px solid $white-c;
+        }
+    }
+    li.is-active, li:active {
+        border: 2px solid $trident-cyan;
+        a {
+            color: $dark-2 !important;
+            background-color: $trident-cyan;
+            border-bottom: 2px solid $trident-cyan;
+        }
     }
 }
 // .gallery-main-container {
