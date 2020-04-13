@@ -11,7 +11,7 @@ git pull origin dev
 echo -e "${CYAN}[2/4]${NC} Checking out ${GREEN}master${NC}"
 git checkout master
 
-echo -e "${CYAN}[3/4]${NC} Force hard reset local ${GREEN}master${NC} to remote ${CYAN}master${$NC}"
+echo -e "${CYAN}[3/4]${NC} Force hard reset local ${GREEN}master${NC} to remote ${CYAN}master${NC}"
 git reset --hard origin/master
 
 echo -e "${CYAN}[4/4]${NC} Checking out ${GREEN}dev${NC}"
