@@ -22,4 +22,6 @@ yarn push2master
 echo -e "${CYAN}[5/5]${NC} Updating local ${GREEN}master${NC} towards remote ${GREEN}master${NC}"
 git checkout master
 git reset --hard origin/master
+
+echo -e "${CYAN}[6/6${NC} Switch back to ${GREEN}dev${NC}"
 git checkout dev
