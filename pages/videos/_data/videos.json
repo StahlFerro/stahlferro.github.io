@@ -8,20 +8,24 @@
     {
         "name": "Tutorials",
         "desc": "A collection of how-tos and tutorials on After Effects, and how I made my videos",
-        "page_url": "tutorials"
+        "page_url": "tutorials",
+        "thumb_url": "AE_Tutorials.png"
     },
     {
         "name": "Thesis",
         "desc": "Short two videos on the start and end of academics",
-        "page_url": "thesis"
+        "page_url": "thesis",
+        "thumb_url": "Thesis_Duo.png"
     },
     {
         "name": "Miscellaneous MLG",
         "desc": "MLG Parodies on miscellaneous videos, films and other media",
-        "page_url": "misc_mlg_videos"
+        "page_url": "misc_mlg_videos",
+        "thumb_url": "Misc_MLG.png"
     },
     {
         "name": "Montage Galaxy",
-        "desc": "An upcoming video series revolving around the Montage Galaxy"
+        "desc": "An upcoming video series revolving around the Montage Galaxy",
+        "thumb_url": "Montage_Galaxy.png"
     }
 ]
