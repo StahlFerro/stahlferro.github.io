@@ -1,4 +1,4 @@
-/*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
+/*! bulma.io v0.8.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -2887,15 +2887,15 @@ a.tag:hover {
   background-color: white;
   border-color: #dbdbdb;
   border-radius: 4px;
-  color: #363636; }
+  color: inherit; }
   .input::-moz-placeholder, .textarea::-moz-placeholder, .select select::-moz-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: inherit; }
   .input::-webkit-input-placeholder, .textarea::-webkit-input-placeholder, .select select::-webkit-input-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: inherit; }
   .input:-moz-placeholder, .textarea:-moz-placeholder, .select select:-moz-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: inherit; }
   .input:-ms-input-placeholder, .textarea:-ms-input-placeholder, .select select:-ms-input-placeholder {
-    color: rgba(54, 54, 54, 0.3); }
+    color: inherit; }
   .input:hover, .textarea:hover, .select select:hover, .is-hovered.input, .is-hovered.textarea, .select select.is-hovered {
     border-color: #b5b5b5; }
   .input:focus, .textarea:focus, .select select:focus, .is-focused.input, .is-focused.textarea, .select select.is-focused, .input:active, .textarea:active, .select select:active, .is-active.input, .is-active.textarea, .select select.is-active {
@@ -4926,23 +4926,25 @@ a.navbar-item,
   .navbar-link {
     align-items: center;
     display: flex; }
-  .navbar-item.has-dropdown {
-    align-items: stretch; }
-  .navbar-item.has-dropdown-up .navbar-link::after {
-    transform: rotate(135deg) translate(0.25em, -0.25em); }
-  .navbar-item.has-dropdown-up .navbar-dropdown {
-    border-bottom: 2px solid #dbdbdb;
-    border-radius: 6px 6px 0 0;
-    border-top: none;
-    bottom: 100%;
-    box-shadow: 0 -8px 8px rgba(10, 10, 10, 0.1);
-    top: auto; }
-  .navbar-item.is-active .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
-    display: block; }
-    .navbar.is-spaced .navbar-item.is-active .navbar-dropdown, .navbar-item.is-active .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:hover .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown.is-boxed {
-      opacity: 1;
-      pointer-events: auto;
-      transform: translateY(0); }
+  .navbar-item {
+    display: flex; }
+    .navbar-item.has-dropdown {
+      align-items: stretch; }
+    .navbar-item.has-dropdown-up .navbar-link::after {
+      transform: rotate(135deg) translate(0.25em, -0.25em); }
+    .navbar-item.has-dropdown-up .navbar-dropdown {
+      border-bottom: 2px solid #dbdbdb;
+      border-radius: 6px 6px 0 0;
+      border-top: none;
+      bottom: 100%;
+      box-shadow: 0 -8px 8px rgba(10, 10, 10, 0.1);
+      top: auto; }
+    .navbar-item.is-active .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
+      display: block; }
+      .navbar.is-spaced .navbar-item.is-active .navbar-dropdown, .navbar-item.is-active .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:hover .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown.is-boxed {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0); }
   .navbar-menu {
     flex-grow: 1;
     flex-shrink: 0; }
@@ -7169,14 +7171,13 @@ body {
   padding: 0px;
   overflow: hidden; }
 
-nav {
-  font-size: 1.1rem; }
-
 div.navbar-dropdown span.navitem-text {
   font-size: 1rem; }
 
-nav span.icon i {
-  font-size: 1.2em; }
+nav {
+  font-size: 1.1rem; }
+  nav span.icon i {
+    font-size: 1.2em; }
 
 .hover-trident-cyan:hover {
   color: #34caf8; }
@@ -7242,7 +7243,9 @@ a.nuxt-link-exact-active {
   border: 2px solid #3370cc !important; }
 
 .navbar.is-dark-2 {
-  background-color: #232629; }
+  background-color: #232629;
+  /* Navbar dropdown customizations */
+  /* Mobile Navbar */ }
   .navbar.is-dark-2 a.navbar-item {
     color: #cccccc;
     border: 2px solid #232629; }
@@ -7254,21 +7257,20 @@ a.nuxt-link-exact-active {
     color: #232629;
     background-color: #cccccc;
     border: 2px solid #cccccc; }
-
-/* Navbar dropdown customizations */
-.navbar.is-dark-2 a.navbar-link {
-  color: #cccccc !important;
-  background-color: #232629 !important;
-  border: 2px solid #232629 !important; }
-
-.navbar.is-dark-2 div.navbar-dropdown .navbar-item {
-  font-size: 20px; }
-
-.navbar.is-dark-2 a.navbar-link::after {
-  border-color: #cccccc !important; }
-
-.navbar.is-dark-2 a.navbar-link:hover::after {
-  border-color: #3370cc !important; }
+  .navbar.is-dark-2 a.navbar-link {
+    color: #cccccc !important;
+    background-color: #232629 !important;
+    border: 2px solid #232629 !important; }
+  .navbar.is-dark-2 div.navbar-dropdown .navbar-item {
+    font-size: 20px; }
+  .navbar.is-dark-2 a.navbar-link::after {
+    border-color: #cccccc !important; }
+  .navbar.is-dark-2 a.navbar-link:hover::after {
+    border-color: #3370cc !important; }
+  .navbar.is-dark-2 a.navbar-burger {
+    color: #cccccc; }
+  .navbar.is-dark-2 .navbar-menu.is-active {
+    background-color: #232629; }
 
 div.navitem-double-space a.navbar-item {
   padding-left: 20px;
@@ -7283,13 +7285,6 @@ div.navitem-double-space a.navbar-item {
   box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.2), 0 3px 20px 4px rgba(0, 0, 0, 0.2); }
   .navbar-shadow div.navbar-menu:not(.is-active) div.navbar-dropdown {
     box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2); }
-
-/* Mobile Navbar */
-.navbar.is-dark-2 a.navbar-burger {
-  color: #cccccc; }
-
-.navbar.is-dark-2 .navbar-menu.is-active {
-  background-color: #232629; }
 
 .image-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
