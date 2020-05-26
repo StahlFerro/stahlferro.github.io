@@ -27,5 +27,10 @@
         "name": "Montage Galaxy",
         "desc": "An upcoming video series revolving around the Montage Galaxy",
         "thumb_url": "Montage_Galaxy.png"
+    },
+    {
+        "name": "Arknights VFX-animations",
+        "desc": "Various Arknights meme material composited with proper VFX",
+        "page_url": "arknights_vfx"
     }
 ]
