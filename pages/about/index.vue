@@ -22,7 +22,7 @@
           <p class="has-text-justified"></p>
           <p class="has-text-justified">
             Although videos require weeks to months to work on, and infrequent youtube uploads make me appear very inactive,
-            I am most active on my Discord server, where I centralize FortressBot and TridentFrame development, and my youtube community inside it.
+            I am most active on my Discord server, where I centralize my youtube community and TridentFrame updates inside it.
             I monitor the server everyday regardless of its current activity.
             <br />
             <a class="hover-trident-cyan" v-bind:href="discord_server_url">Come have a visit!</a>
