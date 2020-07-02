@@ -15,10 +15,9 @@
           <p class="has-text-justified">
             <strong>&gt; Software Developer</strong>
             <br />
-            I am the sole developer and maintainer of various free softwares, most notably the moderation Discord bot 
-            <nuxt-link to="/softwares/fortressbot" class="hover-trident-cyan">FortressBot</nuxt-link>
-            and the desktop GIF/APNG manipulator program <nuxt-link to="/softwares/tridentframe" class="hover-trident-cyan">TridentFrame</nuxt-link>.
-            Aside from those two I work on various small projects hosted on my Github
+            I am the sole developer and maintainer of various open-source softwares, most notably the desktop GIF/APNG manipulator program 
+            <nuxt-link to="/softwares/tridentframe" class="hover-trident-cyan">TridentFrame</nuxt-link>.
+            Aside from it I work on various small projects hosted on my Github
           </p>
           <p class="has-text-justified"></p>
           <p class="has-text-justified">
