@@ -15,6 +15,7 @@ npm-debug.log
 .venv/
 .vscode/
 _site/
+bin/
 
 # Python ignores
 
