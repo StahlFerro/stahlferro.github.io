@@ -61,4 +61,4 @@ def generate_thumbnails(quality: int):
 
 
 if __name__ == "__main__":
-    generate_thumbnails()
+    generate_thumbnails(70)
