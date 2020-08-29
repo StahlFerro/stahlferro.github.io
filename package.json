@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "css-build": "node-sass --omit-source-map-url static/sass/bulmamods.scss static/css/bulmamods.css",
-    "css-watch": "yarn run css-build -- --watch",
+    "css-watch": "yarn run css-build --watch",
     "dev": "nuxt",
-    "build": "nuxt build -a",
+    "build": "nuxt build --analyze",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "buildpage": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
@@ -33,6 +33,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.13.1",
     "rimraf": "^3.0.2",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.44.1"
   }
 }
