@@ -3,7 +3,7 @@
       <section class="hero is-dark-2 is-medium">
         <div class="hero-body">
         <div class="container has-text-centered">
-          <div class="content theme-dark-2">
+          <div class="content">
             <h1 class="title">Gallery</h1>
             <p>
               This is the official gallery of all short hybrid VFX/vector animations that I've made. 
@@ -51,9 +51,9 @@
                   <a href="http://imgur.com/RPscrlh">View post on imgur.com</a></blockquote>
                   <script async src="http://s.imgur.com/min/embed.js" charset="utf-8"></script> -->
                   <div class="video-container">
-                    <video controls="controls" loop="loop">
+                    <video controls="controls" loop="loop" preload="none">
                       <source
-                        v-bind:src="`/gifstash/${collection.page_url}/${gif.fname_mp4}`"
+                        v-bind:src="`/gallery-videos/${collection.page_url}/${gif.fname_mp4}`"
                         type="video/mp4"
                       />
                     </video>

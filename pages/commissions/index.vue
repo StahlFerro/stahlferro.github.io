@@ -121,7 +121,7 @@
                             <div class="card-image">
                                 <div class="video-container">
                                     <video controls="controls" loop="loop">
-                                        <source src="/gifstash/blobs/blobsamurai.mp4" type="video/mp4"/>
+                                        <source src="/gallery-videos/blobs/blobsamurai.mp4" type="video/mp4"/>
                                     </video>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                             <div class="card-image">
                                 <div class="video-container">
                                     <video controls="controls" loop="loop">
-                                        <source src="/gifstash/blobs/blobcosmicban.mp4" type="video/mp4"/>
+                                        <source src="/gallery-videos/blobs/blobcosmicban.mp4" type="video/mp4"/>
                                     </video>
                                 </div>
                             </div>

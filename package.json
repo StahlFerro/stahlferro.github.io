@@ -28,10 +28,10 @@
     "babel-eslint": "^10.1.0",
     "bulma": "^0.9.0",
     "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
+    "eslint": "^7.7.0",
     "eslint-loader": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.0",
     "rimraf": "^3.0.2",
     "sass-loader": "^8.0.2",
     "webpack": "^4.44.1"

@@ -5,19 +5,16 @@
 @import "components/column.scss";
 @import "components/navbar.scss";
 @import "components/card.scss";
-@import "components/section.scss";
 @import "components/hero.scss";
 @import "components/button.scss";
 @import "components/image.scss";
-@import "components/gallery.scss";
-@import "components/tab.scss";
 @import "components/video.scss";
 
 // h1, h2, h3, h4, h5, h6, nav {
 //     font-family: 'Metropolis';
 //     font-size: 1.1em;
 //     letter-spacing: 0.03em;
-// } 
+// }
 
 // nav span.navitem-text {
 //     -webkit-transform:scale(0.9, 1.0);
@@ -44,7 +41,12 @@
     vertical-align: middle;
 }
 
-
+/* Auto-center background images */
+.has-bg-center {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 
 
@@ -74,6 +76,54 @@
 //         color: $white-c !important;
 //     }
 // }
+
+.section.is-white-c-dark-3 {
+    h1 { color: $white-c; }
+    h2 { color: $white-c; }
+    h3 { color: $white-c; }
+    h4 { color: $white-c; }
+    h5 { color: $white-c; }
+    h6 { color: $white-c; }
+}
+
+
+
+/*! $dark-2 section color */
+.section.is-dark-2 {
+    color: $white-c;
+    background-color: $dark-2;
+    .title { color: $white-c; }
+    .subtitle { color: $white-c; }
+    strong { color: $white-c; }
+    h1 { color: $white-c; }
+    h2 { color: $white-c; }
+    h3 { color: $white-c; }
+    h4 { color: $white-c; }
+    h5 { color: $white-c; }
+    h6 { color: $white-c; }
+}
+
+/* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
+section.trench-footer {
+    font-size: 20px;
+}
+
+/* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
+
+
+.section.is-maroon {
+    background-color: $maroon !important;
+    color: $white-c !important;
+    .title { color: $white-c !important; }
+    .subtitle { color: $white-c !important; }
+}
+
+
+
+
+
+
+
 
 
 // .gallery-main-container {
