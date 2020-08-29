@@ -1,8 +1,9 @@
 from pathlib import Path
 import io
 import os
-import cv2
 import subprocess
+import cv2
+import click
 
 
 gallery_dir = Path("../static/gallery-videos/").resolve()
@@ -11,7 +12,7 @@ pngquant_path = Path("../bin/pngquant.exe").resolve()
 
 size_suffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 
-def read_filesize(nbytes: int) -> str:
+def _read_filesize(nbytes: int) -> str:
     i = 0
     while nbytes >= 1024 and i < len(size_suffixes)-1:
         nbytes /= 1024.
@@ -19,13 +20,13 @@ def read_filesize(nbytes: int) -> str:
     size = str(round(nbytes, 3)).rstrip('0').rstrip('.')
     return f"{size} {size_suffixes[i]}"
 
-def quantize_png(path: Path, quality: int):
+def _quantize_png(path: Path, quality: int):
     cmdlist = [str(pngquant_path), f"--quality={quality}", str(path), "--ext=.png", "--force"]
     cmd = ' '.join(cmdlist)
     subprocess.run(cmd, shell=True)
     return
 
-def generate_thumbnails(quality: int):
+def _generate_thumbnails(quality: int):
     if not Path.exists(gallery_dir):
         raise NotADirectoryError(f"Cannot find directory {gallery_dir}")
     if not Path.exists(out_dir):
@@ -50,9 +51,10 @@ def generate_thumbnails(quality: int):
             save_path = Path.joinpath(thumbgroup_dir, fname)
             cv2.imwrite(str(save_path), frame)
             
-            quantize_png(save_path, quality)
+            if quality:
+                _quantize_png(save_path, quality)
 
-            print(f"\t\t[{read_filesize(Path(save_path).stat().st_size)}] {save_path}")
+            print(f"\t\t[{_read_filesize(Path(save_path).stat().st_size)}] {save_path}")
 
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
@@ -60,5 +62,15 @@ def generate_thumbnails(quality: int):
             cv2.destroyAllWindows()
 
 
+@click.group()
+def cli():
+    pass
+
+@cli.command()
+@click.option("--quality", type=int)
+def generate(quality):
+    _generate_thumbnails(quality)
+
+
 if __name__ == "__main__":
-    generate_thumbnails(70)
+    cli()
