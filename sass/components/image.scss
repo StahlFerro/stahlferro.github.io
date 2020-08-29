@@ -1,3 +1,9 @@
 .image-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
+/* Auto-center background images */
+.has-bg-center {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
