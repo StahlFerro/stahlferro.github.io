@@ -7882,6 +7882,110 @@ div.navbar-dropdown span.navitem-text {
   background-color: #232629 !important;
   color: #cccccc !important; }
 
+/* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
+section.trench-footer {
+  font-size: 20px; }
+
+.section.is-white-c-dark-3 h1 {
+  color: #cccccc; }
+
+.section.is-white-c-dark-3 h2 {
+  color: #cccccc; }
+
+.section.is-white-c-dark-3 h3 {
+  color: #cccccc; }
+
+.section.is-white-c-dark-3 h4 {
+  color: #cccccc; }
+
+.section.is-white-c-dark-3 h5 {
+  color: #cccccc; }
+
+.section.is-white-c-dark-3 h6 {
+  color: #cccccc; }
+
+.section.is-dark-2 {
+  color: #cccccc;
+  background-color: #232629; }
+  .section.is-dark-2 .title {
+    color: #cccccc; }
+  .section.is-dark-2 .subtitle {
+    color: #cccccc; }
+  .section.is-dark-2 strong {
+    color: #cccccc; }
+  .section.is-dark-2 h1 {
+    color: #cccccc; }
+  .section.is-dark-2 h2 {
+    color: #cccccc; }
+  .section.is-dark-2 h3 {
+    color: #cccccc; }
+  .section.is-dark-2 h4 {
+    color: #cccccc; }
+  .section.is-dark-2 h5 {
+    color: #cccccc; }
+  .section.is-dark-2 h6 {
+    color: #cccccc; }
+
+.section.is-maroon {
+  background-color: #911039 !important;
+  color: #cccccc !important; }
+  .section.is-maroon .title {
+    color: #cccccc !important; }
+  .section.is-maroon .subtitle {
+    color: #cccccc !important; }
+
+/*! Color variables !*/
+/*! Brand color variables !*/
+/*! Color definitions */
+.is-pink {
+  color: #fa7cb7; }
+
+.is-blurple {
+  color: #7289DA; }
+
+.is-trident-cyan-dark-3 {
+  color: #34caf8; }
+
+.is-emerald {
+  color: #50c890; }
+
+.is-trident-cyan-dark-3 {
+  color: #31363b; }
+
+.is-lavender {
+  color: #9683ff; }
+
+.is-iron-violet {
+  color: #684dc9 !important; }
+
+.is-white-c {
+  color: #cccccc; }
+
+.is-dark-2 {
+  color: #232629; }
+
+.is-dark-3 {
+  color: #31363b; }
+
+.is-gold {
+  color: #e4a126 !important; }
+
+.is-iron-blue {
+  color: #3370cc; }
+
+.is-iron-red {
+  color: #991f30 !important; }
+
+.is-maroon {
+  color: #911039 !important; }
+
+.is-moron {
+  color: #911039 !important; }
+
+.has-background-dark-2 {
+  background-color: #232629 !important;
+  color: #cccccc !important; }
+
 .hero.is-black {
   color: #cccccc; }
   .hero.is-black p.title {
@@ -8269,6 +8373,98 @@ div.navbar-dropdown span.navitem-text {
 .image-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); }
 
+/* Auto-center background images */
+.has-bg-center {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/* The GIF display */
+.gallery-container {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px; }
+
+.tabs.is-neon-trident-cyan li {
+  border: 2px solid transparent; }
+
+.tabs.is-neon-trident-cyan ul {
+  border-bottom: 2px solid #444851; }
+
+.tabs.is-neon-trident-cyan li a {
+  color: #cccccc !important;
+  border-bottom: 2px solid #cccccc; }
+
+.tabs.is-neon-trident-cyan li:hover {
+  border: 2px solid #cccccc; }
+
+.tabs.is-neon-trident-cyan li:focus {
+  border: 2px solid #cccccc; }
+  .tabs.is-neon-trident-cyan li:focus a {
+    color: #232629 !important;
+    background-color: #cccccc;
+    border-bottom: 2px solid #cccccc; }
+
+.tabs.is-neon-trident-cyan li.is-active, .tabs.is-neon-trident-cyan li:active {
+  border: 2px solid #34caf8; }
+  .tabs.is-neon-trident-cyan li.is-active a, .tabs.is-neon-trident-cyan li:active a {
+    color: #232629 !important;
+    background-color: #34caf8;
+    border-bottom: 2px solid #34caf8; }
+
+/*! Color variables !*/
+/*! Brand color variables !*/
+/*! Color definitions */
+.is-pink {
+  color: #fa7cb7; }
+
+.is-blurple {
+  color: #7289DA; }
+
+.is-trident-cyan-dark-3 {
+  color: #34caf8; }
+
+.is-emerald {
+  color: #50c890; }
+
+.is-trident-cyan-dark-3 {
+  color: #31363b; }
+
+.is-lavender {
+  color: #9683ff; }
+
+.is-iron-violet {
+  color: #684dc9 !important; }
+
+.is-white-c {
+  color: #cccccc; }
+
+.is-dark-2 {
+  color: #232629; }
+
+.is-dark-3 {
+  color: #31363b; }
+
+.is-gold {
+  color: #e4a126 !important; }
+
+.is-iron-blue {
+  color: #3370cc; }
+
+.is-iron-red {
+  color: #991f30 !important; }
+
+.is-maroon {
+  color: #911039 !important; }
+
+.is-moron {
+  color: #911039 !important; }
+
+.has-background-dark-2 {
+  background-color: #232629 !important;
+  color: #cccccc !important; }
+
 .video-container {
   position: relative;
   padding-top: 56.25%;
@@ -8294,12 +8490,6 @@ div.navbar-dropdown span.navitem-text {
 .cellmid {
   vertical-align: middle; }
 
-/* Auto-center background images */
-.has-bg-center {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
-
 /* 3D Canvas class */
 #spatial-canvas {
   background-color: #000;
@@ -8312,60 +8502,6 @@ div.navbar-dropdown span.navitem-text {
   /* fixed or static */
   top: 10px;
   left: 10px; }
-
-.section.is-white-c-dark-3 h1 {
-  color: #cccccc; }
-
-.section.is-white-c-dark-3 h2 {
-  color: #cccccc; }
-
-.section.is-white-c-dark-3 h3 {
-  color: #cccccc; }
-
-.section.is-white-c-dark-3 h4 {
-  color: #cccccc; }
-
-.section.is-white-c-dark-3 h5 {
-  color: #cccccc; }
-
-.section.is-white-c-dark-3 h6 {
-  color: #cccccc; }
-
-/*! $dark-2 section color */
-.section.is-dark-2 {
-  color: #cccccc;
-  background-color: #232629; }
-  .section.is-dark-2 .title {
-    color: #cccccc; }
-  .section.is-dark-2 .subtitle {
-    color: #cccccc; }
-  .section.is-dark-2 strong {
-    color: #cccccc; }
-  .section.is-dark-2 h1 {
-    color: #cccccc; }
-  .section.is-dark-2 h2 {
-    color: #cccccc; }
-  .section.is-dark-2 h3 {
-    color: #cccccc; }
-  .section.is-dark-2 h4 {
-    color: #cccccc; }
-  .section.is-dark-2 h5 {
-    color: #cccccc; }
-  .section.is-dark-2 h6 {
-    color: #cccccc; }
-
-/* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
-section.trench-footer {
-  font-size: 20px; }
-
-/* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
-.section.is-maroon {
-  background-color: #911039 !important;
-  color: #cccccc !important; }
-  .section.is-maroon .title {
-    color: #cccccc !important; }
-  .section.is-maroon .subtitle {
-    color: #cccccc !important; }
 
 .justified {
   text-align: justify; }
