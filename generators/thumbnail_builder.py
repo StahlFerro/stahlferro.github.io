@@ -17,7 +17,6 @@ def read_filesize(nbytes):
     size = str(round(nbytes, 3)).rstrip('0').rstrip('.')
     return f"{size} {size_suffixes[i]}"
 
-
 def generate_thumbnails():
     if not Path.exists(gallery_dir):
         raise NotADirectoryError(f"Cannot find directory {gallery_dir}")
@@ -50,6 +49,7 @@ def generate_thumbnails():
                 break
             video.release()
             cv2.destroyAllWindows()
+
 
 if __name__ == "__main__":
     generate_thumbnails()
