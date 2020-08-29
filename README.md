@@ -19,7 +19,7 @@ Save changes to repo and pushes to remote
 ```
 Uses git subtree to push contents of dist/ folder to master
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how Nuxt.js work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ### Requirements
 

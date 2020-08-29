@@ -14,12 +14,6 @@
     "page_url": "statusbot"
   },
   {
-    "name": "Rhombus",
-    "subdesc": "C# OCR Discord bot",
-    "desc": "A discord bot with OCR (Optical Character Recognition) capabilities",
-    "logo_url": "Rhombus_200px.png"
-  },
-  {
     "name": "FortressBot",
     "subdesc": "Moderation Discord bot",
     "desc": "A moderation-focused discord bot capable of auto-deleting server invite links and auto-cleaning of usernames or nicknames",
