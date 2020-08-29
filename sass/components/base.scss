@@ -1,0 +1,43 @@
+/* Base element overrides */ 
+@import "../colors.scss";
+
+/* Base element overrides */ 
+
+table, tr, th, td{
+    padding: 10px;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    // font-family: 'Inter';
+    font-size: 1.1rem;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+ol li ul { /* Sublist reduce margin top */
+    margin-top: 5px !important;
+}
+
+code {
+    &.code-black {
+        color: $white-e;
+        background-color: black;
+    }
+    &.code-dark-2 {
+        color: $white-e;
+        background-color: $dark-2;
+    }
+    &.code-dark-3 {
+        color: $white-e;
+        background-color: $dark-3;
+    }
+}
+
+p.tabbed {
+    text-indent: 40px;
+}
+
+ol.numbered-list li {
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,195 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+@import "colors.scss";
+@import "components/base.scss";
+@import "components/column.scss";
+@import "components/navbar.scss";
+@import "components/card.scss";
+@import "components/hero.scss";
+@import "components/button.scss";
+@import "components/image.scss";
+@import "components/video.scss";
+
+// h1, h2, h3, h4, h5, h6, nav {
+//     font-family: 'Metropolis';
+//     font-size: 1.1em;
+//     letter-spacing: 0.03em;
+// }
+
+// nav span.navitem-text {
+//     -webkit-transform:scale(0.9, 1.0);
+//     -moz-transform:scale(0.9, 1.0);
+//     -ms-transform:scale(0.9, 1.0);
+//     -o-transform:scale(0.9, 1.0);
+//     transform:scale(0.9,1.0);
+// }
+
+
+.hover-trident-cyan:hover { color: $trident-cyan; }
+
+// nav span{
+//     transform:scale(1.0,1.0);
+// }
+
+
+/* Table custom classes */
+.cellcore{
+    text-align: center;
+    vertical-align: middle;
+}
+.cellmid{
+    vertical-align: middle;
+}
+
+/* Auto-center background images */
+.has-bg-center {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+/* 3D Canvas class */
+#spatial-canvas {
+    background-color: #000;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 0px;
+    position: static; /* fixed or static */
+    top: 10px;
+    left: 10px;
+}
+
+
+
+
+// .card.is-neon-white-c {
+//     background-color: $dark-3;
+//     // background-color: transparent;
+//     color: $white-c;
+//     // border: 2px solid $gold;
+//     p.title {
+//         color: $white-c !important;
+//     }
+// }
+
+.section.is-white-c-dark-3 {
+    h1 { color: $white-c; }
+    h2 { color: $white-c; }
+    h3 { color: $white-c; }
+    h4 { color: $white-c; }
+    h5 { color: $white-c; }
+    h6 { color: $white-c; }
+}
+
+
+
+/*! $dark-2 section color */
+.section.is-dark-2 {
+    color: $white-c;
+    background-color: $dark-2;
+    .title { color: $white-c; }
+    .subtitle { color: $white-c; }
+    strong { color: $white-c; }
+    h1 { color: $white-c; }
+    h2 { color: $white-c; }
+    h3 { color: $white-c; }
+    h4 { color: $white-c; }
+    h5 { color: $white-c; }
+    h6 { color: $white-c; }
+}
+
+/* The footer that resides on the deepest, darkest and lowest chambers of hel- I mean, the web page. */
+section.trench-footer {
+    font-size: 20px;
+}
+
+/* hero is-black overrides to replace the white original letters with white-c to avoid eyes burnt from the contrast */
+
+
+.section.is-maroon {
+    background-color: $maroon !important;
+    color: $white-c !important;
+    .title { color: $white-c !important; }
+    .subtitle { color: $white-c !important; }
+}
+
+
+
+
+
+
+
+
+
+// .gallery-main-container {
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+// }
+// .gallery-menu-container {
+//     // position: -webkit-sticky;
+//     width: 100%;
+//     position: sticky;
+//     // position: fixed;
+//     top: 0;
+// }
+// .gallery-columns-container {
+//     width: 100%;
+//     height: 100%;
+//     padding: 30px;
+//     position: relative;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    // padding-bottom: 20px;
+// }
+// .gallery-table {
+//     height: 100%;
+//     background-color: $dark-2;
+//     padding: 0.3em;
+// }
+
+// div.rolling-columns {
+//     overflow-y: auto;
+// }
+
+
+// .menu-item { 
+//     border: 2px solid $dark-2;
+//     a { padding: 0.3em 0.3em; }
+//     a:hover { background-color: $dark-4 !important; }
+//     &:hover { border: 2px solid $dark-4; }
+//     &:active p { color: $white; }
+//     &.is-selected { border: 2px solid $trident-cyan; }
+//     &.is-selected p, &.is-selected i { color: $trident-cyan !important; }
+//  }
+
+
+
+
+.justified {text-align: justify; } 
+
+.content.paragraph-double-space-after p {
+    margin-bottom: 70px;
+}
+
+.commission-info {
+    h1 { text-align: center;}
+    p { text-align: justify; }
+}
+
+.message.is-dark-2 {
+    border: 2px solid $white-c;
+    .message-header {
+        color: $white-c !important;
+        background-color: $dark-2;
+    }
+    .message-body {
+        color: $white-c !important;
+        background-color: $dark-2;
+        .title { color: $white-c !important; }
+    }
+}
