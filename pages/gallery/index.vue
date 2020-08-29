@@ -51,9 +51,9 @@
                   <a href="http://imgur.com/RPscrlh">View post on imgur.com</a></blockquote>
                   <script async src="http://s.imgur.com/min/embed.js" charset="utf-8"></script> -->
                   <div class="video-container">
-                    <video controls="controls" loop="loop" preload="none">
+                    <video controls="controls" loop="loop" preload="none" v-bind:poster="`/gallery-thumbs/${collection.page_url}/${gif.fname}.png`">
                       <source
-                        v-bind:src="`/gallery-videos/${collection.page_url}/${gif.fname_mp4}`"
+                        v-bind:src="`/gallery-videos/${collection.page_url}/${gif.fname}.mp4`"
                         type="video/mp4"
                       />
                     </video>

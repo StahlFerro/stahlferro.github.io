@@ -6,82 +6,82 @@
         "medias": [
             {
                 "name": "Pingu",
-                "fname_mp4": "pingu.mp4",
+                "fname": "pingu",
                 "imgur_url": "https://imgur.com/RPscrlh"
             },
             {
                 "name": "War Demon Shusui",
-                "fname_mp4": "sushi.mp4",
+                "fname": "sushi",
                 "imgur_url": "https://imgur.com/ILxROaL"
             },
             {
                 "name": "MLG Myoukei",
-                "fname_mp4": "mlg_myoukei.mp4",
+                "fname": "mlg_myoukei",
                 "imgur_url": "https://imgur.com/AGU7DYq"
             },
             {
                 "name": "Charis",
-                "fname_mp4": "charis_blasted.mp4",
+                "fname": "charis_blasted",
                 "imgur_url": "https://imgur.com/zepAC6o"
             },
             {
                 "name": "Freed MLG",
-                "fname_mp4": "freed_mlg.mp4",
+                "fname": "freed_mlg",
                 "imgur_url": "https://imgur.com/Oj9svCe"
             },
             {
                 "name": "Silvie MLG",
-                "fname_mp4": "silvie_mlg.mp4",
+                "fname": "silvie_mlg",
                 "imgur_url": "https://imgur.com/GVoC07H"
             },
             {
                 "name": "Scoper Burny",
-                "fname_mp4": "scoper_burny.mp4",
+                "fname": "scoper_burny",
                 "imgur_url": "https://imgur.com/832ccrr"
             },
             {
                 "name": "U.D.O.",
-                "fname_mp4": "ultra_dense_object.mp4",
+                "fname": "ultra_dense_object",
                 "imgur_url": "https://imgur.com/vSFUrEP"
             },
             {
                 "name": "RIP #general-chat",
-                "fname_mp4": "ripgenchat.mp4",
+                "fname": "ripgenchat",
                 "imgur_url": "https://imgur.com/GjudeGN"
             },
             {
                 "name": "Ragzebyrl",
-                "fname_mp4": "ragzebyrl_poke.mp4",
+                "fname": "ragzebyrl_poke",
                 "imgur_url": "https://imgur.com/kgVcPhl"
             },
             {
                 "name": "Live 2D Mariletta",
-                "fname_mp4": "mariletta_animated.mp4",
+                "fname": "mariletta_animated",
                 "imgur_url": "https://imgur.com/Clsti2L"
             },
             {
                 "name": "GIMU HQ Preview",
-                "fname_mp4": "gimu_hq.mp4",
+                "fname": "gimu_hq",
                 "imgur_url": "https://imgur.com/SJcVybN"
             },
             {
                 "name": "Dragon summon",
-                "fname_mp4": "stirs_summon.mp4",
+                "fname": "stirs_summon",
                 "imgur_url": "https://imgur.com/9t4RfwE"
             },
             {
                 "name": "Rune VFX test",
-                "fname_mp4": "testsurfaceglow.mp4",
+                "fname": "testsurfaceglow",
                 "imgur_url": "https://imgur.com/MQWVoK2"
             },
             {
                 "name": "Swaglords Silhouette",
-                "fname_mp4": "swaglords_silhouette.mp4",
+                "fname": "swaglords_silhouette",
                 "imgur_url": "https://imgur.com/QxZsBY2"
             },
             {
                 "name": "Swaglord Four Title Sequence",
-                "fname_mp4": "swaglord_four_title_sequence.mp4",
+                "fname": "swaglord_four_title_sequence",
                 "imgur_url": "https://imgur.com/F6CF68M"
             }
         ]
@@ -93,47 +93,47 @@
         "medias": [
             {
                 "name": "Blobnom",
-                "fname_mp4": "blobnom.mp4",
+                "fname": "blobnom",
                 "imgur_url": "https://imgur.com/nOS4cjj"
             },
             {
                 "name": "Blobnomming Discord",
-                "fname_mp4": "blobnom_discord.mp4",
+                "fname": "blobnom_discord",
                 "imgur_url": "https://imgur.com/W6Zwec7"
             },
             {
                 "name": "Blob Crashin' Thru",
-                "fname_mp4": "blobcrash.mp4",
+                "fname": "blobcrash",
                 "imgur_url": "https://imgur.com/0jqWeeO"
             },
             {
                 "name": "B4nzy",
-                "fname_mp4": "b4nzy.mp4",
+                "fname": "b4nzy",
                 "imgur_url": "https://imgur.com/8Fl0grK"
             },
             {
                 "name": "Blob Laser",
-                "fname_mp4": "blobspacelaser.mp4",
+                "fname": "blobspacelaser",
                 "imgur_url": "https://imgur.com/sxDPZ3h"
             },
             {
                 "name": "Navy Blob Copypasta",
-                "fname_mp4": "blobbypasta.mp4",
+                "fname": "blobbypasta",
                 "imgur_url": "https://imgur.com/xZsY1fY"
             },
             {
                 "name": "Cosmic Ban",
-                "fname_mp4": "blobcosmicban.mp4",
+                "fname": "blobcosmicban",
                 "imgur_url": "https://imgur.com/V4TVpbC"
             },
             {
                 "name": "Blob Samurai",
-                "fname_mp4": "blobsamurai.mp4",
+                "fname": "blobsamurai",
                 "imgur_url": "https://imgur.com/cimhURP"
             },
             {
                 "name": "SUPER BLOB",
-                "fname_mp4": "SUPERBLOB.mp4",
+                "fname": "SUPERBLOB",
                 "imgur_url": "https://imgur.com/X7HpeFe"
             }
         ]
@@ -145,12 +145,12 @@
         "medias": [
             {
                 "name": "Truesilver Like and Retweet",
-                "fname_mp4": "truesilver_like_retweet.mp4",
+                "fname": "truesilver_like_retweet",
                 "imgur_url": "https://imgur.com/a/0ExeDFv"
             },
             {
                 "name": "Ifrit plays Doom Eternal",
-                "fname_mp4": "ifrit_plays_doom_eternal.mp4",
+                "fname": "ifrit_plays_doom_eternal",
                 "imgur_url": "https://imgur.com/a/QSxt3V3"
             }
         ]
