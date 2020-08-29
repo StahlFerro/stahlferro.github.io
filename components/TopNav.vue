@@ -44,8 +44,8 @@
         </div>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">
         <span class="navitem-text">Softwares</span></nuxt-link>
-        <nuxt-link to="/commissions" class="navbar-item" v-on:click.native="navselection = 'commissions'">
-        <span class="navitem-text">Commissions</span></nuxt-link>
+        <!-- <nuxt-link to="/commissions" class="navbar-item" v-on:click.native="navselection = 'commissions'">
+        <span class="navitem-text">Commissions</span></nuxt-link> -->
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">
         <span class="navitem-text">Donate</span></nuxt-link>
       </div>

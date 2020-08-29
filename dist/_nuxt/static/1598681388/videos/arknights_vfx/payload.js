@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/videos/arknights_vfx", {data:[{}],fetch:[],mutations:void 0});

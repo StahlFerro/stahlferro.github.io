@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/softwares/tridentframe", {data:[{}],fetch:[],mutations:void 0});
