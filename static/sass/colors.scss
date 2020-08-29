@@ -1,0 +1,47 @@
+/*! Color variables !*/
+
+$iron-red: #991f30;
+$iron-blue: #3370cc;
+$iron-turqoise: #41c0d1;
+$iron-violet: #684dc9;
+$powdered-iron: #bcbdc2;
+$gold: #e4a126;
+$pink: #fa7cb7;
+$dark-2: #232629;
+$dark-3: #31363b;
+$dark-4: #444851;
+$dark-7: #72798b;
+$white-e: #eeeeee;
+$white-c: #cccccc;
+$emerald: #50c890;
+$forest: #267e2b;
+$lavender: #9683ff;
+$maroon: #911039;
+$docs-grey: #7c8f99;
+/*! Brand color variables !*/
+$blurple: #7289DA;
+$youtube-red: #ff0000;
+$trident-cyan: #34caf8;
+$twitter-cyan: #1da1f2;
+$kofi-cyan: #29ABE0;
+$patreon-coral: #f86754;
+$liberapay-yellow: #f6c915;
+$mlg-dark-violet: #2d254e;
+
+
+/*! Color definitions */
+.is-pink { color: $pink; }
+.is-blurple { color: $blurple; }
+.is-trident-cyan-dark-3 { color: $trident-cyan; }
+.is-emerald { color: $emerald; }
+.is-trident-cyan-dark-3 { color: $dark-3; }
+.is-lavender { color: $lavender; }
+.is-iron-violet { color: $iron-violet !important; }
+.is-white-c { color: $white-c; }
+.is-dark-2 { color: $dark-2; }
+.is-dark-3 { color: $dark-3; }
+.is-gold { color: $gold !important; }
+.is-iron-blue { color: $iron-blue; }
+.is-iron-red { color: $iron-red !important; }
+.is-maroon { color: $maroon !important; }
+.is-moron { color: $maroon !important; }

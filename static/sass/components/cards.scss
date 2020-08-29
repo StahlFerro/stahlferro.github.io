@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "../colors.scss";
+
+
+.card {
+    /* Force cards to take all available parent width */
+    width: 100%;
+    .card-content {
+        width: 100%;
+    }
+
+    &.is-white-e {
+        color: $dark-2 !important;
+        background-color: $white-e;
+        .title { color: $dark-2 !important; }
+        .subtitle { color: $dark-2 !important; }
+        strong { color: $dark-4 !important; }
+    }
+    &.is-gold {
+        background-color: $gold;
+        border: 2px solid $dark-2;
+    }
+}
+
+.card-image {
+    width: 100%;
+}

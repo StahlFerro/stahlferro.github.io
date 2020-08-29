@@ -1,72 +1,10 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
+@import "colors.scss";
+@import "components/base.scss";
+@import "components/navbar.scss";
+@import "components/cards.scss";
 
-
-/*! Color variables !*/
-$iron-red: #991f30;
-$iron-blue: #3370cc;
-$iron-turqoise: #41c0d1;
-$iron-violet: #684dc9;
-$powdered-iron: #bcbdc2;
-$gold: #e4a126;
-$pink: #fa7cb7;
-$dark-2: #232629;
-$dark-3: #31363b;
-$dark-4: #444851;
-$dark-7: #72798b;
-$white-e: #eeeeee;
-$white-c: #cccccc;
-$emerald: #50c890;
-$forest: #267e2b;
-$lavender: #9683ff;
-$maroon: #911039;
-$docs-grey: #7c8f99;
-/*! Brand color variables !*/
-$blurple: #7289DA;
-$youtube-red: #ff0000;
-$trident-cyan: #34caf8;
-$twitter-cyan: #1da1f2;
-$kofi-cyan: #29ABE0;
-$patreon-coral: #f86754;
-$liberapay-yellow: #f6c915;
-$mlg-dark-violet: #2d254e;
-
-
-/*! Color definitions */
-.is-pink { color: $pink; }
-.is-blurple { color: $blurple; }
-.is-trident-cyan-dark-3 { color: $trident-cyan; }
-.is-emerald { color: $emerald; }
-.is-trident-cyan-dark-3 { color: $dark-3; }
-.is-lavender { color: $lavender; }
-.is-iron-violet { color: $iron-violet !important; }
-.is-white-c { color: $white-c; }
-.is-dark-2 { color: $dark-2; }
-.is-dark-3 { color: $dark-3; }
-.is-gold { color: $gold !important; }
-.is-iron-blue { color: $iron-blue; }
-.is-iron-red { color: $iron-red !important; }
-.is-maroon { color: $maroon !important; }
-
-
-
-/* Base element overrides */ 
-table, tr, th, td{
-    padding: 10px;
-}
-body {
-    font-family: 'Fira Sans', sans-serif;
-    // font-family: 'Inter';
-    font-size: 1.1rem;
-    margin: 0px;
-    padding:0px;
-    overflow: hidden;
-}
-
-
-div.navbar-dropdown span.navitem-text {
-    font-size: 1rem;
-}
 
 // h1, h2, h3, h4, h5, h6, nav {
 //     font-family: 'Metropolis';
@@ -81,12 +19,6 @@ div.navbar-dropdown span.navitem-text {
 //     -o-transform:scale(0.9, 1.0);
 //     transform:scale(0.9,1.0);
 // }
-nav {
-    font-size: 1.1rem;
-    span.icon i {
-        font-size: 1.2em;
-    }
-}
 
 
 .hover-trident-cyan:hover { color: $trident-cyan; }
@@ -122,20 +54,7 @@ nav {
     border-radius: 0px;
 }
 
-ol li ul { /* Sublist reduce margin top */
-    margin-top: 5px !important;
-}
 
-/* Force cards to take all available width */
-.card {
-    width: 100%;
-    .card-content {
-        width: 100%;
-    }
-}
-.card-image {
-    width: 100%;
-}
 
 
 /* 3D Canvas class */
@@ -151,6 +70,7 @@ ol li ul { /* Sublist reduce margin top */
     left: 10px;
 }
 
+
 .content.theme-dark-2 {
     background-color: $dark-2;
     color: $white-c;
@@ -160,72 +80,7 @@ ol li ul { /* Sublist reduce margin top */
 }
 
 
-/* Desktop Navbar */
-a.nuxt-link-exact-active {
-    color: $iron-blue;
-    background-color: $iron-blue !important;
-    border: 2px solid $iron-blue !important;
-}
-.navbar.is-dark-2 {
-    background-color: $dark-2;
-    a.navbar-item {
-        color: $white-c;
-        border: 2px solid $dark-2;
-    }
-    a.navbar-item:hover {
-        background-color: transparent;
-        border: 2px solid $white-c;
-        color: $white-c;
-    }
-    a.navbar-item:active {
-        color: $dark-2;
-        background-color: $white-c;
-        border: 2px solid $white-c;
-    }
-    /* Navbar dropdown customizations */
-    a.navbar-link {
-        color: $white-c !important;
-        background-color: $dark-2 !important;
-        border: 2px solid $dark-2 !important;
-        // z-index: 12;
-    }
-    div.navbar-dropdown .navbar-item {
-        font-size: 20px;
-    }
-    a.navbar-link::after {
-        border-color: $white-c !important
-    }
-    a.navbar-link:hover::after {
-        border-color: $iron-blue !important
-    }
-    /* Mobile Navbar */
-    a.navbar-burger {
-        color: $white-c;
-    }
-    .navbar-menu.is-active {
-        background-color: $dark-2;
-    }
-}
 
-
-
-div.navitem-double-space a.navbar-item {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.navbar-dropdown {
-    background-color: $dark-2;
-    border: none;
-    z-index: 100;
-}
-
-.navbar-shadow {
-    box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.2), 0 3px 20px 4px rgba(0, 0, 0, 0.2);
-    div.navbar-menu:not(.is-active) div.navbar-dropdown {
-        box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2);
-    }
-}
 
 
 .image-shadow {
@@ -328,19 +183,6 @@ div.navitem-double-space a.navbar-item {
 
 
 
-
-.card.is-white-e {
-    color: $dark-2 !important;
-    background-color: $white-e;
-    .title { color: $dark-2 !important; }
-    .subtitle { color: $dark-2 !important; }
-    strong { color: $dark-4 !important; }
-}
-
-.card.is-gold {
-    background-color: $gold;
-    border: 2px solid $dark-2;
-}
 // .card.is-neon-white-c {
 //     background-color: $dark-3;
 //     // background-color: transparent;

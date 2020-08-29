@@ -1,0 +1,20 @@
+/* Base element overrides */ 
+@import "../colors.scss";
+
+/* Base element overrides */ 
+
+table, tr, th, td{
+    padding: 10px;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    // font-family: 'Inter';
+    font-size: 1.1rem;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+ol li ul { /* Sublist reduce margin top */
+    margin-top: 5px !important;
+}

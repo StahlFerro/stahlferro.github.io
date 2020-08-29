@@ -5,7 +5,7 @@
   "author": "StahlFerro",
   "private": true,
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url static/sass/bulmamods.scss static/css/bulmamods.css",
+    "css-build": "node-sass --omit-source-map-url static/sass/main.scss static/css/main.css",
     "css-watch": "yarn run css-build --watch",
     "dev": "nuxt",
     "build": "nuxt build --analyze",
@@ -26,7 +26,7 @@
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.2.0",
     "babel-eslint": "^10.1.0",
-    "bulma": "^0.8.1",
+    "bulma": "^0.9.0",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-loader": "^4.0.0",

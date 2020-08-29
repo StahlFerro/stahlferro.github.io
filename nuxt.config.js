@@ -26,7 +26,7 @@ module.exports = {
       { hid: 'canonical', rel: 'canonical', href: ogconf['og:url'] },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
-      { rel: 'stylesheet', type: 'text/css', href: '/css/bulmamods.css'},
+      { rel: 'stylesheet', type: 'text/css', href: '/css/main.css'},
       { rel: 'stylesheet', type: 'text/css', href: '/css/fontawesome-all.min.css'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'},
     ],
