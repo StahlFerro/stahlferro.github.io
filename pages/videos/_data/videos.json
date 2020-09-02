@@ -9,7 +9,7 @@
         "name": "Tutorials",
         "desc": "A collection of how-tos and tutorials on After Effects, and how I made my videos",
         "page_url": "tutorials",
-        "thumb_url": "AE_Tutorials.png"
+        "thumb_url": "AE_Tutorials_Thumb_opt.png"
     },
     {
         "name": "Thesis",
@@ -21,16 +21,17 @@
         "name": "Miscellaneous MLG",
         "desc": "MLG Parodies on miscellaneous videos, films and other media",
         "page_url": "misc_mlg_videos",
-        "thumb_url": "Misc_MLG.png"
+        "thumb_url": "Misc_MLG_Thumb.png"
     },
     {
         "name": "Montage Galaxy",
         "desc": "An upcoming video series revolving around the Montage Galaxy",
-        "thumb_url": "Montage_Galaxy.png"
+        "thumb_url": "Montage_Galaxy_Thumb_opt.png"
     },
     {
         "name": "Arknights VFX-animations",
         "desc": "Various Arknights meme material composited with hybrid VFX animations",
-        "page_url": "arknights_vfx"
+        "page_url": "arknights_vfx",
+        "thumb_url": "Arknights_Thumb_opt.png"
     }
 ]

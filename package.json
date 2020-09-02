@@ -15,7 +15,8 @@
     "genpage": "rimraf dist && cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "yarn run lint",
-    "push2master": "git subtree push --prefix dist origin master"
+    "push2master": "git subtree push --prefix dist origin master",
+    "push2ghpages": "git subtree push --prefix dist origin master"
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.0.0",

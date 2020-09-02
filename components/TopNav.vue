@@ -74,7 +74,7 @@
           </span>
           <span v-show="burger_open">Github</span>
         </a>
-        <a class="navbar-item" v-on:click="email_modal_open = true" title="email">
+        <a class="navbar-item" v-on:click="modal_is_open = true" title="email">
           <span class="icon">
             <i class="fas fa-envelope"></i>
           </span>
@@ -83,13 +83,13 @@
       </div>
     </div>
   </nav>
-  <div class="modal" v-bind:class="{'is-active': email_modal_open}">
-    <div class="modal-background" v-on:click="email_modal_open = false"></div>
+  <div class="modal" v-bind:class="{'is-active': modal_is_open}">
+    <div class="modal-background" v-on:click="toggle_modal(false)"></div>
       <div class="modal-content">
         <article class="message is-dark-2 is-medium">
           <div class="message-header">
             <p>Contact Email</p>
-            <button class="delete" aria-label="delete" v-on:click="email_modal_open = false"></button>
+            <button class="delete" aria-label="delete" v-on:click="toggle_modal(false)"></button>
           </div>
           <div class="message-body has-text-centered">
             <!-- <p class="has-text-centered">
@@ -101,14 +101,16 @@
               forgeworkseven@gmail.com
             </h1>
             <button class="button is-neon-white-c is-medium"
-              v-clipboard:copy="'forgeworkseven@gmail.com'">
+              v-clipboard:copy="'forgeworkseven@gmail.com'"
+              v-on:click="copy_status = true">
               <span class="icon is-medium"><i class="fas fa-copy"></i></span>
-              <span>Copy</span>
+              <span v-if="copy_status">Copied!</span>
+              <span v-else>Copy</span>
             </button>
           </div>
         </article>
       </div>
-    <!-- <button class="modal-close is-large" aria-label="close" v-on:click="email_modal_open = false"></button> -->
+    <!-- <button class="modal-close is-large" aria-label="close" v-on:click="modal_is_open = false"></button> -->
   </div>
 </div>
 </template>
@@ -121,12 +123,23 @@ var data = {
   urls: urls,
   navselection: navselection,
   burger_open: false,
-  email_modal_open: false,
+  modal_is_open: false,
+  copy_status: false,
 };
+
+function toggle_modal(open) {
+  data.modal_is_open = open;
+  if (!open) {
+    data.copy_status = false;
+  }
+}
 
 export default {
     data: function() {
       return data;
+    },
+    methods: {
+      toggle_modal: toggle_modal,
     }
 }
 </script>
