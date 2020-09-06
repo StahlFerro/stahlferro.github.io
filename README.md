@@ -11,7 +11,7 @@ Generates static site into dist/ folder
 ```
 2. git add .
 3. git commit -m "e"
-4. git push origin dev
+4. git push origin master
 ```
 Save changes to repo and pushes to remote
 ```
