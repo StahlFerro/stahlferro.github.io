@@ -54,7 +54,7 @@ var data = {tutorial_videos: tutorial_videos};
 
 
 const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
-let page_path = "/videos/brave_frontier_mlg";
+let page_path = "/videos/tutorials";
 let title = "Tutorial Videos";
 let meta_list = generate_meta({
   "title":title,
