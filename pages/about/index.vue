@@ -34,25 +34,27 @@
 </template>
 
 <script>
+const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
 var extlinks = require("@@/config/externalinks.json");
-var base_url = require("@@/config/opengraph.json")["og:url"];
 var discord_server_url = extlinks.discord;
 var data = {
   discord_server_url: discord_server_url
 };
-var ogconf = {
-  "og:title": "About",
-  "og:description": "Who am I??/",
-  "theme-color": "#5595FF",
-  "og:url": `${data.base_url}/about`
-};
-var metas = Object.entries(ogconf).map(function([key, value]) {
-  return { hid: key, name: key, content: value };
+let title = "About";
+let page_path = "/about";
+let meta_list = generate_meta({
+  "title": title,
+  "description": "About StahlFerro",
+  "theme_color": "#5595FF",
+  "path": page_path
 });
+
 export default {
   head() {
     return {
-      link: [{ rel: "canonical", href: ogconf["og:url"] }]
+      title: title,
+      meta: meta_list,
+      link: tag_canonical_url(page_path)
     };
   },
   data() {
