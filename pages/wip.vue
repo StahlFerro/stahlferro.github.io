@@ -14,13 +14,12 @@
 </template>
 
 <script>
-var base_url = require("@@/config/opengraph.json")['og:url'];
+const { tag_canonical_url } = require("@@/utils/meta_handler.js");
+let page_path = "/wip";
 export default {
   head () {
     return {
-      link: [
-        {'rel': 'canonical', 'href': `${base_url}/wip/`}
-      ],
+      link: tag_canonical_url(page_path)
     }
   }
 }
