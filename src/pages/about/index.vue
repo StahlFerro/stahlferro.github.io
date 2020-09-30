@@ -34,7 +34,7 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 var extlinks = require("@@/config/externalinks.json");
 var discord_server_url = extlinks.discord;
 var data = {

@@ -27,7 +27,7 @@
 var data = {};
 // var data = {bf_videos: bf_videos};
 
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 let page_path = "/videos/thesis";
 let title = "Thesis";
 let meta_list = generate_meta({

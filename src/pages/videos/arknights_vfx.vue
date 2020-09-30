@@ -100,7 +100,7 @@ var ark_vids = require('./_data/arknights_videos.json');
 var data = {ark_vids: ark_vids};
 
 
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 let page_path = "/videos/arknights_vfx";
 let title = "Arknights VFX-animation Videos";
 let meta_list = generate_meta({

@@ -42,7 +42,7 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 let page_path = "/videos";
 let title = "Videos";
 let meta_list = generate_meta({

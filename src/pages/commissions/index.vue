@@ -224,7 +224,7 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 let data = {};
 
 let page_path = "/commissions";

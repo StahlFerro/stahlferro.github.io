@@ -14,7 +14,7 @@
 </template>
 
 <script>
-const { tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { tag_canonical_url } = require("@/utils/meta_handler.js");
 let page_path = "/wip";
 export default {
   head () {

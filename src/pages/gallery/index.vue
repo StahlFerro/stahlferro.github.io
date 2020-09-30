@@ -84,7 +84,7 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 let page_path = "/gallery";
 let title = "VFX Gallery";
 let meta_list = generate_meta({

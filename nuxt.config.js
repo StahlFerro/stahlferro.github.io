@@ -11,6 +11,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  srcDir: 'src/',
   head: {
     title: "StahlFerro's Official Website",
     meta: [

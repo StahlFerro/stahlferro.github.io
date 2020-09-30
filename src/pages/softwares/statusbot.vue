@@ -45,7 +45,7 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@@/utils/meta_handler.js");
+const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
 let page_path = "/softwares/statusbot";
 let title = "StatusBot";
 let meta_list = generate_meta({
