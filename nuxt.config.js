@@ -8,9 +8,6 @@ const metas = Object.entries(ogconf).map(function([key, value]) {
 // console.log(metas);
 
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   srcDir: 'src/',
   head: {
     title: "StahlFerro's Official Website",
