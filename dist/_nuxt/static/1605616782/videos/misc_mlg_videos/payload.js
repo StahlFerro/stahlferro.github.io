@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/videos/misc_mlg_videos", {data:[{}],fetch:[],mutations:void 0});

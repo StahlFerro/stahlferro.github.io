@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/videos/brave_frontier_mlg", {data:[{}],fetch:[],mutations:void 0});
