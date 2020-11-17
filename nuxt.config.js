@@ -56,6 +56,9 @@ module.exports = {
   plugins: [
     '~/plugins/vue-clipboard'
   ],
+  ignore: [
+    '**/commissions/index.vue',
+  ],
   sitemap: {
     hostname: 'https://stahlferro.github.io',
     exclude: [
