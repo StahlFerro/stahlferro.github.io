@@ -18,7 +18,7 @@ module.exports = {
       { hid: 'title', name: 'title', content: ogconf['og:title'] },
       { hid: 'description', name: 'description', content: ogconf['og:description'] },
       ...metas,
-      { hid: 'google-site-verification', name: 'google-site-verification', content: 'xPOlLw31AN12WO6gow34wuKvlrb5nbbiU739w_CZP78'}
+      { hid: 'google-site-verification', name: 'google-site-verification', content: '4MB3BQaXqcIkjzbzf7GCXvw_BFiLLyLFUAiBCjz3Q_A'}
     ],
     link: [
       { hid: 'canonical', rel: 'canonical', href: ogconf['og:url'] },
