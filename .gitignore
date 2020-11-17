@@ -17,6 +17,7 @@ npm-debug.log
 _site/
 bin/
 *.code-workspace
+dist/
 
 # Python ignores
 
