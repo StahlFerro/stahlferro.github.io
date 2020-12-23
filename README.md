@@ -1,6 +1,6 @@
 # StahlFerro's website dev repo
 
-Visit the new website at [stahlferro.netlify.app](stahlferro.netlify.app)
+Visit the new website at [stahlferro.netlify.app](https://stahlferro.netlify.app)
 
 ### Requirements
 
