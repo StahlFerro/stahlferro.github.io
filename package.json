@@ -5,7 +5,7 @@
   "author": "StahlFerro",
   "private": true,
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url static/sass/main.scss static/css/main.css",
+    "css-build": "node-sass --omit-source-map-url src/static/sass/main.scss src/static/css/main.css",
     "css-watch": "yarn run css-build --watch",
     "dev": "nuxt",
     "build": "nuxt build --analyze",
