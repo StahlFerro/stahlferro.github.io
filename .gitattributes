@@ -25,6 +25,5 @@
 
 # Exclusion for css file and js libraries
 # ============
-static/css/* linguist-vendored
-static/sass/* linguist-vendored
-static/js/threejs/* linguist-vendored
+src/static/css/* linguist-vendored
+src/static/sass/* linguist-vendored
