@@ -154,5 +154,22 @@
                 "imgur_url": "https://imgur.com/a/QSxt3V3"
             }
         ]
+    },
+    {
+        "name": "Miscellaneous",
+        "page_url": "misc",
+        "desc": "Miscellaneous VFX",
+        "medias": [
+            {
+                "name": "Violet rune cannon",
+                "fname": "violet_laser_cannon",
+                "imgur_url": "https://imgur.com/gY1UBYV"
+            },
+            {
+                "name": "Lightning strike",
+                "fname": "lightning_strike",
+                "imgur_url": "https://imgur.com/9p7UBXP"
+            }
+        ]
     }
 ]
