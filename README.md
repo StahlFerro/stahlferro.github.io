@@ -1,10 +1,5 @@
 # StahlFerro's website dev repo
 
-Visit the new website at [stahlferro.netlify.app](https://stahlferro.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/140e057e-a62e-492c-98c5-f0f67c152d0a/deploy-status)](https://app.netlify.com/sites/stahlferro/deploys)
 
-### Requirements
-
-```
-$ yarn add @nuxtjs/style-resources vue-clipboard2
-$ yarn add @nuxtjs/robots @nuxtjs/sitemap babel-eslint bulma cross-env eslint eslint-loader eslint-plugin-vue node-sass rimraf sass-loader -D
-```
+Visit the new website at [https://stahlferro.netlify.app](https://stahlferro.netlify.app)

@@ -2,7 +2,7 @@
   <div>
     <section
       class="hero is-fullheight-with-navbar is-black is-medium has-bg-center"
-      style="background-image: url('/img/Duality_opt.png');">
+      style="background-image: url('/img/SF_Red_Website_90.webp');">
       <div class="hero-body"></div>
     </section>
     <section class="hero is-medium is-dark-2">
