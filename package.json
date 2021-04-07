@@ -5,8 +5,8 @@
   "author": "StahlFerro",
   "private": true,
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url src/static/sass/main.scss src/static/css/main.css",
-    "css-watch": "yarn run css-build --watch",
+    "css-build": "sass --no-source-map src/static/sass/main.scss src/static/css/main.css",
+    "css-watch": "sass --no-source-map --watch src/static/sass/main.scss src/static/css/main.css",
     "dev": "nuxt",
     "build": "nuxt build --analyze",
     "start": "nuxt start",
@@ -32,7 +32,6 @@
     "eslint": "^7.7.0",
     "eslint-loader": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.14.0",
     "rimraf": "^3.0.2",
     "sass-loader": "^8.0.2",
     "webpack": "^4.44.1"

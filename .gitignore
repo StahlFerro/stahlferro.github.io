@@ -18,6 +18,7 @@ _site/
 bin/
 *.code-workspace
 dist/
+src/static/gallery-thumbs/wtg_log.txt
 
 # Python ignores
 
