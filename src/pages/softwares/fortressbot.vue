@@ -7,11 +7,11 @@
           <h1 class="title is-1">FortressBot</h1>
           <p class="subtitle is-4">The bane of server invite links and hoisters</p>
           <br/>
-          <h1 class="title is-1">Rest In Peace</h1>
+          <h1 class="title is-1">End of Life</h1>
           <h2 class="title is-2">2017-04-09 - 2020-06-19</h2>
           <p>Thank you very much for those that has used FortressBot during it's time of service. I have no more spare time left to properly maintain FortressBot and fix its bugs.
             All that is left is a bot that has been terribly underperforming for months. It is not fit to serve realiable automoderative actions anymore.</p>
-          <p>I declare its End of Life effective on date 2020/06/19. Goodbye FortressBot.</p>
+          <p>I declare its End of Life effective on date 2020/06/19.</p>
         </div>
       </div>
     </section>
