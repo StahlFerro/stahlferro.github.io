@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium is-trident-cyan">
+    <section class="hero is-fullheight-with-navbar is-trident-cyan">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-8 is-variable is-vcentered">
@@ -19,9 +19,7 @@
                 </nav>
                 <p class="subtitle is-4">
                   The desktop swiss-army knife for creating, splitting or converting
-                  <span class="bg-dark-3">GIFs/APNGs</span>,
-                  and building/slicing
-                  <span class="bg-dark-3">spritesheets</span>
+                  <span class="bg-dark-3">animated images</span>
                 </p>
                 <p class="subtitle is-4">The beta is now out for download!</p>
                 <nav class="level">
@@ -53,7 +51,7 @@
             </div>
             <div class="column">
               <figure class="image" title="Raydn didn't feel so good. (Artist: Vayreceane)">
-                <img src="/img/TridentFrame_preview_opt.png" class="image-shadow"/>
+                <img src="/img/TridentFrame_Preview_animated.png" class="image-shadow"/>
               </figure>
             </div>
           </div>
@@ -61,11 +59,11 @@
       </div>
       <div class="hero-foot">
         <div class="container has-text-centered">
-          <p>Website's still rough and sparse at the moment</p>
+          <!-- <p>Website's still rough and sparse at the moment</p> -->
         </div>
       </div>
     </section>
-
+    <!-- 
     <section class="hero is-medium is-trident-cyan-dark-3">
       <div class="hero-body">
         <div class="container">
@@ -152,7 +150,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
