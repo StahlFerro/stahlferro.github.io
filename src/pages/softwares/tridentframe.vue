@@ -50,7 +50,7 @@
               </div>
             </div>
             <div class="column">
-              <figure class="image" title="Raydn didn't feel so good. (Artist: Vayreceane)">
+              <figure class="image">
                 <img src="/img/TridentFrame_Preview_animated.png" class="image-shadow"/>
               </figure>
             </div>
@@ -160,7 +160,7 @@ let page_path = "/softwares/tridentframe";
 let title = "TridentFrame";
 let meta_list = generate_meta({
     "title":title,
-    "description": "The swiss-army knife for creating, splitting or converting animated GIFs/APNGs. A FOSS project available for Windows, Mac and Linux",
+    "description": "The cross-platform swiss-army knife for creating, splitting or converting animated images.",
     "image": "/thumb/TridentFrame_Thumb.png",
     "theme_color": "#34caf8",
     "path": page_path
