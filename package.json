@@ -19,21 +19,21 @@
     "push2ghpages": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
-    "@nuxtjs/style-resources": "^1.0.0",
-    "nuxt": "^2.14.4",
+    "@nuxtjs/style-resources": "^1.2.0",
+    "nuxt": "^2.15.7",
     "vue-clipboard2": "^0.3.1"
   },
   "devDependencies": {
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.2.0",
     "babel-eslint": "^10.1.0",
-    "bulma": "^0.9.0",
+    "bulma": "^0.9.3",
     "cross-env": "^7.0.2",
-    "eslint": "^7.7.0",
+    "eslint": "^7.31.0",
     "eslint-loader": "^4.0.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^7.14.0",
     "rimraf": "^3.0.2",
-    "sass-loader": "^8.0.2",
-    "webpack": "^4.44.1"
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.46.0"
   }
 }
