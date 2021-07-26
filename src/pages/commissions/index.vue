@@ -224,12 +224,12 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 let data = {};
 
 let page_path = "/commissions";
 let title = "Commissions"
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
     "title": title,
     "description": "StahlFerro is now accepting their very first VFX commissions! Visit this page if you want some sweet VFX animations",
     "image": "/thumb/ogthumb_commissions.png",
@@ -244,7 +244,7 @@ export default {
     return {
         title: title,
         meta: meta_list,
-        link: tag_canonical_url(page_path),
+        link: buildCanonicalUrlTag(page_path),
     }
   },
     data () {

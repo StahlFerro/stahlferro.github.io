@@ -9,7 +9,11 @@
                 <nav class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <img src="/logos/TridentFrame_logo_inverted.svg" width="90px" height="90px" />
+                      <img
+                        src="/logos/TridentFrame_logo_inverted.svg"
+                        width="90px"
+                        height="90px"
+                      />
                     </div>
                     <div class="level-item"></div>
                     <div class="level-item">
@@ -18,7 +22,8 @@
                   </div>
                 </nav>
                 <p class="subtitle is-4">
-                  The desktop swiss-army knife for creating, splitting or converting
+                  The desktop swiss-army knife for creating, splitting or
+                  converting
                   <span class="bg-dark-3">animated images</span>
                 </p>
                 <p class="subtitle is-4">The beta is now out for download!</p>
@@ -30,7 +35,10 @@
                                         <span>Download</span></a>
                     </div>-->
                     <div class="level-item">
-                      <a href="https://github.com/StahlFerro/TridentFrame/releases" class="button is-github-black is-medium">
+                      <a
+                        href="https://github.com/StahlFerro/TridentFrame/releases"
+                        class="button is-github-black is-medium"
+                      >
                         <span class="icon">
                           <i class="fas fa-download"></i>
                         </span>
@@ -38,7 +46,10 @@
                       </a>
                     </div>
                     <div class="level-item">
-                      <a href="https://github.com/StahlFerro/TridentFrame" class="button is-github-black is-medium">
+                      <a
+                        href="https://github.com/StahlFerro/TridentFrame"
+                        class="button is-github-black is-medium"
+                      >
                         <span class="icon">
                           <i class="fab fa-github"></i>
                         </span>
@@ -51,7 +62,10 @@
             </div>
             <div class="column">
               <figure class="image">
-                <img src="/img/TridentFrame_Preview_animated.png" class="image-shadow"/>
+                <img
+                  src="/img/TridentFrame_Preview_animated.png"
+                  class="image-shadow"
+                />
               </figure>
             </div>
           </div>
@@ -155,25 +169,27 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
-let page_path = "/softwares/tridentframe";
-let title = "TridentFrame";
-let meta_list = generate_meta({
-    "title":title,
-    "description": "The cross-platform swiss-army knife for creating, splitting or converting animated images.",
-    "image": "/thumb/TridentFrame_Thumb.png",
-    "theme_color": "#34caf8",
-    "path": page_path
-  }
-);
-console.log(tag_canonical_url(page_path));
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 export default {
-  head () {
+  data() {
     return {
-      title: title,
-      meta: meta_list,
-      link: tag_canonical_url(page_path),
-    }
+      title: "TridentFrame"
+    };
+  },
+  head() {
+    let meta_tags = buildMetaTags({
+      title: this.title,
+      description:
+        "The cross-platform swiss-army knife for creating, splitting or converting animated images.",
+      image: "/thumb/TridentFrame_Thumb.png",
+      theme_color: "#34caf8",
+      path: this.$route.path
+    });
+    return {
+      title: this.title,
+      meta: meta_tags,
+      link: buildCanonicalUrlTag(this.$route.path)
+    };
   }
 };
 </script>

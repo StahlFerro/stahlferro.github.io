@@ -50,30 +50,29 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
-let page_path = "/softwares";
-let title = "Softwares";
-let meta_list = generate_meta({
-    "title":title,
-    "description": "All software projects that I develop and maintain.",
-    "image": "/thumb/ogthumb_softwares.png",
-    "theme_color": "#1e38bd",
-    "path": page_path
-  }
-);
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
+const softwares_json = require("./_data/softwares.json");
 
-let data = { 
-  softwares: require("./_data/softwares.json"),
-};
 export default {
   data() {
-    return data;
+    return {
+      title: "Softwares",
+      softwares: softwares_json,
+    };
   },
   head() {
+    let meta_tags = buildMetaTags({
+        "title": this.title,
+        "description": "All software projects that I develop and maintain.",
+        "image": "/thumb/ogthumb_softwares.png",
+        "theme_color": "#1e38bd",
+        "path": this.$route.path,
+      }
+    );
     return {
-      title: title,
-      meta: meta_list,
-      link: tag_canonical_url(page_path),
+      title: this.title,
+      meta: meta_tags,
+      link: buildCanonicalUrlTag(this.$route.path),
     };
   }
 };

@@ -4,7 +4,7 @@
     "og:description": "StahlFerro's Official Website",
     "og:image": "/img/SF_Red_Website_90.webp",
     "og:type": "website",
-    "og:url": "https://stahlferro.github.io",
+    "og:url": "https://stahlferro.netlify.app",
     "twitter:card": "summary_large_image",
     "theme-color": "#5595FF"
 }

@@ -27,10 +27,10 @@
 var data = {};
 // var data = {bf_videos: bf_videos};
 
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 let page_path = "/videos/thesis";
 let title = "Thesis";
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
     "title":title,
     "description": "The Alpha and Omega of an academic final project depicted as two VFX-animation videos.",
     // "image": "/thumb/BFMLG_Thumb.png",
@@ -47,7 +47,7 @@ export default {
     return {
       title: title,
       meta: meta_list,
-      link: tag_canonical_url(page_path),
+      link: buildCanonicalUrlTag(page_path),
     }
   }
 }

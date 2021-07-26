@@ -13,6 +13,7 @@
         border-width: 2px;
         &:hover, &.is-hovered {
             border-color: lighten($blurple, 20%);
+            color: lighten($blurple, 20%);
         }
         &:active, &.is-active {
             background-color: $blurple;
@@ -83,6 +84,7 @@
         border-width: 2px;
         &:hover, &.is-hovered {
             border-color: lighten($youtube-red, 20%);
+            color: lighten($youtube-red, 20%);
         }
         &:active, &.is-active {
             color: white;
@@ -97,6 +99,7 @@
         border-width: 2px;
         &:hover, &.is-hovered {
             border-color: lighten($twitter-cyan, 20%);
+            color: lighten($twitter-cyan, 20%);
         }
         &:active, &.is-active {
             color: white;
@@ -111,6 +114,7 @@
         border-width: 2px;
         &:hover, &.is-hovered {
             border-color: $white-e;
+            color: $white-e;
         }
         &:active, &.is-active {
             color: black;
@@ -172,6 +176,21 @@
             border-color: $liberapay-yellow;
             background-color: $liberapay-yellow;
             color: $dark-2;
+        }
+    }
+    &.is-pale-green {
+        color: $pale-green;
+        border-color: $pale-green;
+        background-color: transparent;
+        border-width: 2px;
+        &:hover, &.is-hovered {
+            border-color: lighten($pale-green, 20%);
+            color: lighten($pale-green, 20%);
+        }
+        &:active, &.is-active {
+            color: $white-e;
+            border-color: transparent;
+            background-color: $pale-green;
         }
     }
     &.is-iron-red {

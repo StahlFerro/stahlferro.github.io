@@ -37,17 +37,20 @@
           </a>
           <div class="navbar-dropdown">
             <nuxt-link to="/videos" class="navbar-item" v-on:click.native="navselection = 'videos'">
-            <span class="navitem-text">Videos</span></nuxt-link>
+              <span class="navitem-text">Videos</span></nuxt-link>
             <nuxt-link to="/gallery" class="navbar-item" v-on:click.native="navselection = 'gallery'">
-            <span class="navitem-text">VFX Gallery</span></nuxt-link>
+              <span class="navitem-text">VFX Gallery</span>
+              </nuxt-link>
           </div>
         </div>
         <nuxt-link to="/softwares" class="navbar-item" v-on:click.native="navselection = 'softwares'">
-        <span class="navitem-text">Softwares</span></nuxt-link>
+          <span class="navitem-text">Softwares</span></nuxt-link>
         <!-- <nuxt-link to="/commissions" class="navbar-item" v-on:click.native="navselection = 'commissions'">
         <span class="navitem-text">Commissions</span></nuxt-link> -->
+        <!-- <nuxt-link to="/contact" class="navbar-item" v-on:click.native="navselection = 'contact'">
+          <span class="navitem-text">Contact</span></nuxt-link>
         <nuxt-link to="/donate" class="navbar-item" v-on:click.native="navselection = 'donate'">
-        <span class="navitem-text">Donate</span></nuxt-link>
+          <span class="navitem-text">Donate</span></nuxt-link> -->
       </div>
       <div class="navbar-end navitem-double-space">
         <a v-bind:href="urls.discord" class="navbar-item" title="Discord Server">

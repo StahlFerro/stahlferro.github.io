@@ -162,7 +162,6 @@
               </li>
               <li>
                 <p class="is-gold">Swaglord Four</p>
-                <p>Oh boy this is gonna be a long one, because the video itself is a massive project.</p>
                 <p class="tabbed">
                   Time passes by, and my interest in Brave Frontier started to diminish. The game was not as enjoyable as it was before, and I decided to end my Brave
                   Frontier gameplay. However, before leaving the whole game and community behind, I thought of making the ultimate Brave Frontier video, the magnum opus
@@ -221,10 +220,10 @@ var bf_videos = require('./_data/bf_videos.json');
 var data = {bf_videos: bf_videos};
 
 
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 let page_path = "/videos/brave_frontier_mlg";
 let title = "Brave Frontier MLG";
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
   "title":title,
   "description": "Brave Frontier MLG: The 8 video series of intense montages made with various editing styles revolving around the Montage Parody memes and a mix of hybrid VFX-animation",
   "image": "/thumb/BFMLG_Thumb.png",
@@ -240,7 +239,7 @@ export default {
       return {
       title: title,
       meta: meta_list,
-      link: tag_canonical_url(page_path),
+      link: buildCanonicalUrlTag(page_path),
     };
   }
 }

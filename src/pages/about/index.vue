@@ -34,7 +34,7 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 var extlinks = require("@@/config/externalinks.json");
 var discord_server_url = extlinks.discord;
 var data = {
@@ -42,7 +42,7 @@ var data = {
 };
 let title = "About";
 let page_path = "/about";
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
   "title": title,
   "description": "About StahlFerro",
   "theme_color": "#5595FF",
@@ -54,7 +54,7 @@ export default {
     return {
       title: title,
       meta: meta_list,
-      link: tag_canonical_url(page_path)
+      link: buildCanonicalUrlTag(page_path)
     };
   },
   data() {

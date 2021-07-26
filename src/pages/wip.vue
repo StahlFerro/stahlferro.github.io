@@ -14,12 +14,11 @@
 </template>
 
 <script>
-const { tag_canonical_url } = require("@/utils/meta_handler.js");
-let page_path = "/wip";
+const { buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 export default {
   head () {
     return {
-      link: tag_canonical_url(page_path)
+      link: buildCanonicalUrlTag(this.$route.path)
     }
   }
 }

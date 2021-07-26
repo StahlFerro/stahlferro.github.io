@@ -54,10 +54,10 @@
 </template>
 
 <script>
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 let page_path = "/donate";
 let title = "Donations";
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
     "title":title,
     "description": "Donations to support the development of free software and VFX videos that StahlFerro makes",
     "image": '/thumb/ogthumb_donations.png',
@@ -76,7 +76,7 @@ export default {
     return {
       title: title,
       meta: meta_list,
-      link: tag_canonical_url(page_path),
+      link: buildCanonicalUrlTag(page_path),
     };
   },
   data() {

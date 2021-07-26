@@ -53,10 +53,10 @@ var misc_mlg_videos = require('./_data/misc_mlg_videos.json');
 var data = {misc_mlg_videos: misc_mlg_videos};
 
 
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 let page_path = "/videos/misc_mlg_videos";
 let title = "Miscellaneous MLG";
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
   "title": title,
   "description": "Various assorted MLG videos",
 //   "image": "/thumb/BFMLG_Thumb.png",
@@ -72,7 +72,7 @@ export default {
       return {
       title: title,
       meta: meta_list,
-      link: tag_canonical_url(page_path),
+      link: buildCanonicalUrlTag(page_path),
     };
   }
 }

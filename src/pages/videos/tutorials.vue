@@ -53,10 +53,10 @@ var tutorial_videos = require('./_data/tutorial_videos.json');
 var data = {tutorial_videos: tutorial_videos};
 
 
-const { generate_meta, tag_canonical_url } = require("@/utils/meta_handler.js");
+const { buildMetaTags, buildCanonicalUrlTag } = require("@/utils/meta_handler.js");
 let page_path = "/videos/tutorials";
 let title = "Tutorial Videos";
-let meta_list = generate_meta({
+let meta_list = buildMetaTags({
   "title":title,
   "description": "Tutorial videos on various VFX elements I have made for videos and GIFs",
   // "image": "/thumb/BFMLG_Thumb.png",
@@ -72,7 +72,7 @@ export default {
       return {
       title: title,
       meta: meta_list,
-      link: tag_canonical_url(page_path),
+      link: buildCanonicalUrlTag(page_path),
     };
   }
 }

@@ -58,9 +58,11 @@ module.exports = {
   ],
   ignore: [
     '**/commissions/index.vue',
+    '**/contact/index.vue',
+    '**/donate/index.vue',
   ],
   sitemap: {
-    hostname: 'https://stahlferro.github.io',
+    hostname: 'https://stahlferro.netlify.app',
     exclude: [
       '/wip',
     ]
