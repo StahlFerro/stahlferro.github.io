@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'stahlferro.github.io.old',
+    title: 'Redirecting to https://stahlferro.pages.dev/',
     htmlAttrs: {
       lang: 'en'
     },
