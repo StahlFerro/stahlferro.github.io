@@ -19,6 +19,7 @@
     "push2ghpages": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/style-resources": "^1.2.0",
     "nuxt": "^2.15.7",
     "vue-clipboard2": "^0.3.1"
