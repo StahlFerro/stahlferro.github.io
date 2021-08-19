@@ -13,7 +13,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { hid: "redirect", name: "redirect", "http-equiv": "refresh", content: "0; URL=https://stahlferro.pages.dev/"}
+      { hid: "redirect", name: "redirect", "http-equiv": "refresh", content: "0; URL=https://stahlferro.pages.dev/"},
+      { hid: "google-site-verification", name: "google-site-verification", content: "xPOlLw31AN12WO6gow34wuKvlrb5nbbiU739w_CZP78"}
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
