@@ -1,17 +1,17 @@
 <template>
   <!-- <div id="default_template"> -->
     <div>
-    <TopNav/>
+    <!-- <TopNav/> -->
     <nuxt/>
     </div>
   <!-- </div> -->
 </template>
 
 <script>
-import TopNav from '~/components/TopNav.vue';
+// import TopNav from '~/components/TopNav.vue';
 export default {
   components: {
-    TopNav
+    // TopNav
   }
 }
 </script>

@@ -1,23 +1,78 @@
 <template>
   <div>
-    <section
-      class="hero is-fullheight-with-navbar is-black is-medium has-bg-center"
-      style="background-image: url('/img/SF_Red_Website_90.webp');">
-      <div class="hero-body"></div>
-    </section>
-    <section class="hero is-medium is-dark-2">
+    <section class="hero is-fullheight is-black is-medium has-bg-center">
       <div class="hero-body">
         <div class="container">
-          <div class="content">
-            <h1 class="title is-1">Creator | Developer | VFX Compositor</h1>
-            <p>I create hybrid vfx/composited parody videos and develop various interesting softwares.</p>
-            <p>
-              On this website, you will find my projects on both Videos, GIFs and Softwares that I'm currently working on.
-              The About page explains who I am and what I do around the cyberspace.
-            </p>
+          <div class="content has-text-centered">
+            <div>
+              <img src="/img/StahlFerro-Logo-v2-400px.webp" width="180" />
+              <p class="is-white-c is-size-2">STAHLFERRO</p>
+            </div>
+            <h1 class="title is-1">Website under construction</h1>
+            <h1 class="title is-3">
+              <div
+                class="field is-grouped is-grouped-centered"
+                style="margin-bottom: 50px;"
+              >
+                <p class="control">
+                  <a
+                    v-bind:href="urls.github"
+                    class="button is-github-white is-large"
+                  >
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Github</span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a
+                    v-bind:href="urls.youtube"
+                    class="button is-youtube-red is-large"
+                  >
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Youtube</span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a
+                    v-bind:href="urls.twitter"
+                    class="button is-twitter-blue is-large"
+                  >
+                    <span class="icon">
+                      <i class="fab fa-twitter"></i>
+                    </span>
+                    <span>Twitter</span>
+                  </a>
+                </p>
+              </div>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="hero-footer">
+        <div class="container">
+          <div class="content has-text-centered">
           </div>
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<script>
+var urls = require("@@/config/externalinks.json");
+var data = {
+  urls: urls,
+  burger_open: false,
+  modal_is_open: false,
+  copy_status: false
+};
+export default {
+  data: function() {
+    return data;
+  }
+};
+</script>

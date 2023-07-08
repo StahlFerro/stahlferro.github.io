@@ -5,7 +5,7 @@
 
     /* Bulma button class override, squaring the edges */
     border-radius: 0px;
-    
+
     &.is-neon-blurple {
         background-color: transparent;
         border-color: $blurple;
@@ -25,7 +25,7 @@
         background-color: transparent;
         border-color: $docs-grey;
         color: $docs-grey;
-        border-width: 2px; 
+        border-width: 2px;
         &:hover, &.is-hovered {
             border-color: lighten($docs-grey, 20%);
         }
@@ -92,19 +92,19 @@
             background-color: red;
         }
     }
-    &.is-twitter-cyan {
-        color: $twitter-cyan;
-        border-color: $twitter-cyan;
+    &.is-twitter-blue {
+        color: $twitter-blue;
+        border-color: $twitter-blue;
         background-color: transparent;
         border-width: 2px;
         &:hover, &.is-hovered {
-            border-color: lighten($twitter-cyan, 20%);
-            color: lighten($twitter-cyan, 20%);
+            border-color: lighten($twitter-blue, 20%);
+            color: lighten($twitter-blue, 20%);
         }
         &:active, &.is-active {
             color: white;
-            border-color: $twitter-cyan;
-            background-color: $twitter-cyan;
+            border-color: $twitter-blue;
+            background-color: $twitter-blue;
         }
     }
     &.is-github-white {

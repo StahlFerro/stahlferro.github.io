@@ -1,7 +1,10 @@
 User-agent: *
 Disallow: .nojekyll
 Disallow: 404.html
+Disallow: /3d/
 Disallow: /favicons/
+Disallow: /licenses/
+Disallow: /misc/
 Disallow: /logos/
 Disallow: /sass/
 Disallow: /webfonts/
@@ -9,4 +12,4 @@ Disallow: /wip/
 Disallow: README.md
 Disallow: LICENSE
 
-Sitemap: http://stahlferro.github.io/sitemap.xml
+Sitemap: http://stahlferro.pages.dev/sitemap.xml
