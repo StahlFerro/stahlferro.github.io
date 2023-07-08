@@ -10320,6 +10320,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #34caf8;
 }
 
+.is-twitter-blue {
+  color: #1d9bf0;
+}
+
 .is-emerald {
   color: #50c890;
 }
@@ -10393,6 +10397,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #34caf8;
 }
 
+.is-twitter-blue {
+  color: #1d9bf0;
+}
+
 .is-emerald {
   color: #50c890;
 }
@@ -10451,12 +10459,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 /* Base element overrides */
+html {
+  overflow-y: hidden;
+}
+
 table, tr, th, td {
   padding: 10px;
 }
 
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.1rem;
   margin: 0px;
   padding: 0px;
@@ -10507,6 +10519,10 @@ ol.numbered-list li {
 
 .is-trident-cyan-dark-3 {
   color: #34caf8;
+}
+
+.is-twitter-blue {
+  color: #1d9bf0;
 }
 
 .is-emerald {
@@ -10657,6 +10673,10 @@ div.navbar-dropdown span.navitem-text {
   color: #34caf8;
 }
 
+.is-twitter-blue {
+  color: #1d9bf0;
+}
+
 .is-emerald {
   color: #50c890;
 }
@@ -10790,6 +10810,10 @@ div.navbar-dropdown span.navitem-text {
 
 .is-trident-cyan-dark-3 {
   color: #34caf8;
+}
+
+.is-twitter-blue {
+  color: #1d9bf0;
 }
 
 .is-emerald {
@@ -10927,6 +10951,10 @@ section.trench-footer {
 
 .is-trident-cyan-dark-3 {
   color: #34caf8;
+}
+
+.is-twitter-blue {
+  color: #1d9bf0;
 }
 
 .is-emerald {
@@ -11246,6 +11274,10 @@ section.trench-footer {
   color: #34caf8;
 }
 
+.is-twitter-blue {
+  color: #1d9bf0;
+}
+
 .is-emerald {
   color: #50c890;
 }
@@ -11393,20 +11425,20 @@ section.trench-footer {
   border-color: red;
   background-color: red;
 }
-.button.is-twitter-cyan {
-  color: #1da1f2;
-  border-color: #1da1f2;
+.button.is-twitter-blue {
+  color: #1d9bf0;
+  border-color: #1d9bf0;
   background-color: transparent;
   border-width: 2px;
 }
-.button.is-twitter-cyan:hover, .button.is-twitter-cyan.is-hovered {
-  border-color: #7dc9f8;
-  color: #7dc9f8;
+.button.is-twitter-blue:hover, .button.is-twitter-blue.is-hovered {
+  border-color: #7dc5f6;
+  color: #7dc5f6;
 }
-.button.is-twitter-cyan:active, .button.is-twitter-cyan.is-active {
+.button.is-twitter-blue:active, .button.is-twitter-blue.is-active {
   color: white;
-  border-color: #1da1f2;
-  background-color: #1da1f2;
+  border-color: #1d9bf0;
+  background-color: #1d9bf0;
 }
 .button.is-github-white {
   color: #cccccc;
@@ -11571,6 +11603,10 @@ section.trench-footer {
 
 .is-trident-cyan-dark-3 {
   color: #34caf8;
+}
+
+.is-twitter-blue {
+  color: #1d9bf0;
 }
 
 .is-emerald {

@@ -6,7 +6,7 @@
           <div class="content has-text-centered">
             <h1 class="title is-1">Contacts & Links</h1>
             <div style="padding-bottom: 20px;">
-              
+
             <a v-bind:href="urls.discord" class="button is-neon-blurple is-large">
               <span class="icon">
                 <i class="fab fa-discord"></i>
@@ -19,7 +19,7 @@
               </span>
               <span>Youtube</span>
             </a>
-            <a v-bind:href="urls.twitter" class="button is-twitter-cyan is-large">
+            <a v-bind:href="urls.twitter" class="button is-twitter-blue is-large">
               <span class="icon">
                 <i class="fab fa-twitter"></i>
               </span>

@@ -26,11 +26,11 @@ module.exports = {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
       { rel: 'stylesheet', type: 'text/css', href: '/css/main.css'},
       { rel: 'stylesheet', type: 'text/css', href: '/css/fontawesome-all.min.css'},
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Quicksand&display=swap'},
     ],
     htmlAttrs: {
-      class: "has-navbar-fixed-top"
-    },   
+      // class: "has-navbar-fixed-top"
+    },
     script: [
       { src: 'https://www.googletagmanager.com/gtag/js?id=UA-140998532-1' }
     ]
@@ -39,9 +39,9 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { 
+  loading: {
     color: '#3370cc',
-    height: '5px' 
+    height: '5px'
   },
   /*
   ** Build configuration
@@ -57,12 +57,19 @@ module.exports = {
     '~/plugins/vue-clipboard'
   ],
   ignore: [
-    '**/commissions/index.vue',
-    '**/contact/index.vue',
-    '**/donate/index.vue',
+    '**/components/TopNav.vue',
+    '**/about/**',
+    '**/contact/**',
+    '**/commissions/**',
+    '**/donate/**',
+    '**/gallery/**',
+    '**/softwares/**',
+    '**/videos/**',
+    '**/index-orig.vue',
+    '**/wip.vue'
   ],
   sitemap: {
-    hostname: 'https://stahlferro.netlify.app',
+    hostname: 'https://stahlferro.pages.dev',
     exclude: [
       '/wip',
     ]
